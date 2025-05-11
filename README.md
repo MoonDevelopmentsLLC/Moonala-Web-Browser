@@ -60,12 +60,12 @@ A glimpse.
 
 > _“The browser should serve the user — not exploit them.”_
 
-Moonala is more than a browser. It's an ideal chaser— towards tools that empower rather than extract. Your attention is precious.
+Moonala is an ideal chaser— towards tools that empower rather than extract. Your attention is precious.
 
 Moonala respects that.
 
 ![Moon](https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=60,fit=crop,q=95/m5KMD6loVNFzveb4/moongridstoreicon-AE0PyDGOPkUlPOMa.png) 
- Built with care by [Moon Developments](https://moonala.com), where software is made *for users, not against them.* - MoonDevSC
+ Built with care by [Moon Developments](https://moonala.com), where software is made for users, simple, thats it.- MoonDev SzzS
 
 ---
 
