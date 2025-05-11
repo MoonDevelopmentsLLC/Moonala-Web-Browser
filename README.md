@@ -35,7 +35,7 @@ A glimpse.
   Zero telemetry. No profiling. All local. Every request scrutinized, every connection transparent.
 
 - 🧠 **Built for Deep Research**  
-  Tab grouping, multi-window workflows, distraction-free modes — reimagining what browsers should do for thinkers. Bring pc features to mobile as a side quest. 
+  Tab grouping, multi-window workflows, distraction-free modes — reimagining what browsers should do for thinkers. Bringing pc features to mobile as a side quest. 
 
 - ✨ **Minimal UI, Maximal Clarity**  
   Focus-oriented ui with immersive layouts and plenty of tools. Great anywhere, excellent on the go.
