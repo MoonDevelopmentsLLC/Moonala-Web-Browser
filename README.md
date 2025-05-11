@@ -20,28 +20,37 @@
 ## 🚀 Briefing
 
 - 🛡️ **Privacy-Driven Development**  
-  Zero telemetry. No profiling. All local. Every request scrutinized, every connection transparent.
+
+      Zero telemetry. No profiling. All local. Every request scrutinized, every connection transparent.
 
 - 🧠 **Built for Deep Research**  
-  Tab grouping, multi-window workflows, AI and LLM convienience implemented, eye protection, the list goes on — reimagining what browsers should do for thinkers. Bringing pc features to mobile as a side quest. 
+
+      Tab grouping, multi-window workflows, AI and LLM convienience implemented, eye protection, the list
+      goes on — reimagining what browsers should do for thinkers. Bringing pc features to mobile as a side quest. 
 
 - ✨ **Minimal UI, Maximal Clarity**  
-  Focus-oriented ui with immersive layouts and plenty of tools. Great anywhere, excellent on the go.
+
+      Focus-oriented ui with immersive layouts and plenty of tools. Great anywhere, excellent on the go.
 
 - 🧭 **Ethical Codebase**  
-  Source-available, human-readable, and built without surveillance. Code with a conscience. No nonsense. 0 Data Abuse.
+
+      Source-available, human-readable, and built without surveillance. Code with a conscience. No nonsense. 
+      0 Data Abuse.
 
 - 💰**What about financials?** 
 
-    There is no finances right now, I fund and dedicate my time to the project, ideally in the future the funds will come from sponsors who are ethical, donations, grants, merch, enterprise licensing and partnerships with ethical funding foundations. Fundamentals can't be changed or swayed and personal data is never shared. If a future financial supporter wishes to advertise through Moonala in any way, they will be screened and expected to meet the standards of the global privacy iniative.
+      There is no finances right now, I fund and dedicate my time to the project, ideally in the future the funds
+      will come from sponsors who are ethical, donations, grants, merch, enterprise licensing and partnerships with
+      ethical funding foundations. Fundamentals can't be changed or swayed and personal data is never shared. If a future
+      financial supporter wishes to advertise through Moonala in any way, they will be screened and expected to meet the standards of the global privacy iniative.
 
 - **What do you stand to gain and how do I know you are not selling my data secretly?**
 
-    Yea, I absolutely want to make money doing this. Enough to fund the best privacy suite there is while putting a smile on my family's face every single day and taking care of them. I wholeheartedly believe this can be done with integrity and standing by the roots of the project. What I stand to gain is starting something that may become more. The source is available, You can also test for yourself by wiresharking it, pi-holing, dns logging, etc. There is a guide available here : https://stackoverflow.com/questions/9555403/capturing-mobile-phone-traffic-on-wireshark I have no interest in your data and I make the legal claim that there is no data transmitted too me in my privacy policy on moonala.com.
+      Yea, I absolutely want to make money doing this. Enough to fund the best privacy suite there is while putting a smile on my family's face every single day and taking care of them. I wholeheartedly believe this can be done with integrity and standing by the roots of the project. What I stand to gain is starting something that may become more. The source is available, You can also test for yourself by wiresharking it, pi-holing, dns logging, etc. There is a guide available here : https://stackoverflow.com/questions/9555403/capturing-mobile-phone-traffic-on-wireshark I have no interest in your data and I make the legal claim that there is no data transmitted too me in my privacy policy on moonala.com.
 
 - 🧩 **Tech Stack**
 
-    Java, Kotlin, the typical basics, keeping it simple and approachable.
+        Java, Kotlin, the typical basics, keeping it simple and approachable.
 
 ---
 
