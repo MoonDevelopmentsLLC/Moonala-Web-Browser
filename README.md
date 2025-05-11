@@ -98,19 +98,6 @@ Without a license, no commercial use, no redistribution, regardless of license n
 
 ---
 
-
-
----
-
-
-    
-
-
-Sponsor/Contribute/Support/Donate/Help : WIP
-
-
----
-
 ## 📦 Getting Started
 
 > ⚠️ **Note:** Installation instructions are under development.
