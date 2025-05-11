@@ -12,20 +12,10 @@
 
 ---
 
-Moonala is a browser for the digital era — built with **privacy-first engineering**, **research-optimized use**, and an intuitive ui designed for the future.  
+Moonala Browser is for the digital future — built with **privacy-first engineering**, **research-optimized use**, and an intuitive ui designed for the future.  
 Ethically written code. Zero compromise on your autonomy. No noise, no tracking — just focus. Your choice, always.
 
 > _"Privacy is not a feature. It's the foundation."_  
-
----
-
-## 📸 Screenshots
-
-A glimpse.
-
-| Home | Research View | Tab Grouping | Night Mode | Settings |
-|------|----------------|--------------|-------------|----------|
-| ![Home](https://moonala.com/showcase) | ![Research](https://moonala.com/showcase) | ![Tabs](https://moonala.com/showcase) | ![Night](https://moonala.com/showcase) | ![Settings](https://moonala.com/showcase) |
 
 ---
 
@@ -48,28 +38,21 @@ A glimpse.
 
 - 💰**What about financials?** 
 
-    I want the funds to come from sponsors who are ethical. They won't care for user data neither. The truth? Yea, I definitely want to make money doing this. A whole lot of it. Enough to fund the best privacy suite there is and put a smile on my family's face every single day.
+    There is no finances right now, I dedicate my time at a cost, in the future the funds will come from sponsors who are ethical, donations, grants, merch, enterprise licensing and partnerships with privacy funding foundations. Fundamentals can't be changed or swayed and personal data is never shared. Yea, I definitely want to make money doing this. A whole lot of it. Enough to fund the best privacy suite there is and put a smile on my family's face every single day. 
+
+- 🧩 Tech Stack
+
+    Java, Kotlin, the typical basics, keeping it simple and approachable.
 
 ---
 
-🧩 Tech Stack
+## 📸 Screenshots
 
-Java, Kotlin, and the typical basics.
+A glimpse.
 
-🙌 Contributing
-
-Moonala thrives on community. Bug fixes, feature ideas, or docs updates — all welcome.
-Start by checking Issues or join discussions. No issue is unworthy of sharing.
-
-⭐️ Support the Mission
-
-If you like Moonala and believe in private, user-first software:
-
-    Star ⭐ this repo
-
-    Share Moonala with others
-
-    Join Discussions around the web!
+| Home | Research View | Tab Grouping | Night Mode | Settings |
+|------|----------------|--------------|-------------|----------|
+| ![Home](https://moonala.com/showcase) | ![Research](https://moonala.com/showcase) | ![Tabs](https://moonala.com/showcase) | ![Night](https://moonala.com/showcase) | ![Settings](https://moonala.com/showcase) |
 
 ---
 
@@ -86,6 +69,29 @@ Moonala respects that.
 
 ---
 
+
+
+
+🙌 Contributing
+
+Moonala thrives on community. Bug fixes, feature ideas, docs updates, etc — all welcome.
+Start by checking issues or join discussions. No issue is unworthy of sharing, theres no shame in mistakes here.
+
+When contributing code, try to meet these ideals : 
+Designed for dreamers. Built for researchers. Protected for everyone. Safe for the family.
+
+⭐️ Support the Mission
+
+If you like Moonala and believe in private, user-first software:
+
+    Star ⭐ this repo
+
+    Share Moonala with others
+
+    Join Discussions around the web!
+
+---
+
 📝 Temporary License Details
 
 Without a license, no commercial use, no redistribution, regardless of license no abuse of code for ill gained profit or theft. Licensing is available if you plan to make money off of it. If you absolutely must use the code and feel you aren't using enough of it to pay for it, please include a clear easy to find attribution leading to Moonala.com, thats fair, right?
@@ -97,8 +103,6 @@ Without a license, no commercial use, no redistribution, regardless of license n
 ---
 
 
-When contributing code, try to meet these ideals : 
-Designed for dreamers. Built for researchers. Protected for everyone. Safe for the family.
     
 
 
