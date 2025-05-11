@@ -22,11 +22,11 @@ Ethically written code. Zero compromise on your autonomy. No noise, no tracking 
 
 ## 📸 Screenshots
 
-A glimpse into the future — UI placeholders below. Replace with real screenshots.
+A glimpse.
 
 | Home | Research View | Tab Grouping | Night Mode | Settings |
 |------|----------------|--------------|-------------|----------|
-| ![Home](https://via.placeholder.com/400x250?text=Home) | ![Research](https://via.placeholder.com/400x250?text=Research+View) | ![Tabs](https://via.placeholder.com/400x250?text=Tab+Grouping) | ![Night](https://via.placeholder.com/400x250?text=Night+Mode) | ![Settings](https://via.placeholder.com/400x250?text=Settings) |
+| ![Home](https://moonala.com/showcase) | ![Research](https://moonala.com/showcase) | ![Tabs](https://moonala.com/showcase) | ![Night](https://moonala.com/showcase) | ![Settings](https://moonala.com/showcase) |
 
 ---
 
