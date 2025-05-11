@@ -31,7 +31,7 @@
 
 - 💰**What about financials?** 
 
-    There is no finances right now, I fund and dedicate my time to the project, in the future the funds will come from sponsors who are ethical, donations, grants, merch, enterprise licensing and partnerships with ethical funding foundations. Fundamentals can't be changed or swayed and personal data is never shared. 
+    There is no finances right now, I fund and dedicate my time to the project, ideally in the future the funds will come from sponsors who are ethical, donations, grants, merch, enterprise licensing and partnerships with ethical funding foundations. Fundamentals can't be changed or swayed and personal data is never shared. If a future financial supporter wishes to advertise through Moonala in any way, they will be screened and expected to meet the standards of the global privacy iniative.
 
 - **What do you stand to gain and how do I know you are not selling my data secretly?**
 
