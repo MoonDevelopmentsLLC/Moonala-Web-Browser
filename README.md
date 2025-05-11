@@ -100,6 +100,10 @@ Without a license, no commercial use, no redistribution, regardless of license n
 
 ## 📦 Getting Started
 
+
+Download the apk from releases, install it, and open. Done! Its ready to use ^_^
+
+
 > ⚠️ **Note:** Installation instructions are under development.
 
 ```bash
