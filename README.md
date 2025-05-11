@@ -19,34 +19,34 @@
 
 ## 🚀 Briefing
 
-- 🛡️ **Privacy-Driven Development**  
-
-      Zero telemetry. No profiling. All local. Every request scrutinized, every connection transparent.
+- 🛡️ **Privacy-Driven Development**
+  
+  Zero telemetry. No profiling. All local. Every request scrutinized, every connection transparent.
 
 - 🧠 **Built for Deep Research**  
 
-      Tab grouping, multi-window workflows, AI and LLM convienience implemented, eye protection, the list
+  Tab grouping, multi-window workflows, AI and LLM convienience implemented, eye protection, the list
       goes on — reimagining what browsers should do for thinkers. Bringing pc features to mobile as a side quest. 
 
 - ✨ **Minimal UI, Maximal Clarity**  
 
-      Focus-oriented ui with immersive layouts and plenty of tools. Great anywhere, excellent on the go.
+  Focus-oriented ui with immersive layouts and plenty of tools. Great anywhere, excellent on the go.
 
 - 🧭 **Ethical Codebase**  
 
-      Source-available, human-readable, and built without surveillance. Code with a conscience. No nonsense. 
+  Source-available, human-readable, and built without surveillance. Code with a conscience. No nonsense. 
       0 Data Abuse.
 
 - 💰**What about financials?** 
 
-      There is no finances right now, I fund and dedicate my time to the project, ideally in the future the funds
+  There is no finances right now, I fund and dedicate my time to the project, ideally in the future the funds
       will come from sponsors who are ethical, donations, grants, merch, enterprise licensing and partnerships with
       ethical funding foundations. Fundamentals can't be changed or swayed and personal data is never shared. If a future
       financial supporter wishes to advertise through Moonala in any way, they will be screened and expected to meet the standards of the global privacy iniative.
 
 - **What do you stand to gain and how do I know you are not selling my data secretly?**
 
-      Yea, I absolutely want to make money doing this. Enough to fund the best privacy suite there is while putting a smile on my family's face every single day and taking care of them. I wholeheartedly believe this can be done with integrity and standing by the roots of the project. What I stand to gain is starting something that may become more. The source is available, You can also test for yourself by wiresharking it, pi-holing, dns logging, etc. There is a guide available here : https://stackoverflow.com/questions/9555403/capturing-mobile-phone-traffic-on-wireshark I have no interest in your data and I make the legal claim that there is no data transmitted too me in my privacy policy on moonala.com.
+  Valid question. Yea, I absolutely want to make money doing this. A motive to gain enough to fund the best privacy suite there is while putting a smile on my family's face every single day and taking care of them. I wholeheartedly believe this can be done with integrity and standing by the core values of the project. What I stand to gain is starting something that may become more, something that is giving value to the community, something worth earning back a value that can bring my family into stability. I don't think my motives stray too far from the average dream. I have always missed the days of buying tech and owning it fully. I loved modding my psp growing up, I loved jailbreaking an iPhone for the first time, I especially have fond memories of taking apart my pc and putting it back together in my more-naive-than-now days expecting it to somehow get faster from a sketchy cleaning that ended up bricking it. I did end up bringing it back to life years later because I learned I was simply shorting the board with metal on metal contact. Learning the intricacies of tech has always excited me. Although I didn't have much money growing up to go out and experience it all, free software helped me get every last drop of enjoyment out of my tech. Especially as a kid and even now. I love all of the free software I use that adds to my quiality of life, software I would otherwise be unable to use if it costed $$$. All of the prebuilt custom firmwares, private servers for games, down to the amazing virtual machines I used to farm in, and now as an adult, work in. I just want to provide something good. I want to earn, not extract. The source is available, You can also test for yourself by wiresharking it, pi-holing, dns logging, etc. There is a guide available here : https://stackoverflow.com/questions/9555403/capturing-mobile-phone-traffic-on-wireshark. I will move away from webkit/webview on the android version if it ever comes a day that telemetry cannot be disabled in it. Finally, for those who don't care for the backstory and just want the legal jargon, I have no interest in your data and I make the legal claim that there is no data transmitted too me in my privacy policy on moonala.com.
 
 - 🧩 **Tech Stack**
 
