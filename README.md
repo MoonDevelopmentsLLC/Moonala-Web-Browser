@@ -1,4 +1,4 @@
-# 🌙 Moonala Web Browser
+# 🌙 Moonala Web Browser - https://moonala.com
 
 > **Privacy-driven. Research-empowered. Elegantly futuristic.**
 
