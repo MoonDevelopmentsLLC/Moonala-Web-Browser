@@ -1,7 +1,6 @@
 
 
-# <img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=328,h=320,fit=crop/m5KMD6loVNFzveb4/store-app-icon-d951VRbbgeF5eqnw.png" width="100" alt="Moon" />
- [Moonala Web Browser](https://moonala.com)
+# <img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=328,h=320,fit=crop/m5KMD6loVNFzveb4/store-app-icon-d951VRbbgeF5eqnw.png" width="100" alt="Moon" /> [Moonala Web Browser](https://moonala.com)
 
 > **Privacy-driven development. Productive Research Capabilities. UI Designed for the digital future.**
 
