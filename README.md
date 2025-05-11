@@ -13,7 +13,7 @@
 
 ---
 
-Moonala is a browser for the digital era — built with **privacy-first engineering**, **research-optimized use**, an elegantly futuristic intuitive UI.  
+Moonala is a browser for the digital era — built with **privacy-first engineering**, **research-optimized use**, and a designed for the future intuitive UI.  
 Ethically written code. Zero compromise on your autonomy. No noise, no tracking — just focus. Your choices, your time.
 
 > _"Privacy is not a feature. It's the foundation."_  
