@@ -77,7 +77,7 @@
   
 
            Moonala is not trying to be like the rest of the webview browsers. Its not the next 
-           fox clone or mainstream browser re-skin. It is Moonala. It is trying to be different.
+           fox clone or mainstream browser re-skin. It is Moonala. Never angry, loving always.
 
            There is an entire *Custom Extensions & Plugins engine in development*
            meant to rival the big players while being easier to use and universally compatible.
