@@ -13,14 +13,6 @@
 ![Stars](https://img.shields.io/github/stars/MoonDevelopmentsLLC/Moonala-Web-Browser?style=social)
 ![Contributions welcome](https://img.shields.io/badge/contributions-welcome-blue)
 
----
-
-Moonala is a web browser built with **privacy-first engineering**, **research-optimized use**, and an intuitive ui designed for the future.  
-Ethically written code. Zero compromise on your autonomy. No noise, no tracking — just focus. Your choice, always.
-
-> _"Privacy is not a feature. It's the foundation."_  
-
----
 <img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,fit=crop/m5KMD6loVNFzveb4/landscape-tablet-home-mP4Ol1Mao6IvbWk7.png" alt="Screenshot" />
 
 ## 🚀 Features
@@ -65,11 +57,17 @@ A glimpse.
 
 > _“The browser should serve the user — not exploit them.”_
 
-Your attention is precious.  Moonala respects that.
+Moonala is a web browser built with **privacy-first engineering**, **research-optimized use**, and an intuitive ui designed for the future.  
+Ethically written code. Zero compromise on your autonomy. No noise, no tracking — just focus. Your choice, always. Your attention is precious.  Moonala respects that.
 
+
+> _"Privacy is not a feature. It's the foundation."_  
 ![Moon](https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=60,fit=crop,q=95/m5KMD6loVNFzveb4/moongridstoreicon-AE0PyDGOPkUlPOMa.png) 
  Built with care by [Moon Developments](https://moonala.com), where software is made for users, simple, thats it.- MoonDev SzzS
 
+---
+
+---
 ---
 
 
