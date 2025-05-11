@@ -62,8 +62,9 @@
            99% of the time everything will work. When it doesn't, the unchained
            tabs(compatibility mode) are designed to work 100% of the time even 
            with sites that get overzealous with their tracking requirements.  
+           The defaults are set to a relaxed private that is still very private if used right.
            Also, when set to max privacy with the switch or using the hardening guide in settings
-           identifying data like package names are never sent. Almost all webview browsers 
+           identifying data is destroyed to levels not seen elsewhere. Almost all webview browsers 
            that I have tested have some essence of privacy in their claim and despite this,
            nearly all of them announce you are using "your exact device, with that browser, via that app."
            With absolutely no way to prevent it from happening. When they DO support privacy, they lack 
