@@ -89,7 +89,7 @@ Moonala respects that.
 
 📝 Temporary License Details
 
-No commercial use, no redistribution, no abuse of code for profit or theft. Licensing is available if you plan to make money off of it. If you absolutely must use the code and feel you aren't using enough of it to pay for it, please include a clear easy to find attribution leading to Moonala.com, thats fair, right?
+Without a license, no commercial use, no redistribution, regardless of license no abuse of code for ill gained profit or theft. Licensing is available if you plan to make money off of it. If you absolutely must use the code and feel you aren't using enough of it to pay for it, please include a clear easy to find attribution leading to Moonala.com, thats fair, right?
 
 ---
 
