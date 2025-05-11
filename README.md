@@ -42,16 +42,45 @@
   There is no finances right now, I fund and dedicate my time to the project, ideally in the future the funds
       will come from sponsors who are ethical, donations, grants, merch, enterprise licensing and partnerships with
       ethical funding foundations. Fundamentals can't be changed or swayed and personal data is never shared. If a future
-      financial supporter wishes to advertise through Moonala in any way, they will be screened and expected to meet the standards of the global privacy iniative.
+      financial supporter wishes to advertise through Moonala in any way, they will be screened and expected to meet the standards of the global privacy iniative whilst respecting user right's as well.
 
 - **What do you stand to gain and how do I know you are not selling my data secretly?**
 
-  Valid question. Yea, I absolutely want to make money doing this. A motive to gain enough to fund the best privacy suite there is while putting a smile on my family's face every single day and taking care of them. I wholeheartedly believe this can be done with integrity and standing by the core values of the project. What I stand to gain is starting something that may become more, something that is giving value to the community, something worth earning back a value that can bring my family into stability. I don't think my motives stray too far from the average dream. I have always missed the days of buying tech and owning it fully. I loved modding my psp growing up, I loved jailbreaking an iPhone for the first time, I especially have fond memories of taking apart my pc and putting it back together in my more-naive-than-now days expecting it to somehow get faster from a sketchy cleaning that ended up bricking it. I did end up bringing it back to life years later because I learned I was simply shorting the board with metal on metal contact. Learning the intricacies of tech has always excited me. Although I didn't have much money growing up to go out and experience it all, free software helped me get every last drop of enjoyment out of my tech. Especially as a kid and even now. I love all of the free software I use that adds to my quiality of life, software I would otherwise be unable to use if it costed $$$. All of the prebuilt custom firmwares, private servers for games, down to the amazing virtual machines I used to farm in, and now as an adult, work in. I just want to provide something good. I want to earn, not extract. The source is available, You can also test for yourself by wiresharking it, pi-holing, dns logging, etc. There is a guide available here : https://stackoverflow.com/questions/9555403/capturing-mobile-phone-traffic-on-wireshark. I will move away from webkit/webview on the android version if it ever comes a day that telemetry cannot be disabled in it. Finally, for those who don't care for the backstory and just want the legal jargon, I have no interest in your data and I make the legal claim that there is no data transmitted too me in my privacy policy on moonala.com.
+  Valid question. Yea, I absolutely want to make money doing this. A motive to gain enough to fund the best privacy suite there is while putting a smile on my family's face every single day and taking care of them. I wholeheartedly believe this can be done with integrity and standing by the core values of the project. What I stand to gain is starting something that may become more, something that is giving value to the community, something worth earning back a value that can bring my family into stability. I don't think my motives stray too far from the average dream. I have always missed the days of buying tech and owning it fully. I loved modding my psp growing up, I loved jailbreaking an iPhone for the first time, I especially have fond memories of taking apart my pc and putting it back together in my more-naive-than-now days expecting it to somehow get faster from a sketchy cleaning that ended up bricking it. I did end up bringing it back to life years later because I learned I was simply shorting the board with metal on metal contact. Learning the intricacies of tech has always excited me. Although I didn't have much money growing up to go out and experience it all, free software helped me get every last drop of enjoyment out of my tech. Especially as a kid and even now. I love all of the free software I use that adds to my quality of life, software I would otherwise be unable to use if it costed $$$. All of the prebuilt custom firmwares, private servers for games, down to the amazing virtual machines I used to farm in, and now as an adult, work in. I just want to provide something good. I want to earn, not extract. The source is available, You can also test for yourself by wiresharking it, pi-holing, dns logging, etc. There is a guide available here : https://stackoverflow.com/questions/9555403/capturing-mobile-phone-traffic-on-wireshark. I will move away from webkit/webview on the android version if it ever comes a day that telemetry cannot be disabled in it. Finally, for those who don't care for the backstory and just want the legal jargon, I have no interest in your data and I make the legal claim that there is no data transmitted too me in my privacy policy on moonala.com.
 
 - 🧩 **Tech Stack**
 
-        Java, Kotlin, the typical basics, keeping it simple and approachable.
+        Java, Kotlin, and the typical basics. Keeping it simple and approachable.
 
+        Q: Other webview based browsers are missing web features like OAuth2
+           and do things like sending the app package in the header. What
+           makes Moonala any different? How can I daily drive it with these
+           web features broken and lack of default privacy? 
+
+        A: Moonala has been coded to include full functionality despite
+           webview normally blocking or not supporting certain functions. 
+           99% of the time everything will work. When it doesn't, the unchained
+           tabs(compatibility mode) are designed to work 100% of the time even 
+           with sites that get overzealous with their tracking requirements.  
+           Also, when set to max privacy with the switch or using the hardening guide in settings
+           identifying data like package names are never sent. Almost all webview browsers 
+           that I have tested have some essence of privacy in their claim and despite this,
+           nearly all of them announce you are using "your exact device, with that browser, via that app."
+           With absolutely no way to prevent it from happening. When they DO support privacy, they lack 
+           elsewhere, be it web features, full usability, or modernity through the browser.
+           WebKit was also chosen because I have recently stopped using the gecko engine due to errors
+           that do not happen when using WebKit, some of these errors cause a complete block to my workflow.
+           This sentiment is reflected online and often times hosting services will have additional docs just for
+           errors that crop up using the gecko engine, such as pr end of file errors that are handled gracefully 
+           in WebKit. Since Moonala is meant to be daily driven, it makes sense to use a high compatibility web engine.
+  
+
+           Moonala is not trying to be like the rest of the webview browsers. Its not the next 
+           fox clone or mainstream browser re-skin. It is Moonala. It is trying to be different.
+
+           There is an entire *Custom Extensions & Plugins engine in development*
+           meant to rival the big players while being easier to use and universally compatible.
+           
 ---
 
 ## 📸 Screenshots
@@ -77,12 +106,6 @@ Ethically written code. Zero compromise on your autonomy. No noise, no tracking 
  Built with care by [Moon Developments](https://moonala.com), where software is made for users, simple, thats it.- MoonDev SzzS
 
 ---
-
----
----
-
-
-
 
 🙌 Contributing
 
