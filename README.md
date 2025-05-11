@@ -18,7 +18,7 @@ Ethically written code. Zero compromise on your autonomy. No noise, no tracking 
 > _"Privacy is not a feature. It's the foundation."_  
 
 ---
-<img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=437,h=244,fit=crop/m5KMD6loVNFzveb4/landscape-tablet-home-mP4Ol1Mao6IvbWk7.png" alt="Screenshot" />
+<img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,fit=crop/m5KMD6loVNFzveb4/landscape-tablet-home-mP4Ol1Mao6IvbWk7.png" alt="Screenshot" />
 
 ## 🚀 Features
 
