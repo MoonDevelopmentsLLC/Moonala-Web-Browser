@@ -15,7 +15,7 @@
 
 <img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,fit=crop/m5KMD6loVNFzveb4/landscape-tablet-home-mP4Ol1Mao6IvbWk7.png" alt="Screenshot" />
 
-## 🚀 Features
+## 🚀 Briefing
 
 - 🛡️ **Privacy-Driven Development**  
   Zero telemetry. No profiling. All local. Every request scrutinized, every connection transparent.
