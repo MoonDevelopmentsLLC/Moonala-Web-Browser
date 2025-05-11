@@ -1,6 +1,6 @@
 
 
-# ![Moon](https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=60,fit=crop,q=95/m5KMD6loVNFzveb4/moongridstoreicon-AE0PyDGOPkUlPOMa.png)  [Moonala Web Browser](https://moonala.com)
+# ![Moon](https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=328,h=320,fit=crop/m5KMD6loVNFzveb4/store-app-icon-d951VRbbgeF5eqnw.png)  [Moonala Web Browser](https://moonala.com)
 
 > **Privacy-driven development. Productive Research Capabilities. UI Designed for the digital future.**
 
