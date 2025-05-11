@@ -30,17 +30,18 @@ Ethically written code. Zero compromise on your autonomy. No noise, no tracking 
 - ✨ **Minimal UI, Maximal Clarity**  
   Focus-oriented ui with immersive layouts and plenty of tools. Great anywhere, excellent on the go.
 
-- 🌌 **Digital Future Design Language**  
-  Designed with a vision of a future with augmented reality in full integration of our real world.
-
 - 🧭 **Ethical Codebase**  
-  Source-available, human-readable, and built without corporate surveillance hooks. Code with a conscience. No nonsense. I don't care for user data. 0 Data Abuse.
+  Source-available, human-readable, and built without surveillance. Code with a conscience. No nonsense. 0 Data Abuse.
 
 - 💰**What about financials?** 
 
-    There is no finances right now, I dedicate my time at a cost, in the future the funds will come from sponsors who are ethical, donations, grants, merch, enterprise licensing and partnerships with privacy funding foundations. Fundamentals can't be changed or swayed and personal data is never shared. Yea, I definitely want to make money doing this. A whole lot of it. Enough to fund the best privacy suite there is and put a smile on my family's face every single day. 
+    There is no finances right now, I fund and dedicate my time to the project, in the future the funds will come from sponsors who are ethical, donations, grants, merch, enterprise licensing and partnerships with ethical funding foundations. Fundamentals can't be changed or swayed and personal data is never shared. 
 
-- 🧩 Tech Stack
+- **What do you stand to gain and how do I know you are not selling my data secretly?**
+
+    Yea, I absolutely want to make money doing this. Enough to fund the best privacy suite there is while putting a smile on my family's face every single day and taking care of them. I wholeheartedly believe this can be done with integrity and standing by the roots of the project. What I stand to gain is starting something that may become more. The source is available, You can also test for yourself by wiresharking it, pi-holing, dns logging, etc. There is a guide available here : https://stackoverflow.com/questions/9555403/capturing-mobile-phone-traffic-on-wireshark I have no interest in your data and I make the legal claim that there is no data transmitted too me in my privacy policy on moonala.com.
+
+- 🧩 **Tech Stack**
 
     Java, Kotlin, the typical basics, keeping it simple and approachable.
 
