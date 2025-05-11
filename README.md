@@ -2,7 +2,7 @@
 
 # ![Moon](https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=60,fit=crop,q=95/m5KMD6loVNFzveb4/moongridstoreicon-AE0PyDGOPkUlPOMa.png)  [Moonala Web Browser](https://moonala.com)
 
-> **Privacy-driven. Research-empowered. Designed for the digital future.**
+> **Privacy-driven development. Productive Research Capabilities. UI Designed for the digital future.**
 
 ![Privacy Focused](https://img.shields.io/badge/privacy-100%25-brightgreen)
 ![Build](https://img.shields.io/badge/build-stable-success)
