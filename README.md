@@ -7,7 +7,6 @@
 ![Privacy Focused](https://img.shields.io/badge/privacy-100%25-brightgreen)
 ![Build](https://img.shields.io/badge/build-stable-success)
 ![UI](https://img.shields.io/badge/UI-inspired--by--the--future-9cf)
-![License](https://img.shields.io/github/license/MoonDevelopmentsLLC/Moonala-Web-Browser)
 ![Stars](https://img.shields.io/github/stars/MoonDevelopmentsLLC/Moonala-Web-Browser?style=social)
 ![Contributions welcome](https://img.shields.io/badge/contributions-welcome-blue)
 
