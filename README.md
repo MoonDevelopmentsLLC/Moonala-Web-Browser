@@ -13,7 +13,9 @@
 ![Stars](https://img.shields.io/github/stars/MoonDevelopmentsLLC/Moonala-Web-Browser?style=social)
 ![Contributions welcome](https://img.shields.io/badge/contributions-welcome-blue)
 
-<img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,fit=crop/m5KMD6loVNFzveb4/landscape-tablet-home-mP4Ol1Mao6IvbWk7.png" alt="Screenshot" />
+<img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,fit=crop/m5KMD6loVNFzveb4/showcase-displayimage-m2W8NGEwNQIQkv9Z.png" alt="Screenshot" />
+
+<img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto, fit=crop/m5KMD6loVNFzveb4/showcase-2-YleWgGQw3as67VLX.png" alt="Screenshot" />
 
 ## 🚀 Briefing
 
