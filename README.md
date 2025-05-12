@@ -15,7 +15,7 @@
 
 
 
-[Last Updated 5/11/2025 THIS IS IN PRE-BETA, EXPECT ISSUES](https://moonala.com/changelog)
+[Last Updated 5/11/2025 PROJECT IS IN PRE-BETA](https://moonala.com/changelog)
 
 > **Privacy-driven development. Productive Research Capabilities. UI Designed for the digital future.**
 
@@ -42,7 +42,7 @@
 
 - 🧭 **Ethical Codebase**  
 
-  Source-available, Code with a conscience. No nonsense. 0 Data Abuse.
+  Source-available, Code with a conscience. No nonsense. 0 Data Abuse. 
 
 - 💰**What about financials?** 
 
