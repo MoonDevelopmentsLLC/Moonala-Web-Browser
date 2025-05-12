@@ -17,7 +17,7 @@
 
 [Last Updated 5/11/2025 PROJECT IS IN PRE-BETA](https://moonala.com/changelog)
 
-> **UI Designed for the digital future.**
+> **UI Designed for the digital future, or are we already in it?**
 
 ![Privacy Focused](https://img.shields.io/badge/Privacy-100%25-brightgreen)
 ![Build](https://img.shields.io/badge/UserRights-Respected-passing)
