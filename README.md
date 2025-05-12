@@ -3,7 +3,7 @@
 <table>
   <tr>
     <td>
-      <img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=426,h=769,fit=contain/m5KMD6loVNFzveb4/portait-beauty-AVL7ZjaMl8IZyB1n.png" width="226" height="709" alt="Moon">
+      <img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=426,h=769,fit=contain/m5KMD6loVNFzveb4/portait-beauty-AVL7ZjaMl8IZyB1n.png" width="226" height="509" alt="Moon">
     </td>
 
   <td>
@@ -111,7 +111,9 @@ A glimpse, all links lead to the showcase for now.
 ## 📦 Getting Started
 
 
-Download the apk from releases, install it, and open. Accept the terms if you are okay with them and skip or setup the optional setup. Done! Its ready to use ^_^
+Download the apk from releases, install it, and open. 
+
+  Accept the terms if you are okay with them. Done! Its ready to use ^_^  A popup display optional uses will display on the very first run, and be recalled from tapping Lunar Features.
     Due to way the code is currently set up, If you are mot on android 9+ the testing releases will be VERY unstable. 9 runs, but requires storage permissions for certain features. 10+ Has been stable enough for me to daily use.
       I currently do testing on an android 14 device, the only device available too me for now. Once I am able to test more android versions, I will address stability issues on them. For now, I can say android 14+ SHOULD
         be completely crash free, but I have not tested every website there is or anything, so there is still a chance. 
@@ -153,11 +155,6 @@ Without a license, no commercial use, no redistribution, regardless of license n
 Moonala is a web browser built with **privacy-first development**, **research-optimized use**, and an intuitive ui designed for the future.  
 Ethically written code. Zero compromise on your autonomy. No noise, no tracking — just focus. Your attention, your choices.  Moonala respects that.
 
-
-> _"Privacy is not a feature. It's the foundation."_  
-![Moon](https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=60,fit=crop,q=95/m5KMD6loVNFzveb4/moongridstoreicon-AE0PyDGOPkUlPOMa.png) 
- Built with care by [Moon Developments](https://moonala.com), where software is made for users, simple, thats it.- MoonDev SzzS
-
 ---
 
 - **What do you stand to gain and how do I know you are not selling my data secretly?**
@@ -166,4 +163,8 @@ Ethically written code. Zero compromise on your autonomy. No noise, no tracking 
 
 Finally, for those who don't care for the backstory and just want the legal jargon, I have no interest in your data and I make the legally liable claim that there is no data transmitted too me in my privacy policy on moonala.com.
 
+
+> _"Privacy is not a feature. It's the foundation."_  
+![Moon](https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=60,fit=crop,q=95/m5KMD6loVNFzveb4/moongridstoreicon-AE0PyDGOPkUlPOMa.png) 
+ Built with care by [Moon Developments](https://moonala.com), where software is made for users, simple, thats it.- MoonDev SzzS
 
