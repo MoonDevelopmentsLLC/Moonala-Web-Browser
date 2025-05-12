@@ -1,6 +1,19 @@
 # Moonala Web Browser
 
-# <img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=426,h=769,fit=crop/m5KMD6loVNFzveb4/portait-beauty-AVL7ZjaMl8IZyB1n.png" width="276" alt="Moon" /> <img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=528,h=249, fit=crop/m5KMD6loVNFzveb4/showcase-displayimage-m2W8NGEwNQIQkv9Z.png" alt="Screenshot" /> </br>
+<table>
+  <tr>
+    <td>
+      <img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=426,h=769,fit=contain/m5KMD6loVNFzveb4/portait-beauty-AVL7ZjaMl8IZyB1n.png" width="226" height="709" alt="Moon">
+    </td>
+
+  <td>
+    <img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=500,h=280,fit=contain/m5KMD6loVNFzveb4/showcase-displayimage-m2W8NGEwNQIQkv9Z.png" width="528" height="360" alt="Screenshot 1"><br> <br>
+      <img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=500,h=280,fit=contain/m5KMD6loVNFzveb4/showcase-2-YleWgGQw3as67VLX.png" width="528" height="360" alt="Screenshot 2">
+    </td>
+  </tr>
+</table>
+
+
 
 [Last Updated 5/11/2025 THIS IS IN PRE-BETA, EXPECT ISSUES](https://moonala.com/changelog)
 
@@ -146,7 +159,5 @@ Ethically written code. Zero compromise on your autonomy. No noise, no tracking 
   Valid question. Yea, I absolutely want to make money doing this. I hope to provide the best privacy suite available, while putting a smile on my family's face every single day and taking care of them. I wholeheartedly believe this can be done with integrity and standing by the core values of the project. What I stand to gain is starting something that may become more, something that is giving value to the community, something worth earning back a value that can bring my family into stability. I don't think my motives stray too far from the average dream. In retrospect, I have always missed the days of buying tech and owning it fully. I loved modding my psp growing up, I loved jailbreaking an iPhone for the first time, I especially have fond memories of taking apart my pc in my more-naive-than-now days expecting it to somehow get faster from a sketchy cleaning that ended up "bricking" it. I did bring it back to life years later, learning I was simply shorting the board with metal on metal contact. Learning the intricacies of tech has always excited me. Although I didn't have much money growing up to get the latest and experience it all, free software helped me get every last drop of enjoyment out what I did have. Especially as a kid and even now. I love all of the free software I use that adds to my quality of life, software I would otherwise be unable to use if it costed $$$. All of the prebuilt custom firmwares, private servers for games, the whole OSS scene, down to the amazing virtual machines I used to farm in, and now as an adult, work in. I just want to provide something good. I want to earn, not extract. Even though its not fully open yet, the source is available. You can also test for yourself by wiresharking it, pi-holing, dns logging, etc. There is a guide available here : https://stackoverflow.com/questions/9555403/capturing-mobile-phone-traffic-on-wireshark. I will move away from webkit/webview on the android version if it ever comes a day that telemetry cannot be disabled in it. 
 
 Finally, for those who don't care for the backstory and just want the legal jargon, I have no interest in your data and I make the legally liable claim that there is no data transmitted too me in my privacy policy on moonala.com.
-
-<img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto, fit=crop/m5KMD6loVNFzveb4/showcase-2-YleWgGQw3as67VLX.png" alt="Screenshot" />
 
 
