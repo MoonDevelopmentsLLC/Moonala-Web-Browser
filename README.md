@@ -1,6 +1,6 @@
 
 
-# <img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=426,h=769,fit=crop/m5KMD6loVNFzveb4/portait-beauty-AVL7ZjaMl8IZyB1n.png" width="260" alt="Moon" /> <img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=528,h=249, fit=crop/m5KMD6loVNFzveb4/showcase-displayimage-m2W8NGEwNQIQkv9Z.png" alt="Screenshot" /> </br>
+# <img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=426,h=769,fit=crop/m5KMD6loVNFzveb4/portait-beauty-AVL7ZjaMl8IZyB1n.png" width="276" alt="Moon" /> <img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=528,h=249, fit=crop/m5KMD6loVNFzveb4/showcase-displayimage-m2W8NGEwNQIQkv9Z.png" alt="Screenshot" /> </br>
 
 [Last Updated 5/11/2025 THIS IS IN PRE-BETA, EXPECT ISSUES](https://moonala.com/changelog)
 
@@ -11,9 +11,6 @@
 ![UI](https://img.shields.io/badge/UI-future--dynamic-9cf)
 ![Contributions welcome](https://img.shields.io/badge/contributions-welcome-blue)
 ![Stars](https://img.shields.io/github/stars/MoonDevelopmentsLLC/Moonala-Web-Browser?style=social)
-
-<img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto, fit=crop/m5KMD6loVNFzveb4/showcase-2-YleWgGQw3as67VLX.png" alt="Screenshot" />
-
 
 ## 🚀 Briefing
 
@@ -95,6 +92,12 @@ A glimpse, all links lead to the showcase for now.
 
 ---
 
+## 📦 Getting Started
+
+
+Download the apk from releases, install it, and open. Accept the terms if you are okay with them and skip or setup the optional setup. Done! Its ready to use ^_^
+
+---
 🙌 Contributing
 
 Moonala aims to thrive on community. Bug fixes, feature ideas, docs updates, etc — all welcome.
@@ -124,13 +127,6 @@ Without a license, no commercial use, no redistribution, regardless of license n
 
 ---
 
-## 📦 Getting Started
-
-
-Download the apk from releases, install it, and open. Done! Its ready to use ^_^
-
----
-
 ## 🌍 Philosophy
 
 > _“The browser should serve the user — not exploit them.”_
@@ -151,5 +147,6 @@ Ethically written code. Zero compromise on your autonomy. No noise, no tracking 
 
 Finally, for those who don't care for the backstory and just want the legal jargon, I have no interest in your data and I make the legally liable claim that there is no data transmitted too me in my privacy policy on moonala.com.
 
+<img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto, fit=crop/m5KMD6loVNFzveb4/showcase-2-YleWgGQw3as67VLX.png" alt="Screenshot" />
 
 
