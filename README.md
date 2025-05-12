@@ -97,20 +97,6 @@ A glimpse, all links lead to the showcase for now.
 
 ---
 
-## 🌍 Philosophy
-
-> _“The browser should serve the user — not exploit them.”_
-
-Moonala is a web browser built with **privacy-first development**, **research-optimized use**, and an intuitive ui designed for the future.  
-Ethically written code. Zero compromise on your autonomy. No noise, no tracking — just focus. Your attention, your choices.  Moonala respects that.
-
-
-> _"Privacy is not a feature. It's the foundation."_  
-![Moon](https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=60,fit=crop,q=95/m5KMD6loVNFzveb4/moongridstoreicon-AE0PyDGOPkUlPOMa.png) 
- Built with care by [Moon Developments](https://moonala.com), where software is made for users, simple, thats it.- MoonDev SzzS
-
----
-
 🙌 Contributing
 
 Moonala aims to thrive on community. Bug fixes, feature ideas, docs updates, etc — all welcome.
@@ -147,6 +133,19 @@ Download the apk from releases, install it, and open. Done! Its ready to use ^_^
 
 ---
 
+## 🌍 Philosophy
+
+> _“The browser should serve the user — not exploit them.”_
+
+Moonala is a web browser built with **privacy-first development**, **research-optimized use**, and an intuitive ui designed for the future.  
+Ethically written code. Zero compromise on your autonomy. No noise, no tracking — just focus. Your attention, your choices.  Moonala respects that.
+
+
+> _"Privacy is not a feature. It's the foundation."_  
+![Moon](https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=60,fit=crop,q=95/m5KMD6loVNFzveb4/moongridstoreicon-AE0PyDGOPkUlPOMa.png) 
+ Built with care by [Moon Developments](https://moonala.com), where software is made for users, simple, thats it.- MoonDev SzzS
+
+---
 
 - **What do you stand to gain and how do I know you are not selling my data secretly?**
 
