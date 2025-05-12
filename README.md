@@ -7,8 +7,8 @@
     </td>
 
   <td>
-    <img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=500,h=280,fit=contain/m5KMD6loVNFzveb4/showcase-displayimage-m2W8NGEwNQIQkv9Z.png" width="528" height="360" alt="Screenshot 1"><br> <br>
-      <img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=500,h=280,fit=contain/m5KMD6loVNFzveb4/showcase-2-YleWgGQw3as67VLX.png" width="528" height="360" alt="Screenshot 2">
+    <img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=500,h=200,fit=contain/m5KMD6loVNFzveb4/showcase-displayimage-m2W8NGEwNQIQkv9Z.png" width="528" height="260" alt="Screenshot 1"><br> <br>
+      <img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=500,h=200,fit=contain/m5KMD6loVNFzveb4/showcase-2-YleWgGQw3as67VLX.png" width="528" height="260" alt="Screenshot 2">
     </td>
   </tr>
 </table>
@@ -98,16 +98,6 @@
            
 ---
 
-## 📸 Screenshots
-
-A glimpse, all links lead to the showcase for now.
-
-| Home | Research View | Tab Grouping | Night Mode | Settings |
-|------|----------------|--------------|-------------|----------|
-| ![Home](https://moonala.com/showcase) | ![Research](https://moonala.com/showcase) | ![Tabs](https://moonala.com/showcase) | ![Night](https://moonala.com/showcase) | ![Settings](https://moonala.com/showcase) |
-
----
-
 ## 📦 Getting Started
 
 
@@ -167,4 +157,34 @@ Finally, for those who don't care for the backstory and just want the legal jarg
 > _"Privacy is not a feature. It's the foundation."_  
 ![Moon](https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=60,fit=crop,q=95/m5KMD6loVNFzveb4/moongridstoreicon-AE0PyDGOPkUlPOMa.png) 
  Built with care by [Moon Developments](https://moonala.com), where software is made for users, simple, thats it.- MoonDev SzzS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## 📸 Screenshots
+
+A glimpse, all links lead to the showcase for now.
+
+| Home | Research View | Tab Grouping | Night Mode | Settings |
+|------|----------------|--------------|-------------|----------|
+| ![Home](https://moonala.com/showcase) | ![Research](https://moonala.com/showcase) | ![Tabs](https://moonala.com/showcase) | ![Night](https://moonala.com/showcase) | ![Settings](https://moonala.com/showcase) |
+
+---
 
