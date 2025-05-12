@@ -63,22 +63,26 @@ Finally, for those who don't care for the backstory and just want the legal jarg
            99% of the time everything will work. When it doesn't, the unchained
            tabs(compatibility mode) are designed to work 100% of the time even 
            with sites that get overzealous with their tracking requirements.  
-           The defaults are set to a relaxed private that is still very private if used right.
-           Also, when set to max privacy with the switch or using the hardening guide in settings
-           identifying data is destroyed to levels not seen elsewhere. Almost all webview browsers 
-           that I have tested have some essence of privacy in their claim and despite this,
-           nearly all of them announce you are using "your exact device, with that browser, via that app."
-           With absolutely no way to prevent it from happening. When they DO support privacy, they lack 
-           elsewhere, be it web features, full usability, or modernity through the browser.
-           WebKit was also chosen because I have recently stopped using the gecko engine due to errors
-           that do not happen when using WebKit, some of these errors cause a complete block to my workflow.
-           This sentiment is reflected online and often times hosting services will have additional docs just for
-           errors that crop up using the gecko engine, such as pr end of file errors that are handled gracefully 
-           in WebKit. Since Moonala is meant to be daily driven, it makes sense to use a high compatibility web engine.
+           The defaults are set to a relaxed private that is still very private if
+           used right. When set to max privacy with the force field switch or using
+           the hardening guide in settings identifying data is removed to levels
+           not seen in other webview based browsers, including package headers and device info.
+           The webview browsers that I have tested specify they are built to be private and despite
+           this, in my tests all of them announce you are using "your exact device, with that browser, 
+           via that app." With no instructions on hardening via dev tools or alternative solutions
+           offered. When they do support privacy, they lack elsewhere, be it web features, full usability,
+           or modernity in the browser itself. WebKit was also chosen because the gecko engine produces
+           some errors not seen in webkit. This sentiment is reflected online and often times hosting
+           services will have additional docs just for errors that crop up using the gecko engine, such
+           as pr end of file errors that are handled gracefully in WebKit. Since Moonala is meant to be
+           daily driven, it makes sense to use a high compatibility web engine. Bundling webkit is currently -WIP-
+           The current testing releases using webview will be maintained, so have no worries about getting
+           use to a certain flavor and it depracating. As a bonus, the webview edition **should** be compatible
+           with privacy centric webviews like bromite, allowing for a dual layer of protection.
   
 
            Moonala is not trying to be like the rest of the webview browsers. Its not the next 
-           fox clone or mainstream browser re-skin. It is Moonala. Never angry, loving always.
+           fox clone or mainstream browser re-skin. It is Moonala. 
 
            There is a *Custom Extensions & Plugins engine in development*
            meant to rival the big players while being easier to use and universally compatible.
@@ -150,6 +154,8 @@ cd Moonala-Web-Browser
 # Follow platform-specific installation steps
 
     💬 Want to contribute? See CONTRIBUTING.md and open a PR! - WIP not ready.
+
+.
 
 
 
