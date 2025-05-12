@@ -46,10 +46,9 @@
 
 - 💰**What about financials?** 
 
-  There is no finances right now, I currently take a loss on developing the project but I will be looking for funding soon. Ideally in the future the funds
-      will come from sponsors who are ethical, donations, grants, merch, enterprise licensing and partnerships with
-      ethical funding foundations. Fundamentals can't be changed or swayed and personal data is never shared. If a future
-      financial supporter wishes to advertise through Moonala in any way, they will be screened and expected to meet the standards of the global privacy iniative whilst respecting user right's as well.
+  There is no financials right now, I currently take a loss on developing the project but I will be looking for funding soon. Ideally in the future- in an ethical manner, funding will come from sponsors, donations, grants, merch, enterprise licensing and partnerships with funding foundations. No matter the financial situation, fundamentals can't be changed or swayed and personal data is never shared or transmitted. Advertising is a neccasary lifeline for a lot of browsers, this may be the case for Moonala one day. However, if a future financial supporter were to advertise through a partnership with Moonala; in any form, they will be expected to meet the standards of natural privacy and maintain respect for the user.
+ (None of that 'loose static' advertising. Partnerships with real teams, backing real products, with genuine intrigue and use cases).
+
 
 - 🧩 **Tech Stack**
 
