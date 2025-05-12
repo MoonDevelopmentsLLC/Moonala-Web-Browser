@@ -43,12 +43,6 @@
       ethical funding foundations. Fundamentals can't be changed or swayed and personal data is never shared. If a future
       financial supporter wishes to advertise through Moonala in any way, they will be screened and expected to meet the standards of the global privacy iniative whilst respecting user right's as well.
 
-- **What do you stand to gain and how do I know you are not selling my data secretly?**
-
-  Valid question. Yea, I absolutely want to make money doing this. I hope to provide the best privacy suite available, while putting a smile on my family's face every single day and taking care of them. I wholeheartedly believe this can be done with integrity and standing by the core values of the project. What I stand to gain is starting something that may become more, something that is giving value to the community, something worth earning back a value that can bring my family into stability. I don't think my motives stray too far from the average dream. In retrospect, I have always missed the days of buying tech and owning it fully. I loved modding my psp growing up, I loved jailbreaking an iPhone for the first time, I especially have fond memories of taking apart my pc in my more-naive-than-now days expecting it to somehow get faster from a sketchy cleaning that ended up "bricking" it. I did bring it back to life years later, learning I was simply shorting the board with metal on metal contact. Learning the intricacies of tech has always excited me. Although I didn't have much money growing up to get the latest and experience it all, free software helped me get every last drop of enjoyment out what I did have. Especially as a kid and even now. I love all of the free software I use that adds to my quality of life, software I would otherwise be unable to use if it costed $$$. All of the prebuilt custom firmwares, private servers for games, the whole OSS scene, down to the amazing virtual machines I used to farm in, and now as an adult, work in. I just want to provide something good. I want to earn, not extract. Even though its not fully open yet, the source is available. You can also test for yourself by wiresharking it, pi-holing, dns logging, etc. There is a guide available here : https://stackoverflow.com/questions/9555403/capturing-mobile-phone-traffic-on-wireshark. I will move away from webkit/webview on the android version if it ever comes a day that telemetry cannot be disabled in it. 
-
-Finally, for those who don't care for the backstory and just want the legal jargon, I have no interest in your data and I make the legally liable claim that there is no data transmitted too me in my privacy policy on moonala.com.
-
 - 🧩 **Tech Stack**
 
         Java, Kotlin, and the typical basics. Keeping it simple and approachable.
@@ -151,17 +145,14 @@ Without a license, no commercial use, no redistribution, regardless of license n
 
 Download the apk from releases, install it, and open. Done! Its ready to use ^_^
 
+---
 
-> ⚠️ **Note:** Installation instructions are under development.
 
-```bash
-git clone https://github.com/your-username/Moonala-Web-Browser.git
-cd Moonala-Web-Browser
-# Follow platform-specific installation steps
+- **What do you stand to gain and how do I know you are not selling my data secretly?**
 
-    💬 Want to contribute? See CONTRIBUTING.md and open a PR! - WIP not ready.
+  Valid question. Yea, I absolutely want to make money doing this. I hope to provide the best privacy suite available, while putting a smile on my family's face every single day and taking care of them. I wholeheartedly believe this can be done with integrity and standing by the core values of the project. What I stand to gain is starting something that may become more, something that is giving value to the community, something worth earning back a value that can bring my family into stability. I don't think my motives stray too far from the average dream. In retrospect, I have always missed the days of buying tech and owning it fully. I loved modding my psp growing up, I loved jailbreaking an iPhone for the first time, I especially have fond memories of taking apart my pc in my more-naive-than-now days expecting it to somehow get faster from a sketchy cleaning that ended up "bricking" it. I did bring it back to life years later, learning I was simply shorting the board with metal on metal contact. Learning the intricacies of tech has always excited me. Although I didn't have much money growing up to get the latest and experience it all, free software helped me get every last drop of enjoyment out what I did have. Especially as a kid and even now. I love all of the free software I use that adds to my quality of life, software I would otherwise be unable to use if it costed $$$. All of the prebuilt custom firmwares, private servers for games, the whole OSS scene, down to the amazing virtual machines I used to farm in, and now as an adult, work in. I just want to provide something good. I want to earn, not extract. Even though its not fully open yet, the source is available. You can also test for yourself by wiresharking it, pi-holing, dns logging, etc. There is a guide available here : https://stackoverflow.com/questions/9555403/capturing-mobile-phone-traffic-on-wireshark. I will move away from webkit/webview on the android version if it ever comes a day that telemetry cannot be disabled in it. 
 
-.
+Finally, for those who don't care for the backstory and just want the legal jargon, I have no interest in your data and I make the legally liable claim that there is no data transmitted too me in my privacy policy on moonala.com.
 
 
 
