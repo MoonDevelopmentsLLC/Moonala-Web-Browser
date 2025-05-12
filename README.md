@@ -8,10 +8,10 @@
 > **Privacy-driven development. Productive Research Capabilities. UI Designed for the digital future.**
 
 ![Privacy Focused](https://img.shields.io/badge/privacy-100%25-brightgreen)
-![Build](https://img.shields.io/badge/build-stable-success)
-![UI](https://img.shields.io/badge/UI-inspired--by--the--future-9cf)
-![Stars](https://img.shields.io/github/stars/MoonDevelopmentsLLC/Moonala-Web-Browser?style=social)
+![Build](https://img.shields.io/badge/build-testing-success)
+![UI](https://img.shields.io/badge/UI-future--dynamic-9cf)
 ![Contributions welcome](https://img.shields.io/badge/contributions-welcome-blue)
+![Stars](https://img.shields.io/github/stars/MoonDevelopmentsLLC/Moonala-Web-Browser?style=social)
 
 <img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,fit=crop/m5KMD6loVNFzveb4/showcase-displayimage-m2W8NGEwNQIQkv9Z.png" alt="Screenshot" />
 
