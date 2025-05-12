@@ -79,7 +79,11 @@ Finally, for those who don't care for the backstory and just want the legal jarg
            The current testing releases using webview will be maintained, so have no worries about getting
            use to a certain flavor and it depracating. As a bonus, the webview edition **should** be compatible
            with privacy centric webviews like bromite, allowing for a dual layer of protection.
-  
+
+           **If you don't login to personally identifying sites and you use a clean IP not linked to you,
+           Moonala is very private and probably stable too. A lot of the current issues are linked to sites
+           that don't like Moonala's paranoid by default anti-tracking, usually sites requiring a login
+           that is tied to an identity.**
 
            Moonala is not trying to be like the rest of the webview browsers. Its not the next 
            fox clone or mainstream browser re-skin. It is Moonala. 
@@ -119,7 +123,7 @@ Moonala aims to thrive on community. Bug fixes, feature ideas, docs updates, etc
 Start by checking issues or join discussions. No issue is unworthy of sharing, theres no shame in mistakes here.
 All of the current testing and use of the app has been done on **ONE** device. Please **DO NOT** hesitate to open issues.
 I would also like to plead for your patience, I currently work on the entire project alone, from coding, website building, to setting
-up the readme on github, everything. Things may seem slow at times but I absolutely will take care of issues. In order of severity.
+up the readme on github, everything. Things may seem slow at times but I will take care of issues. In order of severity.
 
 When contributing code, try to meet these ideals : 
 Designed for dreamers. Built for researchers. Protected for everyone. Safe for the family.
