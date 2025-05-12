@@ -1,6 +1,6 @@
 
 
-# <img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=328,h=320,fit=crop/m5KMD6loVNFzveb4/store-app-icon-d951VRbbgeF5eqnw.png" width="140" alt="Moon" /> </br> [Moonala Browser](https://moonala.com)
+# <img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=328,h=320,fit=crop/m5KMD6loVNFzveb4/store-app-icon-d951VRbbgeF5eqnw.png" width="240" alt="Moon" /> </br> [Moonala Browser](https://moonala.com)
 
 
 [Last Updated 5/11/2025 THIS IS IN PRE-BETA, EXPECT ISSUES](https://moonala.com/changelog)
