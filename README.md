@@ -112,11 +112,14 @@ A glimpse, all links lead to the showcase for now.
 
 
 Download the apk from releases, install it, and open. Accept the terms if you are okay with them and skip or setup the optional setup. Done! Its ready to use ^_^
+    Due to way the code is currently set up, If you are mot on android 9+ the testing releases will be VERY unstable. 9 runs, but requires storage permissions for certain features. 10+ Has been stable enough for me to daily use.
+      I currently do testing on an android 14 device, the only device available too me for now. Once I am able to test more android versions, I will address stability issues on them. For now, I can say android 14+ SHOULD
+        be completely crash free, but I have not tested every website there is or anything, so there is still a chance. 
 
 ---
 🙌 Contributing
 
-Moonala aims to thrive on community. Bug fixes, feature ideas, docs updates, etc — all welcome.
+Moonala aims to thrive on community one day. Bug fixes, feature ideas, docs updates, etc — all welcome.
 Start by checking issues or join discussions. No issue is unworthy of sharing, theres no shame in mistakes here.
 All of the current testing and use of the app has been done on **ONE** device. Please **DO NOT** hesitate to open issues.
 I would also like to plead for your patience, I currently work on the entire project alone, from coding, website building, to setting
