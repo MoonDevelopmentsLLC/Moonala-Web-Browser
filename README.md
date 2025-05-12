@@ -54,32 +54,36 @@
 
         Java, Kotlin, and the typical basics. Keeping it simple and approachable.
 
-        Q: Other webview based browsers are missing web features like OAuth2
+        Q: Other browsers using webview are missing critical features like OAuth2
            and do things like sending the app package in the header. What
            makes Moonala any different? How can I daily drive it with these
            web features broken and lack of default privacy? 
 
-        A: Moonala has been coded to include full functionality despite
-           webview normally blocking or not supporting certain functions. 
+        A: Moonala should include full functionality despite websites and
+           google blocking or not supporting certain functions through webview.
            99% of the time everything will work. When it doesn't, the unchained
-           tabs(compatibility mode) are designed to work 100% of the time even 
+           tabs(compatibility mode) are designed to work 100% of the time. Useful 
            with sites that get overzealous with their tracking requirements.  
            The defaults are set to a relaxed private that is still very private if
            used right. When set to max privacy with the force field switch or using
-           the hardening guide in settings identifying data is removed to levels
-           not seen in other webview based browsers, including package headers and device info.
-           The webview browsers that I have tested specify they are built to be private and despite
-           this, in my tests all of them announce you are using "your exact device, with that browser, 
-           via that app." With no instructions on hardening via dev tools or alternative solutions
-           offered. When they do support privacy, they lack elsewhere, be it web features, full usability,
-           or modernity in the browser itself. WebKit was also chosen because the gecko engine produces
-           some errors not seen in webkit. This sentiment is reflected online and often times hosting
-           services will have additional docs just for errors that crop up using the gecko engine, such
-           as pr end of file errors that are handled gracefully in WebKit. Since Moonala is meant to be
-           daily driven, it makes sense to use a high compatibility web engine. Bundling webkit is currently -WIP-
-           The current testing releases using webview will be maintained, so have no worries about getting
-           use to a certain flavor and it depracating. As a bonus, the webview edition **should** be compatible
-           with privacy centric webviews like bromite, allowing for a dual layer of protection.
+           the hardening guide in settings identifying data is removed to an extent
+           not seen in most browsers without heavy tinkering or addons installed. 
+           The browsers using webview that I have tested specify they are built to 
+           be private and despite this, in my tests all of them announce you are using 
+           "your exact device,with that browser, via that app." With no instructions 
+           on hardening via dev tools or alternative solutions offered. When they do
+           support privacy, they lack elsewhere, be it web features, full usability,
+           or modernity in the browser itself. WebView is very much so WebKit, one case 
+           for its use is because the gecko engine produces some errors not seen in webkit.
+           This sentiment is reflected online and often times hosting services will have 
+           additional docs just for errors that crop up using the gecko engine, such
+           as pr end of file errors that are handled gracefully in WebKit. Since Moonala
+           is meant to be usable as a default browser, it is logical to use a high compatibility
+           web engine. Bundling a custom webkit is currently -WIP- The current testing releases 
+           using webview will be maintained until webview isn't able to be made private, so have 
+           no worries about getting use to a certain flavor and it depracating. As a bonus, the 
+           webview edition **should** be compatible with privacy centric webviews like bromite, 
+           allowing for a dual layer of protection.
 
            **If you don't login to personally identifying sites and you use a clean IP not linked to you,
            Moonala is very private and probably stable too. A lot of the current issues are linked to sites
