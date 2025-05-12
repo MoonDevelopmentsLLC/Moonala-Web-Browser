@@ -19,9 +19,10 @@
 
 > **Privacy-driven development. Productive Research Capabilities. UI Designed for the digital future.**
 
-![Privacy Focused](https://img.shields.io/badge/privacy-100%25-brightgreen)
-![Build](https://img.shields.io/badge/build-testing-success)
+![Privacy Focused](https://img.shields.io/badge/Privacy-100%25-brightgreen)
+![Build](https://img.shields.io/badge/UserRights-Respected-passing)
 ![UI](https://img.shields.io/badge/UI-future--dynamic-9cf)
+![UI](https://img.shields.io/badge/shields.io-Iliek--shields-9cf)
 ![Contributions welcome](https://img.shields.io/badge/contributions-welcome-blue)
 ![Stars](https://img.shields.io/github/stars/MoonDevelopmentsLLC/Moonala-Web-Browser?style=social)
 
