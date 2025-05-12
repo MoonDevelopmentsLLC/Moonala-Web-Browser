@@ -1,7 +1,6 @@
 
 
-# <img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=426,h=769,fit=crop/m5KMD6loVNFzveb4/portait-beauty-AVL7ZjaMl8IZyB1n.png" width="260" alt="Moon" /> <img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=488,h=269, fit=crop/m5KMD6loVNFzveb4/showcase-displayimage-m2W8NGEwNQIQkv9Z.png" alt="Screenshot" /> </br> [Moonala Browser](https://moonala.com)
-
+# <img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=426,h=769,fit=crop/m5KMD6loVNFzveb4/portait-beauty-AVL7ZjaMl8IZyB1n.png" width="260" alt="Moon" /> <img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=528,h=249, fit=crop/m5KMD6loVNFzveb4/showcase-displayimage-m2W8NGEwNQIQkv9Z.png" alt="Screenshot" /> </br>
 
 [Last Updated 5/11/2025 THIS IS IN PRE-BETA, EXPECT ISSUES](https://moonala.com/changelog)
 
