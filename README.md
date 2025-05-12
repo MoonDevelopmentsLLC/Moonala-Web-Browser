@@ -120,7 +120,6 @@ Start by checking issues or join discussions. No issue is unworthy of sharing, t
 All of the current testing and use of the app has been done on **ONE** device. Please **DO NOT** hesitate to open issues.
 I would also like to plead for your patience, I currently work on the entire project alone, from coding, website building, to setting
 up the readme on github, everything. Things may seem slow at times but I absolutely will take care of issues. In order of severity.
-Feature requests go in order of my attention span muahahahaha, haha ha.. no, really though features will be implemented based on # of reqs.
 
 When contributing code, try to meet these ideals : 
 Designed for dreamers. Built for researchers. Protected for everyone. Safe for the family.
