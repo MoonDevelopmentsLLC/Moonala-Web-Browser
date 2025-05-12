@@ -95,6 +95,9 @@
 
            There is a *Custom Extensions & Plugins engine in development*
            meant to rival the big players while being easier to use and universally compatible.
+
+          Q: Dependency on webview is dangerous, what if it becomes malicious or google pulls the plug?
+          A: The Codebase is designed to be modular, a replacement engine is possible in the future. 
            
 ---
 
