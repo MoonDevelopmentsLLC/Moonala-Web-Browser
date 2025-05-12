@@ -29,11 +29,11 @@
 
 - 🛡️ **Privacy-Driven Development**
   
-  Zero telemetry. No profiling. All local. Every request scrutinized, every connection transparent.
+  Zero telemetry. No profiling. All local. Every request scrutinized, every connection transparent. 
 
 - 🧠 **Built for Productive Deep Research**  
 
-  Tab grouping, multi-window workflows, AI and LLM convienience implemented, eye protection, the list
+  Tab grouping, multi-window workflows, AI and LLM convienience implemented, eye protection, **ability to guard WebGl and Canvas use**, the list
       goes on — reimagining what browsers should do. Bringing pc features to mobile as a side quest. 
 
 - ✨ **Minimal UI, Maximal Clarity**  
@@ -63,7 +63,7 @@
            google blocking or not supporting certain functions through webview.
            99% of the time everything will work. When it doesn't, the unchained
            tabs(compatibility mode) are designed to work 100% of the time. Useful 
-           with sites that get overzealous with their tracking requirements.  
+           for sites that get overzealous with their tracking requirements.  
            The defaults are set to a relaxed private that is still very private if
            used right. When set to max privacy with the force field switch or using
            the hardening guide in settings identifying data is removed to an extent
