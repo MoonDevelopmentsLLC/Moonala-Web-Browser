@@ -104,6 +104,9 @@
 
    Q: Dependency on webview is dangerous, what if it becomes malicious or google pulls the plug?
           A: The Codebase is designed to be modular, a replacement engine is possible in the future. 
+
+   Q: What are your relations to pale moon?
+          A: Absolutely none. The theme around the moon from Project Moonala to the name MoonDevelopments, to MoonDev SzzS all stem from my enjoyment of looking at the moon while it rains and drifting into the peaceful night. An enjoyment I don't have often anymore but think of a lot. Pale Moon is a cool project though, I can respect what they are doing for sure. Nala for me has meant, Never Angry, Always Loving. Lunala is a cool pokemon too.
           
   </details>
 
@@ -120,7 +123,7 @@
   Accept the terms if you are okay with them. A popup will display on the very first run with optional setups, and it can be recalled by tapping Lunar Features in the menu.
     Due to way the code is currently set up, If you are mot on android 9+ the testing releases will be VERY unstable. 9 runs, but requires storage permissions for certain features. 10+ Has been stable enough for me to daily use.
       I currently do testing on an android 14 device, the only device available too me for now. Once I am able to test more android versions, I will address stability issues on them. For now, I can say android 14+ SHOULD
-        be completely crash free, but I have not tested every website there is or anything, so there is still a chance. </detail>
+        be completely crash free, but I have not tested every website there is or anything, so there is still a chance. </details>
 
 ---
 🙌 Contributing
@@ -202,4 +205,3 @@ A glimpse, all links lead to the showcase for now.
 | ![Home](https://moonala.com/showcase) | ![Research](https://moonala.com/showcase) | ![Tabs](https://moonala.com/showcase) | ![Night](https://moonala.com/showcase) | ![Settings](https://moonala.com/showcase) |
 
 ---
-
