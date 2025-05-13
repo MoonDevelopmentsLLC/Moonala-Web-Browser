@@ -26,22 +26,20 @@
 
 ## 🚀 Briefing
 
-<details><summary>- 🛡️ Privacy-Driven Development   </summary> <br>
+<details><summary>- 🧠 Built For Productive Research, Daily Browsing, and more. Its Your Choice.   </summary> <br>
+
+ 
+</br>
+          &nbsp;  &nbsp;  &nbsp;Tab grouping, multi-window workflows, AI and LLM convienience implemented, eye protection, **guards for WebGl and Canvas use**, the list
+      goes on — reimagining what browsers should do. While also bringing pc features to mobile as a side quest.</summary> xD did I sound cool there? </details>
+
+ <details><summary>- 🛡️ Feature Rich, Privacy-Driven Development.   </summary> <br>
 
 
   <br>
          &nbsp;  &nbsp;  &nbsp; Zero telemetry. No profiling. All local. Every request scrutinized, every connection transparent. </details>
 
-<details><summary>- 🧠 Built for Productive Deep Research   </summary> <br>
-
- 
-</br>
-          &nbsp;  &nbsp;  &nbsp;Tab grouping, multi-window workflows, AI and LLM convienience implemented, eye protection, **guards for WebGl and Canvas use**, the list
-      goes on — reimagining what browsers should do. While also bringing pc features to mobile as a side quest.</summary>xD did I sound cool there? </details>
-
- 
-
-<details><summary>- ✨ Minimal UI, Maximal Clarity    </summary> <br>
+<details><summary>- ✨ Minimal UI, Maximal Clarity, Focus Enabled.    </summary> <br>
 
   <br>
           &nbsp;  &nbsp;  &nbsp;Focus-oriented UI with immersive mode, different layouts and plenty of tools. Great anywhere, excellent on the go. Does ____ webpage have an annoyance on-screen? No worries, Moonala can remove that for you.
