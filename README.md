@@ -65,11 +65,11 @@
            makes Moonala any different? How can I daily drive it with these
            web features broken and lack of default privacy? 
 
-  A: Moonala should include full functionality despite websites and
+  A: Moonala aims to include full functionality despite websites and
            google blocking or not supporting certain functions through webview.
-           99% of the time everything will work. When it doesn't, the unchained
+           98.9% of the time everything will work. When it doesn't, the unchained
            tabs(compatibility mode) are designed to work 100% of the time. Useful 
-           for sites that get overzealous with their tracking requirements.  
+           for sites that get overzealous with their tracking requirements.  <br> 
            The defaults are set to a relaxed private that is still very private if
            used right. When all nazar switches are toggled on (pressing strict privacy button)
            identifying data is removed to an extent not seen in most browsers without heavy tinkering or addons installed. 
