@@ -15,7 +15,7 @@
 
 
 
-[Last Updated 5/11/2025 PROJECT IS IN TESTING](https://moonala.com/changelog)
+[Last Updated 5/11/2025 PROJECT IS IN PUBLIC TESTING](https://moonala.com/changelog)
        
 ![Privacy Focused](https://img.shields.io/badge/Privacy-100%25-brightgreen)
 ![Build](https://img.shields.io/badge/UserRights-Respected-passing)
@@ -112,11 +112,12 @@
 
 [Yo, you sellin data? What kind? Can I get some of that top shelf?](#data-policy)
 
-
+---
 
 📦 Getting Started
 
 <details><summary> Download the apk from releases, install it, and you're ready to launch!
+                    Prefer Google Play? Head here -> https://moonala.com/google-play-alpha-sign-up
 
   </summary>
 
