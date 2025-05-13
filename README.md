@@ -26,13 +26,13 @@
 
 ## 🚀 Briefing
 
-<details><summary>- 🛡️ Privacy-Driven Development  <br>
+<details><summary>- 🛡️ Privacy-Driven Development   </summary> <br>
 
 
   <br>
          &nbsp;  &nbsp;  &nbsp; Zero telemetry. No profiling. All local. Every request scrutinized, every connection transparent. </details>
 
-<details><summary>- 🧠 Built for Productive Deep Research  <br>
+<details><summary>- 🧠 Built for Productive Deep Research   </summary> <br>
 
  
 </br>
@@ -41,17 +41,17 @@
 
  
 
-<details><summary>- ✨ Minimal UI, Maximal Clarity   <br>
+<details><summary>- ✨ Minimal UI, Maximal Clarity    </summary> <br>
 
   <br>
           &nbsp;  &nbsp;  &nbsp;Focus-oriented UI with immersive mode, different layouts and plenty of tools. Great anywhere, excellent on the go. Does ____ webpage have an annoyance on-screen? No worries, Moonala can remove that for you.
     With a **native** element remover, you can get those time consuming annoyances off the screen with just a tap, and in the future, it will also store references to past removed annoyances and keep them removed globally on **any** page.</details>
 
-<details><summary>- 🧭 Ethical Codebase  <br>
+<details><summary>- 🧭 Ethical Codebase    </summary> <br>
   <br>
            &nbsp;  &nbsp;  &nbsp; Source-available, Code with a conscience. No nonsense. Privacy is the muse. No Data Abuse. </details>
 
-<details><summary>- 💰What about financials?  <br>
+<details><summary>- 💰 What about financials? </summary> <br>
 
   <br>
              &nbsp;  &nbsp;  &nbsp; There is no financials right now, I currently take a loss on developing the project but I will be looking for funding soon. Ideally in the future- in an ethical manner, funding will come from sponsors, donations, grants, merch, enterprise licensing and partnerships with funding foundations. No matter the financial situation, fundamentals can't be changed or swayed and personal data is never shared or transmitted. There is a lot more to Moon Developments, and there will never be a need to abuse Moonala because the portfolio is diverse, MoonDev don't keep no eggs in one basket (>‿^). If a future financial supporter were to advertise through a partnership with Moonala; in any form, they will be expected to meet the standards of natural privacy.
@@ -110,9 +110,9 @@
 ## 📦 Getting Started
 
 
-Download the apk from releases, install it, and open. 
+Download the apk from releases, install it, and you're ready to launch!
 
-  Accept the terms if you are okay with them. Done! Its ready to use ^_^  A popup display optional uses will display on the very first run, and be recalled from tapping Lunar Features.
+  Accept the terms if you are okay with them. A popup will display on the very first run with optional setups, and it can be recalled by tapping Lunar Features in the menu.
     Due to way the code is currently set up, If you are mot on android 9+ the testing releases will be VERY unstable. 9 runs, but requires storage permissions for certain features. 10+ Has been stable enough for me to daily use.
       I currently do testing on an android 14 device, the only device available too me for now. Once I am able to test more android versions, I will address stability issues on them. For now, I can say android 14+ SHOULD
         be completely crash free, but I have not tested every website there is or anything, so there is still a chance. 
