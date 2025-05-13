@@ -26,35 +26,40 @@
 
 ## 🚀 Briefing
 
-- 🛡️ **Privacy-Driven Development**
-  
-  Zero telemetry. No profiling. All local. Every request scrutinized, every connection transparent. 
+<details><summary>- 🛡️ Privacy-Driven Development  <br>
 
-- 🧠 **Built for Productive Deep Research**  
 
-  Tab grouping, multi-window workflows, AI and LLM convienience implemented, eye protection, **ability to guard WebGl and Canvas use**, the list
-      goes on — reimagining what browsers should do.<details><summary>While also bringing pc features to mobile as a side quest.</summary>xD did I sound cool there? </details>
+  <br>
+         &nbsp;  &nbsp;  &nbsp; Zero telemetry. No profiling. All local. Every request scrutinized, every connection transparent. </details>
+
+<details><summary>- 🧠 Built for Productive Deep Research  <br>
+
+ 
+</br>
+          &nbsp;  &nbsp;  &nbsp;Tab grouping, multi-window workflows, AI and LLM convienience implemented, eye protection, **guards for WebGl and Canvas use**, the list
+      goes on — reimagining what browsers should do. While also bringing pc features to mobile as a side quest.</summary>xD did I sound cool there? </details>
 
  
 
-- ✨ **Minimal UI, Maximal Clarity**  
+<details><summary>- ✨ Minimal UI, Maximal Clarity   <br>
 
-  Focus-oriented UI with immersive mode, different layouts and plenty of tools. Great anywhere, excellent on the go. Does ____ webpage have an annoyance on-screen? No worries, Moonala can remove that for you.
-    With a **native** element remover, you can get those time consuming annoyances off the screen with just a tap, and in the future, it will also store references to past removed annoyances and keep them removed globally on **any** page.
+  <br>
+          &nbsp;  &nbsp;  &nbsp;Focus-oriented UI with immersive mode, different layouts and plenty of tools. Great anywhere, excellent on the go. Does ____ webpage have an annoyance on-screen? No worries, Moonala can remove that for you.
+    With a **native** element remover, you can get those time consuming annoyances off the screen with just a tap, and in the future, it will also store references to past removed annoyances and keep them removed globally on **any** page.</details>
 
-- 🧭 **Ethical Codebase**  
+<details><summary>- 🧭 Ethical Codebase  <br>
+  <br>
+           &nbsp;  &nbsp;  &nbsp; Source-available, Code with a conscience. No nonsense. Privacy is the muse. No Data Abuse. </details>
 
-  Source-available, Code with a conscience. No nonsense. 0 Data Abuse. 
+<details><summary>- 💰What about financials?  <br>
 
-- 💰**What about financials?** 
+  <br>
+             &nbsp;  &nbsp;  &nbsp; There is no financials right now, I currently take a loss on developing the project but I will be looking for funding soon. Ideally in the future- in an ethical manner, funding will come from sponsors, donations, grants, merch, enterprise licensing and partnerships with funding foundations. No matter the financial situation, fundamentals can't be changed or swayed and personal data is never shared or transmitted. There is a lot more to Moon Developments, and there will never be a need to abuse Moonala because the portfolio is diverse, MoonDev don't keep no eggs in one basket (>‿^). If a future financial supporter were to advertise through a partnership with Moonala; in any form, they will be expected to meet the standards of natural privacy.
+ (None of that 'loose static' advertising. Partnerships with real teams, backing real products, with genuine intrigue and use cases).</details>
 
-  There is no financials right now, I currently take a loss on developing the project but I will be looking for funding soon. Ideally in the future- in an ethical manner, funding will come from sponsors, donations, grants, merch, enterprise licensing and partnerships with funding foundations. No matter the financial situation, fundamentals can't be changed or swayed and personal data is never shared or transmitted. There is a lot more to Moon Developments, and there will never be a need to abuse Moonala because the portfolio is diverse, MoonDev don't keep no eggs in one basket (>‿^). If a future financial supporter were to advertise through a partnership with Moonala; in any form, they will be expected to meet the standards of natural privacy.
- (None of that 'loose static' advertising. Partnerships with real teams, backing real products, with genuine intrigue and use cases).
 
-
-- 🧩 **Tech + Small FAQ**
-      <details>
-          <summary>Read more</summary>
+<details><summary>- 🧩 **Tech + Small FAQ**
+  </summary>
               Java, Kotlin, and the typical basics. Keeping it simple and approachable.
 
   Q: Other browsers using webview are missing critical features like OAuth2
