@@ -164,8 +164,8 @@ Without purchasing a license,no commercial use, no redistribution, and regardles
 Finally, for those who don't care for the backstory and just want the legal jargon, I have no interest in your data and I make the legally liable claim that there is no data transmitted too me in my privacy policy on moonala.com.
 
 
->
-![Moon](https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=60,fit=crop,q=95/m5KMD6loVNFzveb4/moongridstoreicon-AE0PyDGOPkUlPOMa.png)
+
+>![Moon](https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=60,fit=crop,q=95/m5KMD6loVNFzveb4/moongridstoreicon-AE0PyDGOPkUlPOMa.png)
 > _"Privacy is not a feature. It's the foundation."_  
  Built with passion by [Moon Developments](https://moonala.com), where software is made for users, simple, thats it.- MoonDev SzzS
 
