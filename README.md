@@ -128,15 +128,13 @@
 🙌 Contributing
 
 Moonala aims to thrive on community one day. Bug fixes, feature ideas, docs updates, etc — all welcome.
-Start by checking issues or join discussions. No issue is unworthy of sharing, theres no shame in mistakes here.
-All of the current testing and use of the app has been done on **ONE** device. Please **DO NOT** hesitate to open issues.
-I would also like to plead for your patience, I currently work on the entire project alone, from coding, website building, to setting
-up the readme on github, everything. Things may seem slow at times but in order of severity, I **will** take care of issues. <br>
+Start by checking issues or join discussions. No issue is unworthy of sharing.
+Things may seem slow at times but in order of severity, I **will** take care of issues. <br>
 
-  Known Issues : Older Single Use Download Links fail, right now I only know of 1fichier 
+  <details><summary>- Known Issues : </summary> <br> Older Single Use Download Links fail, right now I only know of 1fichier 
            having this issue. This is Because of the lack of identifying information passed to the download server.
            this is probably also the source of cloudflare verification loops, floating normalized tabs and unchained
-           tabs solve the cloudflare verification loop for now. <br><br>
+           tabs solve the cloudflare verification loop for now. This does not include all known issues because some are already being worked on. <br><br>
 
 
 When contributing code, try to meet these ideals : 
