@@ -59,12 +59,7 @@
 <details><summary>- 🧩 **Tech + Small FAQ**
   </summary>
               Java, Kotlin, and the typical basics. Keeping it simple and approachable.
-              Known Issues : Older Single Use Download Links fail, right now I only know of 1fichier 
-           having this issue. This is Because of the lack of identifying information passed to the download server.
-           this is probably also the source of cloudflare verification loops, floating normalized tabs and unchained
-           tabs solve the cloudflare verification loop for now. 
-
-
+            
   Q: Other browsers using webview are missing critical features like OAuth2
            and do things like sending the app package in the header. What
            makes Moonala any different? How can I daily drive it with these
@@ -136,7 +131,13 @@ Moonala aims to thrive on community one day. Bug fixes, feature ideas, docs upda
 Start by checking issues or join discussions. No issue is unworthy of sharing, theres no shame in mistakes here.
 All of the current testing and use of the app has been done on **ONE** device. Please **DO NOT** hesitate to open issues.
 I would also like to plead for your patience, I currently work on the entire project alone, from coding, website building, to setting
-up the readme on github, everything. Things may seem slow at times but in order of severity, I **will** take care of issues. 
+up the readme on github, everything. Things may seem slow at times but in order of severity, I **will** take care of issues. <br>
+
+  Known Issues : Older Single Use Download Links fail, right now I only know of 1fichier 
+           having this issue. This is Because of the lack of identifying information passed to the download server.
+           this is probably also the source of cloudflare verification loops, floating normalized tabs and unchained
+           tabs solve the cloudflare verification loop for now. <br><br>
+
 
 When contributing code, try to meet these ideals : 
 Designed for dreamers. Built for researchers. Protected for everyone. Safe for the family.
