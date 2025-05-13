@@ -15,7 +15,7 @@
 
 
 
-[Last Updated 5/11/2025 PROJECT IS IN PUBLIC TESTING](https://moonala.com/changelog)
+[Last Updated 5/11/2025 PROJECT IS IN PUBLIC TESTING](https://moonala.com/)
        
 ![Privacy Focused](https://img.shields.io/badge/Privacy-100%25-brightgreen)
 ![Build](https://img.shields.io/badge/UserRights-Respected-passing)
