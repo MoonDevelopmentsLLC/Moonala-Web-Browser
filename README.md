@@ -33,11 +33,14 @@
 - 🧠 **Built for Productive Deep Research**  
 
   Tab grouping, multi-window workflows, AI and LLM convienience implemented, eye protection, **ability to guard WebGl and Canvas use**, the list
-      goes on — reimagining what browsers should do. Bringing pc features to mobile as a side quest. 
+      goes on — reimagining what browsers should do.<details><summary>While also bringing pc features to mobile as a side quest.</summary>xD did I sound cool there? </details>
+
+ 
 
 - ✨ **Minimal UI, Maximal Clarity**  
 
-  Focus-oriented UI with immersive layouts and plenty of tools. Great anywhere, excellent on the go.
+  Focus-oriented UI with immersive mode, different layouts and plenty of tools. Great anywhere, excellent on the go. Does ____ webpage have an annoyance on-screen? No worries, Moonala can remove that for you.
+    With a **native** element remover, you can get those time consuming annoyances off the screen with just a tap, and in the future, it will also store references to past removed annoyances and keep them removed globally on **any** page.
 
 - 🧭 **Ethical Codebase**  
 
