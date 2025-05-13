@@ -106,17 +106,21 @@
           A: The Codebase is designed to be modular, a replacement engine is possible in the future. 
           
   </details>
+
 [Yo, you sellin data? What kind? Can I get some of that top shelf?](#data-policy)
+
+
 
 ## 📦 Getting Started
 
+<details><summary> Download the apk from releases, install it, and you're ready to launch!
 
-Download the apk from releases, install it, and you're ready to launch!
+  </summary>
 
   Accept the terms if you are okay with them. A popup will display on the very first run with optional setups, and it can be recalled by tapping Lunar Features in the menu.
     Due to way the code is currently set up, If you are mot on android 9+ the testing releases will be VERY unstable. 9 runs, but requires storage permissions for certain features. 10+ Has been stable enough for me to daily use.
       I currently do testing on an android 14 device, the only device available too me for now. Once I am able to test more android versions, I will address stability issues on them. For now, I can say android 14+ SHOULD
-        be completely crash free, but I have not tested every website there is or anything, so there is still a chance. 
+        be completely crash free, but I have not tested every website there is or anything, so there is still a chance. </detail>
 
 ---
 🙌 Contributing
