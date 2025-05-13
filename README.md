@@ -133,7 +133,7 @@ Moonala aims to thrive on community one day. Bug fixes, feature ideas, docs upda
 Start by checking issues or join discussions. No issue is unworthy of sharing, theres no shame in mistakes here.
 All of the current testing and use of the app has been done on **ONE** device. Please **DO NOT** hesitate to open issues.
 I would also like to plead for your patience, I currently work on the entire project alone, from coding, website building, to setting
-up the readme on github, everything. Things may seem slow at times but I will take care of issues. In order of severity.
+up the readme on github, everything. Things may seem slow at times but in order of severity, I **will** take care of issues. 
 
 When contributing code, try to meet these ideals : 
 Designed for dreamers. Built for researchers. Protected for everyone. Safe for the family.
