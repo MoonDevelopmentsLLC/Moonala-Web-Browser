@@ -174,7 +174,7 @@ Finally, for those who don't care for the backstory and just want the legal jarg
 
 > _"Privacy is not a feature. It's the foundation."_  
 ![Moon](https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=60,fit=crop,q=95/m5KMD6loVNFzveb4/moongridstoreicon-AE0PyDGOPkUlPOMa.png) 
- Built with care by [Moon Developments](https://moonala.com), where software is made for users, simple, thats it.- MoonDev SzzS
+ Built with passion by [Moon Developments](https://moonala.com), where software is made for users, simple, thats it.- MoonDev SzzS
 
 
 
@@ -193,7 +193,7 @@ Finally, for those who don't care for the backstory and just want the legal jarg
 
 
 
-
+<details><summary>- Extras </summary> <br>
 
 
 ## 📸 Screenshots
@@ -205,3 +205,4 @@ A glimpse, all links lead to the showcase for now.
 | ![Home](https://moonala.com/showcase) | ![Research](https://moonala.com/showcase) | ![Tabs](https://moonala.com/showcase) | ![Night](https://moonala.com/showcase) | ![Settings](https://moonala.com/showcase) |
 
 ---
+</details>
