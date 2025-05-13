@@ -59,6 +59,11 @@
 <details><summary>- 🧩 **Tech + Small FAQ**
   </summary>
               Java, Kotlin, and the typical basics. Keeping it simple and approachable.
+              Known Issues : Older Single Use Download Links fail, right now I only know of 1fichier 
+           having this issue. This is Because of the lack of identifying information passed to the download server.
+           this is probably also the source of cloudflare verification loops, floating normalized tabs and unchained
+           tabs solve the cloudflare verification loop for now. 
+
 
   Q: Other browsers using webview are missing critical features like OAuth2
            and do things like sending the app package in the header. What
@@ -68,8 +73,8 @@
   A: Moonala aims to include full functionality despite websites and
            google blocking or not supporting certain functions through webview.
            98.9% of the time everything will work. When it doesn't, the unchained
-           tabs(compatibility mode) are designed to work 100% of the time. Useful 
-           for sites that get overzealous with their tracking requirements.  <br> 
+           tabs(compatibility mode) are designed to work 100% of the time. <br>Useful 
+           for sites that get overzealous with their tracking requirements. -See Bold Text-<br> 
            The defaults are set to a relaxed private that is still very private if
            used right. When all nazar switches are toggled on (pressing strict privacy button)
            identifying data is removed to an extent not seen in most browsers without heavy tinkering or addons installed. 
