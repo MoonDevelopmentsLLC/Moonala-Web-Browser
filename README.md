@@ -15,7 +15,7 @@
 
 
 
-[Last Updated 5/11/2025 PROJECT IS IN PRE-BETA](https://moonala.com/changelog)
+[Last Updated 5/11/2025 PROJECT IS IN TESTING](https://moonala.com/changelog)
        
 ![Privacy Focused](https://img.shields.io/badge/Privacy-100%25-brightgreen)
 ![Build](https://img.shields.io/badge/UserRights-Respected-passing)
@@ -49,24 +49,24 @@
  (None of that 'loose static' advertising. Partnerships with real teams, backing real products, with genuine intrigue and use cases).
 
 
-- 🧩 **Tech Stack**
+- 🧩 **Tech + Small FAQ**
+      <details>
+          <summary>Read more</summary>
+              Java, Kotlin, and the typical basics. Keeping it simple and approachable.
 
-        Java, Kotlin, and the typical basics. Keeping it simple and approachable.
-
-        Q: Other browsers using webview are missing critical features like OAuth2
+  Q: Other browsers using webview are missing critical features like OAuth2
            and do things like sending the app package in the header. What
            makes Moonala any different? How can I daily drive it with these
            web features broken and lack of default privacy? 
 
-        A: Moonala should include full functionality despite websites and
+  A: Moonala should include full functionality despite websites and
            google blocking or not supporting certain functions through webview.
            99% of the time everything will work. When it doesn't, the unchained
            tabs(compatibility mode) are designed to work 100% of the time. Useful 
            for sites that get overzealous with their tracking requirements.  
            The defaults are set to a relaxed private that is still very private if
-           used right. When set to max privacy with the force field switch or using
-           the hardening guide in settings identifying data is removed to an extent
-           not seen in most browsers without heavy tinkering or addons installed. 
+           used right. When all nazar switches are toggled on (pressing strict privacy button)
+           identifying data is removed to an extent not seen in most browsers without heavy tinkering or addons installed. 
            The browsers using webview that I have tested specify they are built to 
            be private and despite this, in my tests all of them announce you are using 
            "your exact device,with that browser, via that app." With no instructions 
@@ -84,21 +84,20 @@
            webview edition **should** be compatible with privacy centric webviews like bromite, 
            allowing for a dual layer of protection.
 
-           **If you don't login to personally identifying sites and you use a clean IP not linked to you,
+  **If you don't login to personally identifying sites and you use a clean IP not linked to you,
            Moonala is very private and probably stable too. A lot of the current issues are linked to sites
            that don't like Moonala's paranoid by default anti-tracking, usually sites requiring a login
            that is tied to an identity.**
 
-           Moonala is not trying to be like the rest of the webview browsers. Its not the next 
+   Moonala is not trying to be like the rest of the webview browsers. Its not the next 
            fox clone or mainstream browser re-skin. It is Moonala. 
-
-           There is a *Custom Extensions & Plugins engine in development*
+    There is a *Custom Extensions & Plugins engine in development*
            meant to rival the big players while being easier to use and universally compatible.
 
-          Q: Dependency on webview is dangerous, what if it becomes malicious or google pulls the plug?
+   Q: Dependency on webview is dangerous, what if it becomes malicious or google pulls the plug?
           A: The Codebase is designed to be modular, a replacement engine is possible in the future. 
-           
----
+          
+  </details>
 
 ## 📦 Getting Started
 
