@@ -66,7 +66,7 @@
            web features broken and lack of default privacy? 
 
   A: Moonala aims to include full functionality despite websites and
-           google blocking or not supporting certain functions through webview.
+           google blocking and not supporting certain functions through webview.
            98.9% of the time everything will work. When it doesn't, the unchained
            tabs(compatibility mode) are designed to work 100% of the time. <br>Useful 
            for sites that get overzealous with their tracking requirements. -See Bold Text-<br> 
