@@ -3,12 +3,12 @@
 <table>
   <tr>
     <td>
-      <img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=426,h=769,fit=contain/m5KMD6loVNFzveb4/portait-beauty-AVL7ZjaMl8IZyB1n.png" width="226" height="509" alt="Moon">
+      <img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=200,h=350,fit=contain/m5KMD6loVNFzveb4/portait-beauty-AVL7ZjaMl8IZyB1n.png" width="200" height="350" alt="Moon">
     </td>
 
   <td>
-    <img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=500,h=200,fit=contain/m5KMD6loVNFzveb4/showcase-displayimage-m2W8NGEwNQIQkv9Z.png" width="528" height="260" alt="Screenshot 1"><br> <br>
-      <img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=500,h=200,fit=contain/m5KMD6loVNFzveb4/showcase-2-YleWgGQw3as67VLX.png" width="528" height="260" alt="Screenshot 2">
+    <img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=350,h=100,fit=contain/m5KMD6loVNFzveb4/showcase-displayimage-m2W8NGEwNQIQkv9Z.png" width="350" height="150" alt="Screenshot 1"><br> <br>
+      <img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=350,h=100,fit=contain/m5KMD6loVNFzveb4/showcase-2-YleWgGQw3as67VLX.png" width="350" height="150" alt="Screenshot 2">
     </td>
   </tr>
 </table>
