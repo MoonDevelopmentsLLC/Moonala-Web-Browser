@@ -134,7 +134,7 @@ Things may seem slow at times but in order of severity, I **will** take care of 
   <details><summary>- Known Issues : </summary> <br> Older Single Use Download Links fail, right now I only know of 1fichier 
            having this issue. This is Because of the lack of identifying information passed to the download server.
            this is probably also the source of cloudflare verification loops, floating normalized tabs and unchained
-           tabs solve the cloudflare verification loop for now. This does not include all known issues because some are already being worked on. <br><br>
+           tabs solve the cloudflare verification loop for now. This does not include all known issues because some are already being worked on. </details> <br><br>
 
 
 When contributing code, try to meet these ideals : 
