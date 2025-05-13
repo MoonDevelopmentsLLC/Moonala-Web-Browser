@@ -125,9 +125,7 @@
         be completely crash free, but I have not tested every website there is or anything, so there is still a chance. </details>
 
 ---
-🙌 Contributing
-When contributing code, try to meet these ideals : 
-Designed for dreamers. Built for researchers. Protected for everyone.
+🙌 Contributing<br>
 Bug fixes, feature ideas, docs updates, etc — all welcome.
 Things may seem slow at times but in order of severity, I **will** take care of issues. <br>
 
@@ -166,8 +164,9 @@ Without a license, no commercial use, no redistribution, regardless of license n
 Finally, for those who don't care for the backstory and just want the legal jargon, I have no interest in your data and I make the legally liable claim that there is no data transmitted too me in my privacy policy on moonala.com.
 
 
+>
+![Moon](https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=60,fit=crop,q=95/m5KMD6loVNFzveb4/moongridstoreicon-AE0PyDGOPkUlPOMa.png)
 > _"Privacy is not a feature. It's the foundation."_  
-![Moon](https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=60,fit=crop,q=95/m5KMD6loVNFzveb4/moongridstoreicon-AE0PyDGOPkUlPOMa.png) 
  Built with passion by [Moon Developments](https://moonala.com), where software is made for users, simple, thats it.- MoonDev SzzS
 
 
@@ -208,5 +207,5 @@ A glimpse, all links lead to the showcase for now.
 
 ---
 
-honestly i wanted to add a lot more personality to this and just crack jokes left and right but I need to keep it professional LOL.
+i wanted to crack jokes left and right but I need to keep it professional here xD
 </details>
