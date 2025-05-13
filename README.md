@@ -57,6 +57,8 @@
              &nbsp;  &nbsp;  &nbsp; There is no financials right now, I currently take a loss on developing the project but I will be looking for funding soon. Ideally in the future- in an ethical manner, funding will come from sponsors, donations, grants, merch, enterprise licensing and partnerships with funding foundations. No matter the financial situation, fundamentals can't be changed or swayed and personal data is never shared or transmitted. There is a lot more to Moon Developments, and there will never be a need to abuse Moonala because the portfolio is diverse, MoonDev don't keep no eggs in one basket (>‿^). If a future financial supporter were to advertise through a partnership with Moonala; in any form, they will be expected to meet the standards of natural privacy.
  (None of that 'loose static' advertising. Partnerships with real teams, backing real products, with genuine intrigue and use cases).</details>
 
+<details><summary>- [Yo, you sellin data? What kind? Can I get some of that top shelf?](#data-policy)
+  </summary>
 
 <details><summary>- 🧩 **Tech + Small FAQ**
   </summary>
@@ -155,6 +157,7 @@ Moonala is a web browser built with **privacy-first development**, **research-op
 Ethically written code. Zero compromise on your autonomy. No noise, no tracking — just focus. Your attention, your choices.  Moonala respects that.
 
 ---
+## Data Policy
 
 - **What do you stand to gain and how do I know you are not selling my data secretly?**
 
