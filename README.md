@@ -102,11 +102,11 @@
     There is a *Custom Extensions & Plugins engine in development*
            meant to rival the big players while being easier to use and universally compatible.
 
-   Q: Dependency on webview is dangerous, what if it becomes malicious or google pulls the plug?
+   Q: Dependency on webview is dangerous, what if it becomes malicious or google pulls the plug?<br>
           A: The Codebase is designed to be modular, a replacement engine is possible in the future. 
 
-   Q: What are your relations to pale moon?
-          A: Absolutely none. The theme around the moon from Project Moonala to the name MoonDevelopments, to MoonDev SzzS all stem from my enjoyment of looking at the moon while it rains and drifting into the peaceful night. An enjoyment I don't have often anymore but think of a lot. Pale Moon is a cool project though, I can respect what they are doing for sure. Nala for me has meant, Never Angry, Always Loving. Lunala is a cool pokemon too.
+   Q: What are your relations to pale moon?<br>
+          A: Absolutely none. The theme around the moon from Project Moonala to the name MoonDevelopments, to MoonDev SzzS all stem from my enjoyment of looking at the moon while it rains and drifting into the peaceful night. An enjoyment I don't have often anymore but think of a lot. Pale Moon is a cool project though, I can respect what they are doing for sure. I have even used it in the past when exploring options. Nala for me has meant, Never Angry, Always Loving. Lunala is a cool pokemon too.
           
   </details>
 
