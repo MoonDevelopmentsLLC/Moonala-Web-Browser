@@ -39,7 +39,7 @@
   <br>
          &nbsp;  &nbsp;  &nbsp; Zero telemetry. No profiling. All local. Every request scrutinized, every connection transparent. </details>
 
-<details><summary>- ✨ Minimal UI, Maximal Clarity, Focus Enabled.    </summary> <br>
+<details><summary>- ✨ Minimal UI, Maximal Focus Enabled.    </summary> <br>
 
   <br>
           &nbsp;  &nbsp;  &nbsp;Focus-oriented UI with immersive mode, different layouts and plenty of tools. Great anywhere, excellent on the go. Does ____ webpage have an annoyance on-screen? No worries, Moonala can remove that for you.
@@ -143,12 +143,12 @@ If you like Moonala and believe in private, user-first software:
 
     Share Moonala with others
 
-    Join Discussions around the web!
+    Join and start discussions around online!
 
 ---
 
 📝 Temporary License Details <br>
-For the open source portions reform to a basic open source copyleft license, where if you use the code of Moonala, you provide it in the same way. Basically, if you use Moonala code in your project, others, including Moonala's dev can use your projects code as well. <br><br> **For code not published here on github the following applies** : 
+For the open source portions refer to a basic open source copyleft license, where if you use the code of Moonala, you provide it in the same way. Basically, if you use Moonala code in your project, others, including Moonala's dev can use your projects code relevant to the snippet as well. <br><br> **For code not published here on github the following applies** : 
 Without purchasing a license,no commercial use, no redistribution, and regardless of license no abuse of code for ill gained profit or theft. Licensing is available, contact agent@moonala.com. If you absolutely must use the code and feel you aren't using enough of it to pay for it, please include a clear easy to find attribution leading to Moonala.com. Thats fair, right? All licensing funds go directly back into Moonala, no exceptions. Benefitting the very code you spend precious finances on. (｡•̀ᴗ-)✧
 
 ---
