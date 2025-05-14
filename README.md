@@ -58,7 +58,7 @@
 
 <details><summary>- 🧩 **Tech + Small FAQ**
   </summary>
-              Java, Kotlin, and the typical basics. Keeping it simple and approachable.
+              Java, Kotlin, and the typical basics. Keeping it simple and approachable.<br>
             
   **If you don't login to personally identifying sites and you use a clean IP not linked to you,
            Moonala is very private and probably stable too. A lot of the current issues are linked to sites
