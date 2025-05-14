@@ -70,21 +70,19 @@
 
 
   Q: Other browsers using webview are missing critical features like OAuth2
-           and do things like sending the app package in the header. What
-           makes Moonala any different? How can I daily drive it with these
-           web features broken and lack of default privacy? 
+           and do things like sending the app package in the header. Does Moonala intend to include full functionality?
 
-  A: Moonala aims to include full functionality despite websites and
+  A: Moonala aims for full functionality, including OAuth2, despite websites and
            google blocking and not supporting certain functions through webview.
            98.9% of the time everything will work. When it doesn't, the unchained
            tabs(compatibility mode) are designed to work 100% of the time. <br>Useful 
            for sites that get overzealous with their tracking requirements. -See Bold Text-<br> 
            The defaults are set to a relaxed private that is still very private if
            used right. When all nazar switches are toggled on (pressing strict privacy button)
-           identifying data is removed to an extent not seen in most browsers without heavy tinkering or addons installed. 
-           The browsers using webview that I have tested specify they are built to 
-           be private and despite this, in my tests all of them announce you are using 
-           "your exact device,with that browser, via that app." With no instructions 
+           identifying data is removed to an extent not seen in most browsers without 
+           heavy tinkering or addons installed.The browsers using webview that I have 
+           tested specify they are built to be private and despite this, in my tests a lot of 
+           them announce you are using "your exact device, via that app." With no instructions 
            on hardening via dev tools or alternative solutions offered. When they do
            support privacy, they lack elsewhere, be it web features, full usability,
            or modernity in the browser itself. WebView is very much so WebKit, one case 
