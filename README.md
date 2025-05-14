@@ -60,6 +60,15 @@
   </summary>
               Java, Kotlin, and the typical basics. Keeping it simple and approachable.
             
+  **If you don't login to personally identifying sites and you use a clean IP not linked to you,
+           Moonala is very private and probably stable too. A lot of the current issues are linked to sites
+           that don't like Moonala's paranoid by default anti-tracking, usually sites requiring a login
+           that is tied to an identity.**
+
+   Moonala is not trying to be like the rest of the webview browsers. Its not the next 
+           fox clone or mainstream browser re-skin. It is Moonala. 
+
+
   Q: Other browsers using webview are missing critical features like OAuth2
            and do things like sending the app package in the header. What
            makes Moonala any different? How can I daily drive it with these
@@ -89,22 +98,16 @@
            no worries about getting use to a certain flavor and it depracating. As a bonus, the 
            webview edition **should** be compatible with privacy centric webviews like bromite, 
            allowing for a dual layer of protection.
-
-  **If you don't login to personally identifying sites and you use a clean IP not linked to you,
-           Moonala is very private and probably stable too. A lot of the current issues are linked to sites
-           that don't like Moonala's paranoid by default anti-tracking, usually sites requiring a login
-           that is tied to an identity.**
-
-   Moonala is not trying to be like the rest of the webview browsers. Its not the next 
-           fox clone or mainstream browser re-skin. It is Moonala. 
-    There is a *Custom Extensions & Plugins engine in development*
-           meant to rival the big players while being easier to use and universally compatible.
+           
+   Q: What do you have implemented for those of us who want to do more with the browser without having to work with the source?
+          A: There is a *Custom Extensions & Plugins engine in development*
+           meant to rival others available while being easier to use and universally compatible.
 
    Q: Dependency on webview is dangerous, what if it becomes malicious or google pulls the plug?<br>
           A: The Codebase is designed to be modular, a replacement engine is possible in the future. 
 
    Q: What are your relations to pale moon?<br>
-          A: Absolutely none. The theme around the moon from Project Moonala to the name MoonDevelopments, to MoonDev SzzS all stem from my enjoyment of looking at the moon while it rains and drifting into the peaceful night. An enjoyment I don't have often anymore but think of a lot. Pale Moon is a cool project though, I can respect what they are doing for sure. I have even used it in the past when exploring options. Nala for me has meant, Never Angry, Always Loving. Lunala is a cool pokemon too.
+          A: Absolutely none. The theme around the moon from Project Moonala to the name MoonDevelopments, to MoonDev SzzS all stem from my enjoyment of looking at the moon while it rains and drifting into the peaceful night. An enjoyment I don't have often anymore but enjoy thoroughly when I do. Pale Moon is a cool project, I can respect what they are doing for sure. I have even tried it in the past when exploring options. Nala for me has meant, Never Angry, Always Loving. Lunala is a cool pokemon too.
           
   </details>
 
