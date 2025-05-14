@@ -76,9 +76,10 @@
            google not supporting certain functions through webview.
            98.9% of the time everything will work. When needed, the unchained
            tabs(compatibility mode) are designed to work 100% of the time. <br>Useful 
-           for sites that get overzealous with their tracking requirements. -See Bold Text-<br> 
+           for sites that get overzealous with their tracking requirements. -See Bold Text-<br><br> 
            The defaults are set to a relaxed private that is still very private if
-           used right. When all nazar switches are toggled on (pressing strict privacy button)
+           used right. The package is shown if your version of webview is outdated but you can follow the security guide in settings or **use lunar force field** to remove that.
+           When all nazar switches are toggled on (pressing strict privacy button)
            identifying data is removed to an extent not seen in most browsers without 
            heavy tinkering or addons installed.The browsers using webview that I have 
            tested specify they are built to be private and despite this, in my tests a lot of 
@@ -97,15 +98,15 @@
            webview edition **should** be compatible with privacy centric webviews like bromite, 
            allowing for a dual layer of protection.
            
-   Q: What do you have implemented for those of us who want to do more with the browser without having to work with the source?
+   Q: What do you have implemented for those of us who want to do more with the browser without having to work with the source?<br>
           A: There is a *Custom Extensions & Plugins engine in development*
            meant to rival others available while being easier to use and universally compatible.
 
    Q: Dependency on webview is dangerous, what if it becomes malicious or google pulls the plug?<br>
           A: The Codebase is designed to be modular, a replacement engine is possible in the future. 
 
-   Q: What are your relations to pale moon?<br>
-          A: Absolutely none. The theme around the moon from Project Moonala to the name MoonDevelopments, to MoonDev SzzS all stem from my enjoyment of looking at the moon while it rains and drifting into the peaceful night. An enjoyment I don't have often anymore but enjoy thoroughly when I do. Pale Moon is a cool project, I can respect what they are doing for sure. I have even tried it in the past when exploring options. Nala for me has meant, Never Angry, Always Loving. Lunala is a cool pokemon too.
+   Q: What are your relations to pale moon, or moon + ala ?<br>
+          A: Absolutely none. The theme around the moon from Project Moonala to the name MoonDevelopments, to MoonDev SzzS all stem from my enjoyment of looking at the moon while it rains and drifting into the peaceful night. An enjoyment I don't have often anymore, I enjoy thoroughly when I do, , lately with DKC2's Forest Interlude playing. Pale Moon is a cool project, I can respect what they are doing for sure. I have even tried it in the past when exploring options. Nala for me has meant, Never Angry, Always Loving. Lunala is a cool pokemon too.
           
   </details>
 
