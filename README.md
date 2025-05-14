@@ -122,7 +122,7 @@
   </summary>
 
   <br><br> A popup will display on the very first run with optional setups, and it can be recalled by tapping Lunar Features in the menu.
-    Due to way the code is currently set up, If you are not on android 9+ the testing releases will be VERY unstable. I currently do testing on an android 14 device and occasionally when the chance arises an android 9 device. Once I am able to test more android versions, I will address stability issues on them. For now, I can say android 14+ SHOULD be completely crash free, but I have not tested every website there is or anything, so there is still a chance. </details>
+    Due to way the code is currently set up, If you are not on android 9+ the testing releases will be VERY unstable. I currently do testing on an android 14 device and occasionally when the chance arises an android 9 device. Once I am able to test more android versions, I will address stability issues on them. For now, I can say android 9+ SHOULD be completely crash free, but I have not tested every website there is or anything, so there is still a chance. One more small quirk, the app is suppose to be fully optional on permissions, but on android 9 it requires storage permissions for downloads.</details>
 
 ---
 🙌 Contributing<br>
