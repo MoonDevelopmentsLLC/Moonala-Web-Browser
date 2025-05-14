@@ -74,7 +74,7 @@
 
   A: Moonala aims for full functionality, including OAuth2, despite websites and
            google blocking and not supporting certain functions through webview.
-           98.9% of the time everything will work. When it doesn't, the unchained
+           98.9% of the time everything will work. When needed, the unchained
            tabs(compatibility mode) are designed to work 100% of the time. <br>Useful 
            for sites that get overzealous with their tracking requirements. -See Bold Text-<br> 
            The defaults are set to a relaxed private that is still very private if
