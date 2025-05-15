@@ -45,9 +45,9 @@
              &nbsp;  &nbsp;  &nbsp;  No matter the financial situation, fundamentals can't be changed or swayed and personal data is never shared or transmitted to Moon Developments.</details>
 
 
-<details><summary>- 🧩 **Tech + Small FAQ**
+<details><summary>- 🧩 Tech + Basic Q&A
   </summary>
-              Java, Kotlin, and the typical basics. Keeping it simple and approachable.<br>
+              Java, Kotlin, and the typical basics. Keeping it simple and approachable.<br><br>
             
   **If you don't login to personally identifying sites and you use a clean IP not linked to you,
            Moonala is very private and probably stable too. A lot of the current issues are linked to sites
