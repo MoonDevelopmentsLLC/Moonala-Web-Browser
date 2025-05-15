@@ -78,19 +78,18 @@
            as pr end of file errors that are handled gracefully in WebKit. Since Moonala
            is meant to be usable as a default browser, it is logical to use a high compatibility
            web engine. Bundling a custom webkit is currently -MWIP-. The current testing releases 
-           using webview will be maintained until webview isn't able to be made private. As a bonus, the 
-           webview edition theorhetically should be compatible with privacy centric webviews like bromite, 
-           allowing for a dual layer of protection. However I have not tested this myself.
+           using webview will be maintained. As a bonus, the webview edition theorhetically should
+           be compatible with privacy centric webviews like bromite, allowing for a dual layer of protection. **I have not tested this myself, testing is on AOSP's WebView.**.
            
    Q: What do you have implemented for those of us who want to do more with the browser without having to work with the source?<br>
           A: There is a *Custom Extensions & Plugins engine in development*
-           meant to be easy to use and universally compatible.
+           hopefully all in javascript, meant to be easy to use and universally compatible.
 
-   Q: What if google pulls the plug the on webview?<br>
+   Q: What if google pulls the plug on webview?<br>
           A: The Codebase is designed to be modular, a replacement engine is possible in the future, at **any** time. For now, WebView is suitable for the project and if google stops supporting it, the project will respond accordingly. Although it is unlikely, as it is an integral part of the android system. This is actually a dual edged sword or whatever the phrase is, because google's security updates to webview benefit Moonala, despite the con of having a dependency attached to google.   
 
    Q: What are your relations to Pale Moon? what is the word Moonala ?<br>
-          A: Absolutely no relation. The theme around the moon from Project Moonala to the name MoonDevelopments, to MoonDev SzzS all stem from the enjoyment of looking at the moon while it rains and drifting into the peaceful night. Pale Moon is a cool project, I can respect what they are doing for sure. I have even tried it out in the past when exploring. Nala for me has meant, Never Angry, Always Loving. Lunala is a cool pokemon too.
+          A: No relation. The theme around the moon stems from the enjoyment of looking at the moon while it rains and drifting into the peaceful night. Pale Moon is a cool project, I can respect what they are doing for sure. I have even tried it out in the past when exploring. Nala for me has meant, Never Angry, Always Loving. Lunala is a cool pokemon too.
           
   </details>
 
@@ -110,7 +109,7 @@
 
 ---
 🙌 Contributing<br>
-Bug fixes, feature ideas, docs updates, etc — all welcome.
+Bug fixes, feature ideas, docs, updates, etc — all welcome.
 Things may seem slow at times but in order of severity, issues **will** be taken care of. <br>
 
   <details><summary> Known Persistent Issues : </summary> <br> 1. Older Single Use Download Links fail, right now I only know of 1fichier 
@@ -132,8 +131,8 @@ If you like Moonala and believe in private, user-first software:
 ---
 
 📝 Temporary License Details <br>
-For the open source portions refer to a basic open source copyleft license, where if you use the code of Moonala, you provide it in the same way. Basically, if you use Moonala code in your project, others, including Moonala's dev can use your projects code as well, in the same manner. <br><br> **For code not published here on github the following applies** : 
-Without purchasing a license, no commercial use, no redistribution, and regardless of license no abuse of code for ill gained profit or theft. Licensing is available, contact agent@moonala.com. If you absolutely must use the code and feel you aren't using enough of it to pay for it, please include a clear easy to find attribution leading to Moonala.com. Thats fair, right? All licensing funds go directly back into Moonala, no exceptions. Benefitting the very code you spend precious finances on. (•̀ᴗ-)✧
+For the open source portions refer to a basic open source copyleft license, where if you use the code of Moonala, you provide it in the same way. Basically, if you use Moonala code in your project, others, including Moonala's dev can use your project's code as well, only in the same manner. <br><br> **For code not published here on github the following applies** : 
+Contact agent@moonala.com for code review requests. If you use the code, please include a clear easy to find attribution leading to Moonala.com. Thats fair, right? You can purchase an optional supportive license, this helps fund Moonala's development. (•̀ᴗ-)✧
 
 ---
 
