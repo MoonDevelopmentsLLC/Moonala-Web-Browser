@@ -3,7 +3,7 @@
 <table>
   <tr>
     <td>
-      <img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=200,h=350,fit=contain/m5KMD6loVNFzveb4/portait-beauty-AVL7ZjaMl8IZyB1n.png" width="250" height="300" alt="Moon">
+      <img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=200,h=350,fit=contain/m5KMD6loVNFzveb4/portait-beauty-AVL7ZjaMl8IZyB1n.png" width="225" height="300" alt="Moon">
     </td>
 
   <td>
