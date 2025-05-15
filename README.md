@@ -34,11 +34,12 @@
          &nbsp;  &nbsp;  &nbsp; Zero telemetry. No profiling. All local. Every request scrutinized, every connection transparent. Does ____ webpage have an annoyance on-screen? No worries, Moonala can remove that for you.
     With a **native** element remover, you can get those time consuming annoyances off the screen with just a tap, and in the future, it will also store references to past removed annoyances and keep them removed globally on **any** page. </details>
 
+<details><summary>- 🧭 Ethical Code. Permissions are optional.    </summary> <br>
+           &nbsp;  &nbsp;  &nbsp; Source-available, Code with a conscience. No nonsense. Privacy is the muse. No Data Abuse.</details>
+
 <details><summary>- ✨ Minimal UI, Maximal Focus.    </summary> <br>
           &nbsp;  &nbsp;  &nbsp;Focus-oriented UI with immersive mode, different layouts and plenty of tools. Great anywhere, especially excellent on the go. </details>
 
-<details><summary>- 🧭 Ethical Codebase    </summary> <br>
-           &nbsp;  &nbsp;  &nbsp; Source-available, Code with a conscience. No nonsense. Privacy is the muse. No Data Abuse.</details>
 
 <details><summary>- 💰 What about financials? </summary> <br>
              &nbsp;  &nbsp;  &nbsp;  No matter the financial situation, fundamentals can't be changed or swayed and personal data is never shared or transmitted to Moon Developments.</details>
