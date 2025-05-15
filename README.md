@@ -1,4 +1,4 @@
-# Moonala Web Browser
+ # Moonala Web Browser
 
 <table>
   <tr>
@@ -26,33 +26,22 @@
 
 ## 🚀 Briefing
 
-<details><summary>- 🧠 Built For Productive Research, Daily Browsing, and more. Its Your Choice.   </summary> <br>
-
- 
-</br>
-          &nbsp;  &nbsp;  &nbsp;Tab grouping, multi-window workflows, AI and LLM convienience implemented, eye protection, **guards for WebGl and Canvas use**, the list
-      goes on — reimagining what browsers should do. While also bringing pc features to mobile as a side quest.</summary> xD did I sound cool there? </details>
+<details><summary>- 🧠 Productive Research, Daily Browsing, and more. Its Your Choice.   </summary> <br>
+     &nbsp;  &nbsp;  &nbsp;Tab grouping, multi-window workflows, AI convienience, eye protection, **guards for WebGl and Canvas use**, the list
+      goes on — reimagining what browsers should do. While also bringing pc features to mobile as a side quest.</summary></details>
 
  <details><summary>- 🛡️ Feature Rich, Privacy-Driven Development.   </summary> <br>
+         &nbsp;  &nbsp;  &nbsp; Zero telemetry. No profiling. All local. Every request scrutinized, every connection transparent. Does ____ webpage have an annoyance on-screen? No worries, Moonala can remove that for you.
+    With a **native** element remover, you can get those time consuming annoyances off the screen with just a tap, and in the future, it will also store references to past removed annoyances and keep them removed globally on **any** page. </details>
 
-
-  <br>
-         &nbsp;  &nbsp;  &nbsp; Zero telemetry. No profiling. All local. Every request scrutinized, every connection transparent. </details>
-
-<details><summary>- ✨ Minimal UI, Maximal Focus Enabled.    </summary> <br>
-
-  <br>
-          &nbsp;  &nbsp;  &nbsp;Focus-oriented UI with immersive mode, different layouts and plenty of tools. Great anywhere, excellent on the go. Does ____ webpage have an annoyance on-screen? No worries, Moonala can remove that for you.
-    With a **native** element remover, you can get those time consuming annoyances off the screen with just a tap, and in the future, it will also store references to past removed annoyances and keep them removed globally on **any** page.</details>
+<details><summary>- ✨ Minimal UI, Maximal Focus.    </summary> <br>
+          &nbsp;  &nbsp;  &nbsp;Focus-oriented UI with immersive mode, different layouts and plenty of tools. Great anywhere, especially excellent on the go. </details>
 
 <details><summary>- 🧭 Ethical Codebase    </summary> <br>
-  <br>
-           &nbsp;  &nbsp;  &nbsp; Source-available, Code with a conscience. No nonsense. Privacy is the muse. No Data Abuse. </details>
+           &nbsp;  &nbsp;  &nbsp; Source-available, Code with a conscience. No nonsense. Privacy is the muse. No Data Abuse.</details>
 
 <details><summary>- 💰 What about financials? </summary> <br>
-
-  <br>
-             &nbsp;  &nbsp;  &nbsp; There is no financials right now, currently taking a loss on developing the project but I will be looking for funding soon. Ideally in the future- in an ethical manner, funding will come from sponsors, donations, grants, merch, enterprise licensing and partnerships with funding foundations. No matter the financial situation, fundamentals can't be changed or swayed and personal data is never shared or transmitted. There is a lot more to Moon Developments, and there will never be a need to abuse Moonala because the portfolio is diverse, MoonDev don't keep no eggs in one basket (>‿^). If a future financial supporter were to advertise through a partnership with Moonala; in any form, they will be expected to meet the standards of natural privacy.
+             &nbsp;  &nbsp;  &nbsp; There is no financials right now. Ideally in the future- in an ethical manner, funding will come from sponsors, donations, grants, merch, enterprise licensing and partnerships with funding foundations. No matter the financial situation, fundamentals can't be changed or swayed and personal data is never shared or transmitted. There is a lot more to Moon Developments, and there will never be a need to abuse Moonala because the portfolio is diverse, MoonDev don't keep no eggs in one basket (>‿^). If a future financial supporter were to advertise through a partnership with Moonala; in any form, they will be expected to meet the standards of natural privacy.
  (None of that 'loose static' advertising. Partnerships with real teams, backing real products, with genuine intrigue and use cases).</details>
 
 
@@ -65,7 +54,7 @@
            that don't like Moonala's paranoid by default anti-tracking, usually sites requiring a login
            that is tied to an identity.**
 
-   Moonala is not trying to be like the rest of the webview browsers. Its not the next 
+   Moonala is not trying to be like the rest of the browsers. Its not the next 
            fox clone or mainstream browser re-skin. It is Moonala. 
 
 
