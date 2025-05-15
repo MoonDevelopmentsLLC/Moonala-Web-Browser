@@ -77,17 +77,17 @@
            additional docs just for errors that crop up using the gecko engine, such
            as pr end of file errors that are handled gracefully in WebKit. Since Moonala
            is meant to be usable as a default browser, it is logical to use a high compatibility
-           web engine. Bundling a custom webkit is currently -WIP- The current testing releases 
+           web engine. Bundling a custom webkit is currently -MWIP-. The current testing releases 
            using webview will be maintained until webview isn't able to be made private. As a bonus, the 
-           webview edition **should** be compatible with privacy centric webviews like bromite, 
-           allowing for a dual layer of protection.
+           webview edition theorhetically should be compatible with privacy centric webviews like bromite, 
+           allowing for a dual layer of protection. However I have not tested this myself.
            
    Q: What do you have implemented for those of us who want to do more with the browser without having to work with the source?<br>
           A: There is a *Custom Extensions & Plugins engine in development*
            meant to be easy to use and universally compatible.
 
-   Q: Dependency on webview is dangerous, what if it becomes malicious or google pulls the plug?<br>
-          A: The Codebase is designed to be modular, a replacement engine is possible in the future, at **any** time. 
+   Q: What if google pulls the plug the on webview?<br>
+          A: The Codebase is designed to be modular, a replacement engine is possible in the future, at **any** time. For now, WebView is suitable for the project and if google stops supporting it, the project will respond accordingly. Although it is unlikely, as it is an integral part of the android system. This is actually a dual edged sword or whatever the phrase is, because google's security updates to webview benefit Moonala, despite the con of having a dependency attached to google.   
 
    Q: What are your relations to Pale Moon? what is the word Moonala ?<br>
           A: Absolutely no relation. The theme around the moon from Project Moonala to the name MoonDevelopments, to MoonDev SzzS all stem from the enjoyment of looking at the moon while it rains and drifting into the peaceful night. Pale Moon is a cool project, I can respect what they are doing for sure. I have even tried it out in the past when exploring. Nala for me has meant, Never Angry, Always Loving. Lunala is a cool pokemon too.
