@@ -58,11 +58,11 @@
            fox clone or mainstream browser re-skin. It is Moonala. 
 
 
-  Q: Other browsers using webview are missing critical features like OAuth2
+  Q: Other browsers using webview are missing critical features like OAuth
            and do things like sending the app package in the header. Does Moonala intend to include full functionality?
 
-  A: Moonala aims for full functionality, including OAuth2, despite websites and
-           google not supporting certain functions through webview.
+  A: OAuth works (tested on feedly.com), Moonala has full functionality and aims to maintain it,
+           despite websites and google not supporting certain functions through a 'webview'.
            98.9% of the time everything will work. When needed, the unchained
            tabs(compatibility mode) are designed to work 100% of the time. <br>Useful 
            for sites that get overzealous with their tracking requirements. -See Bold Text-<br><br> 
