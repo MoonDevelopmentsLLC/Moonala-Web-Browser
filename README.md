@@ -89,7 +89,7 @@
           A: The Codebase is designed to be modular, a replacement engine is possible in the future, at **any** time. For now, WebView is suitable for the project and if google stops supporting it, the project will respond accordingly. Although it is unlikely, as it is an integral part of the android system. This is actually a dual edged sword or whatever the phrase is, because google's security updates to webview benefit Moonala, despite the con of having a dependency attached to google.   
 
    Q: What are your relations to Pale Moon? what is the word Moonala ?<br>
-          A: No relation. The theme around the moon stems from the enjoyment of looking at the moon while it rains and drifting into the peaceful night. Pale Moon is a cool project, I can respect what they are doing for sure. I have even tried it out in the past when exploring. Nala for me has meant, Never Angry, Always Loving. Lunala is a cool pokemon too.
+          A: No relation. The theme around the moon stems from the enjoyment of looking at the moon while it rains and drifting into the peaceful night. Pale Moon is a cool project, I can respect what they are doing for sure. Nala for me has meant, Never Angry, Always Loving. Lunala is a cool pokemon too.
           
   </details>
 
