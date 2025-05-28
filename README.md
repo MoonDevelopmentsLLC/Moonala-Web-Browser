@@ -45,15 +45,16 @@
              &nbsp;  &nbsp;  &nbsp;  No matter the financial situation, fundamentals can't be changed or swayed and personal data is never shared or transmitted to Moon Developments.</details>
 
 
-<details><summary>- 🧩 Tech + Basic Q&A
+<details><summary>- 🧩 Language + Basic Q&A
   </summary>
               Java, Kotlin, and the typical basics. Keeping it simple and approachable.<br><br>
             
   **If you don't login to personally identifying sites and you use a clean IP not linked to you,
            Moonala is very private and probably stable too. A lot of the current issues are linked to sites
            that don't like Moonala's paranoid by default anti-tracking, usually sites requiring a login
-           that is tied to an identity.**
-
+           that is tied to an identity. Moonala is so paranoid that it will mess with websites that try to
+           access your battery information, giving them fake information.**
+ 
    Moonala is not trying to be like the rest of the browsers. Its not the next 
            fox clone or mainstream browser re-skin. It is Moonala. 
 
