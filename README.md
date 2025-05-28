@@ -56,7 +56,7 @@
            access your battery information, giving them fake information.**
  
    Moonala is not trying to be like the rest of the browsers. Its not the next 
-           fox clone or mainstream browser re-skin. It is Moonala. 
+           fox clone or mainstream browser re-skin. It is Moonala.
 
 
   Q: Other browsers using webview are missing critical features like OAuth
@@ -81,6 +81,7 @@
            web engine. Bundling a custom webkit is currently -MWIP-. The current testing releases 
            using webview will be maintained. As a bonus, the webview edition theorhetically should
            be compatible with privacy centric webviews like bromite, allowing for a dual layer of protection. **I have not tested this myself, testing is on AOSP's WebView.**.
+          As of 2025, Moonala passes browserleaks.com's content filters and proxy detection, remaining undetected even when using adguard, canvas protection, and header cleaners.
            
    Q: What do you have implemented for those of us who want to do more with the browser without having to work with the source?<br>
           A: There is a *Custom Extensions & Plugins engine in development*
