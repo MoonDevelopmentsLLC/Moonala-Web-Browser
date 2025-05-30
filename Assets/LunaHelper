@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Luna's Helper Chat</title>
+    <style>
+        :root {
+          --bg-light: #f7f7f7;
+          --bg-dark: #1e1e1e;
+          --panel-light: #ffffff;
+          --panel-dark: #2c2c2c;
+          --text-light: #000000;
+          --text-dark: #e0e0e0;
+          --user-bg: #4caf50;
+          --bot-bg: #e0e0e0;
+          --typing-opacity: 0.6;
+          --accent: #2196f3;
+          --title-min-size: 0.8rem;
+          --title-max-size: 1.2rem;
+        }
+
+        *, *::before, *::after { box-sizing: border-box; }
+        body {
+          font-family: Arial, sans-serif;
+          background-color: var(--bg-light);
+          color: var(--text-light);
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 100vh;
+          margin: 0;
+          transition: background-color 0.3s, color 0.3s;
+        }
+        body.dark {
+          background-color: var(--bg-dark);
+          color: var(--text-dark);
+        }
+
+        .chat-container {
+          width: 100%;
+          max-width: 480px;
+          height: 90vh;
+          border: 1px solid #ccc;
+          border-radius: 8px;
+          background-color: var(--panel-light);
+          display: flex;
+          flex-direction: column;
+          box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+          transition: background-color 0.3s;
+        }
+        body.dark .chat-container {
+          background-color: var(--panel-dark);
+          border-color: #444;
+        }
+
+        .chat-header {
+          padding: 10px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          border-bottom: 1px solid #ddd;
+        }
+        body.dark .chat-header {
+          border-color: #444;
+        }
+        .chat-header h2 {
+          margin: 0;
+          flex: 1 1 auto;
+          font-size: var(--title-max-size);
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+        }
+        .header-controls {
+          flex: 0 0 auto;
+          display: flex;
+          align-items: center;
+        }
+        .header-controls button {
+          background: none;
+          border: none;
+          cursor: pointer;
+          font-size: 1.2rem;
+          margin-left: 8px;
+          padding: 5px;
+        }
+
+        .chat-box {
+          flex: 1;
+          padding: 10px;
+          overflow-y: auto;
+          display: flex;
+          flex-direction: column;
+          position: relative;
+        }
+
+        .new-indicator {
+          position: absolute;
+          bottom: 20px;
+          left: 50%;
+          transform: translateX(-50%);
+          background: var(--accent);
+          color: #fff;
+          padding: 5px 10px;
+          border-radius: 12px;
+          cursor: pointer;
+          display: none;
+        }
+
+        .message {
+          margin: 5px 0;
+          max-width: 75%;
+          line-height: 1.4;
+          word-wrap: break-word;
+          position: relative;
+          display: flex;
+          gap: 6px;
+          align-items: flex-end;
+        }
+
+        .bubble {
+          padding: 10px;
+          border-radius: 12px;
+          position: relative;
+        }
+
+        .user {
+          align-self: flex-end;
+          flex-direction: row-reverse;
+        }
+        .user .bubble {
+          background-color: var(--user-bg);
+          color: #fff;
+          border-bottom-right-radius: 2px;
+        }
+
+        .bot {
+          align-self: flex-start;
+        }
+        .bot .bubble {
+          background-color: var(--bot-bg);
+          color: var(--text-light);
+          border-bottom-left-radius: 2px;
+        }
+
+        .avatar {
+          font-size: 1.4rem;
+          margin-bottom: 4px;
+        }
+
+        .timestamp {
+          font-size: 0.7rem;
+          opacity: 0.6;
+          margin-top: 2px;
+        }
+
+        .typing {
+          opacity: var(--typing-opacity);
+        }
+
+        .input-container {
+          display: flex;
+          padding: 10px;
+          border-top: 1px solid #ddd;
+        }
+        body.dark .input-container {
+          border-color: #444;
+        }
+
+        .input-container textarea {
+          flex: 1;
+          padding: 10px;
+          font-size: 1rem;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          resize: none;
+          height: 40px;
+        }
+
+        .input-container button {
+          margin-left: 8px;
+          padding: 10px 15px;
+          font-size: 1rem;
+          background-color: var(--user-bg);
+          color: #fff;
+          border: none;
+          border-radius: 4px;
+          cursor: pointer;
+        }
+        .input-container button:disabled {
+          background-color: #999;
+          cursor: not-allowed;
+        }
+
+#bgCanvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  display: block;
+  pointer-events: none;
+}
+
+    </style>
+</head>
+<body>
+<canvas id="bgCanvas"></canvas>
+
+<div class="chat-container" aria-label="Chat container">
+    <div class="chat-header">
+        <h2 id="titleText">Moonala's Helper, Luna!</h2>
+        <div class="header-controls">
+            <button id="downloadBtn" title="Download chat">💾</button>
+            <button id="clearBtn" title="Clear chat">🗑️</button>
+            <button id="themeBtn" title="Toggle theme">🌓</button>
+        </div>
+    </div>
+    <div class="chat-box" id="chatBox" tabindex="0"></div>
+    <div class="new-indicator" id="newMsg">New Messages ▼</div>
+    <div class="input-container">
+        <textarea id="userInput" placeholder="Type a message..." autocomplete="off"></textarea>
+        <button id="sendBtn" disabled>Send</button>
+    </div>
+</div>
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const chatBox = document.getElementById('chatBox');
+      const userInput = document.getElementById('userInput');
+      const sendBtn = document.getElementById('sendBtn');
+      const clearBtn = document.getElementById('clearBtn');
+      const themeBtn = document.getElementById('themeBtn');
+      const downloadBtn = document.getElementById('downloadBtn');
+      const newMsg = document.getElementById('newMsg');
+      const titleText = document.getElementById('titleText');
+      const canvas = document.getElementById('bgCanvas');
+      const ctx = canvas.getContext('2d');
+
+      let isDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      document.body.classList.toggle('dark', isDark);
+      let autoScroll = true;
+      let particles = [];
+
+      function appendMessage(text, sender, typing = false) {
+        const wrapper = document.createElement('div');
+        wrapper.classList.add('message', sender);
+        if (typing) wrapper.classList.add('typing');
+
+        const avatar = document.createElement('div');
+        avatar.className = 'avatar';
+        avatar.textContent = sender === 'user' ? '🧥' : '🌝';
+
+        const bubble = document.createElement('div');
+        bubble.classList.add('bubble');
+        bubble.innerHTML = renderMarkdown(text);
+        bubble.setAttribute('tabindex', '0');
+        bubble.addEventListener('contextmenu', e => {
+          e.preventDefault();
+          if (confirm('Delete this message?')) {
+            wrapper.remove();
+            saveHistory();
+          }
+        });
+
+        const time = document.createElement('div');
+        time.classList.add('timestamp');
+        time.textContent = new Date().toLocaleTimeString();
+
+        wrapper.append(avatar, bubble, time);
+        chatBox.appendChild(wrapper);
+        if (autoScroll) chatBox.scrollTop = chatBox.scrollHeight;
+        return wrapper;
+      }
+
+      function renderMarkdown(str) {
+        return str
+          .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+          .replace(/\*(.*?)\*/g, '<em>$1</em>')
+          .replace(/\[(.*?)\]\((.*?)\)/g, '<a href="$2" target="_blank">$1</a>');
+      }
+
+function getBotResponse(msg) {
+  msg = msg.toLowerCase().trim();
+  }
+  if (/^(hello|hi|hey)\b/.test(msg)) {
+    return 'Hello! **How** can I help you _today_?';
+  }
+  if (msg.includes('how are you')) {
+    return "I'm just code, but I'm functioning as expected!";
+  }
+  if (msg.includes('your name')) {
+    return "I'm Luna, your local helper chatbot.";
+  }
+  if (/bye|goodbye|see you/.test(msg)) {
+    return 'Goodbye! Have a great day!';
+  }
+  if (msg.includes('can i get some help luna')) {
+    return [
+      'Sure! Here are some things you can ask me:',
+      '- “Tell me something about Moonala?”',
+      '- “How do I use bookmarks?”',
+      '- “What are flowkeys?”',
+      '- “What is Lunar Ninja Window?”',
+      '- “Explain rocket tabs.”',
+      '- “How do I toggle Moonshade?”',
+    ].join('\n');
+  }
+
+  const features = [
+    {
+      keys: ['bookmark', 'bookmarks'],
+      resp: '📑 **Bookmarks**:\nHold the bookmarks icon to save the current page as a bookmark. Tap it to open your bookmarks menu. (Previews are only saved when you hold the icon.)'
+    },
+    {
+      keys: ['control center', 'three-dot', '⋮', '3-dotted'],
+      resp: '⚙️ **Control Center**:\nTap the three-dot (⋮) button to open your Control Center. Hold it down to open the **Flowkey** menu.'
+    },
+    {
+      keys: ['flowkey', 'flowkeys'],
+      resp: '🎹 **Flowkeys**:\nThey contain Sonic Access books—hold a book to save the current resource, tap the book to open it. The 🔍 flowkey opens an AI chat, the 🌙 flowkey goes to Moonala Search, and the green eclipse (🌓) flowkey is your quick note-taking tool.'
+    },
+    {
+      keys: ['sonic access', 'books'],
+      resp: '📚 **Sonic Access Books**:\nHold any book icon in Flowkeys to save the current resource; tap it later to revisit that page directly.'
+    },
+    {
+      keys: ['ai chat', 'chat popup'],
+      resp: '🤖 **AI Chat Popup**:\nTap the magnifying glass (🔍) flowkey to open an AI chat window anywhere in the browser.'
+    },
+    {
+      keys: ['moon flowkey', 'moonalasearch'],
+      resp: '🔭 **Moon Flowkey**:\nTap the moon icon (🌙) in Flowkeys to go directly to Moonala Search, our privacy-first search engine.'
+    },
+    {
+      keys: ['eclipse flowkey', 'green eclipse'],
+      resp: '📝 **Note-taking Flowkey**:\nTap the green eclipse (🌓) flowkey to instantly jot down notes without leaving your page.'
+    },
+    {
+      keys: ['lunar ninja', 'ninja window'],
+      resp: '🥷 **Lunar Ninja Window**:\nA floating, fully isolated private browsing window—like incognito, but truly sandboxed from your normal tabs.'
+    },
+    {
+      keys: ['refresh button', 'navigation keys'],
+      resp: '🔄 **Navigation Keys**:\nHold the refresh button to summon in-page navigation arrows and quick-access controls.'
+    },
+    {
+      keys: ['new tab', '+', 'plus button'],
+      resp: '➕ **New Tab / Float Tab**:\nClick the + to open a fresh tab. Hold + to open that tab in a floating window (rocket tab).'
+    },
+    {
+      keys: ['tab count', 'space manager'],
+      resp: '📑 **Tab & Space Manager**:\nTap the little number by the + button to open the Tab & Space Manager and see all your open tabs grouped by spaces.'
+    },
+    {
+      keys: ['wallpaper', 'wallpapers'],
+      resp: '🖼️ **Wallpapers**:\nExperimental feature—only works on supported devices. Automatically disabled if your device isn’t compatible.'
+    },
+    {
+      keys: ['moonala icon', 'app icon'],
+      resp: '🌐 **Moonala Icon**:\nTap the Moonala brand icon to go to our private passthrough search engine.'
+    },
+    {
+      keys: ['touch barrier', 'barrier'],
+      resp: '🔒 **Touch Barrier**:\nLocks the screen except for OS-allowed UI. Press any volume key to unlock.'
+    },
+    {
+      keys: ['moonshade', 'shade'],
+      resp: '🌙 **Moonshade**:\nA blue-light filter for your eyes. Tap the Moonshade icon to toggle on/off.'
+    },
+    {
+      keys: ['lunar shield', 'lock icon', 'lock'],
+      resp: '🛡️ **Lunar Shield Center**:\nTap the lock icon to open quick security and privacy settings—everything from proxies to element blocking.'
+    },
+    {
+      keys: ['moonspaces', 'grouped tabs'],
+      resp: '🗂️ **Moonspaces**:\nGroup related tabs into vertical dropdowns—great for smaller screens or project organization.'
+    },
+    {
+      keys: ['galaxy tab manager', 'overflow tabs'],
+      resp: '🌌 **Galaxy Tab Manager**:\nWhen your tab bar is full, open this to see every tab in a vertical list for fast switching.'
+    },
+    {
+      keys: ['split view', 'split-screen'],
+      resp: '📺 **Split View**:\nBeta feature: split your browser into up to 4 sections for multitasking or couch co-op.'
+    },
+    {
+      keys: ['unchained tab', 'unchained tabs'],
+      resp: '🔗 **Unchained Tabs**:\nRegular tabs that share cookies for full site compatibility. Disable in settings for totally isolated browsing.'
+    },
+    {
+      keys: ['rocket tab', 'rocket tabs'],
+      resp: '🚀 **Rocket Tabs**:\nThese are regular tabs in a floating window—drop them anywhere, even outside the app frame.'
+    },
+    {
+      keys: ['force dark', 'force dark mode'],
+      resp: '🌑 **Force Dark Mode**:\nApplies a one-time dark theme. Hold the button to lock it on until you release.'
+    },
+    {
+      keys: ['extra tools', 'revive tabs'],
+      resp: '🛠️ **Extra Tools**:\nIncludes “Revive Tabs” (restores tabs after crashes—requires history enabled) and other seldom-used utilities.'
+    },
+    {
+      keys: ['save to home', 'web app'],
+      resp: '🏠 **Save to Home / Make Web App**:\nInstalls the current page as a home-screen shortcut or native-like web app.'
+    },
+    {
+      keys: ['scan links', 'download links'],
+      resp: '🔍 **Scan Links**:\nScans the page for downloadable links so you can quickly access any files.'
+    },
+    {
+      keys: ['couch co-op', 'co-op split', 'split the screen'],
+      resp: '🕹️ **Couch Co-Op Split**:\nTest feature: up to 4 controllers can share the browser in split-screen mode.'
+    },
+    {
+      keys: ['element removal', 'remove elements'],
+      resp: '🧹 **Element Removal**:\nFuture persistent feature—remove unwanted page elements permanently from your view.'
+    },
+    {
+      keys: ['moonbase', 'launchpad', 'homepage', 'edit home'],
+      resp: '🛠️ **Editing Moonbase/Launchpad**:\nClick “Moonbase” at the top of the Control Center to edit your homepage, Moonbase, or Launchpad settings.'
+    },
+    {
+      keys: ['history', 'suggestions'],
+      resp: '📜 **History & Suggestions**:\nMake sure both are enabled in settings—only then will features like Revive Tabs and search suggestions work.'
+    },
+    {
+      keys: ['contact', 'moon@moonala.com', 'email'],
+      resp: '✉️ **Contact Us**:\nIf you have any questions at all, feel free to email Moon@moonala.com.'
+    }
+  ];
+
+  for (const feature of features) {
+    if (feature.keys.some(k => msg.includes(k))) {
+      return feature.resp;
+    }
+  }
+  if (msg.includes('tell me something about moonala')) {
+    const tips = features.map(f => f.resp.replace(/^[^:]+:\n/, ''));
+    return '🔹 Here’s something about Moonala:\n' + tips[Math.floor(Math.random() * tips.length)];
+  }
+
+  return "Sorry, I didn't quite understand that. Can you rephrase?";
+}
+
+
+
+      function clearChat() {
+        if (confirm('Clear the chat history?')) {
+          chatBox.innerHTML = '';
+          localStorage.removeItem('chatHistory');
+        }
+      }
+
+      function toggleTheme(save = false) {
+        isDark = !isDark;
+        document.body.classList.toggle('dark', isDark);
+        if (save) localStorage.setItem('darkMode', isDark);
+      }
+
+      function saveHistory() {
+        const msgs = Array.from(chatBox.querySelectorAll('.message')).map(m => ({
+          text: m.querySelector('.bubble').textContent,
+          sender: m.classList.contains('user') ? 'user' : 'bot',
+          time: m.querySelector('.timestamp').textContent
+        }));
+        localStorage.setItem('chatHistory', JSON.stringify(msgs));
+      }
+
+      function loadHistory() {
+        const saved = JSON.parse(localStorage.getItem('chatHistory') || '[]');
+        saved.forEach(m => appendMessage(m.text, m.sender));
+        const dm = JSON.parse(localStorage.getItem('darkMode'));
+        if (dm !== null) toggleTheme();
+      }
+
+      function downloadChat() {
+        const data = Array.from(chatBox.querySelectorAll('.message')).map(m =>
+          `[${m.querySelector('.timestamp').textContent}] ${m.classList.contains('user') ? 'You' : 'Luna'}: ${m.querySelector('.bubble').textContent}`
+        ).join('\n');
+        const blob = new Blob([data], { type: 'text/plain' });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = 'chat_history.txt';
+        a.click();
+        URL.revokeObjectURL(url);
+      }
+
+      function playSound() {
+        const ctx = new (window.AudioContext || window.webkitAudioContext)();
+        const o = ctx.createOscillator();
+        const g = ctx.createGain();
+        o.type = 'sine';
+        o.frequency.value = 600;
+        o.connect(g);
+        g.connect(ctx.destination);
+        o.start();
+        g.gain.exponentialRampToValueAtTime(0.0001, ctx.currentTime + 0.1);
+      }
+
+      function adjustTextarea() {
+        userInput.style.height = 'auto';
+        userInput.style.height = userInput.scrollHeight + 'px';
+      }
+
+      function sendMessage() {
+        const text = userInput.value.trim();
+        if (!text) return;
+        appendMessage(text, 'user');
+        userInput.value = '';
+        sendBtn.disabled = true;
+        adjustTextarea();
+
+        const typingEl = appendMessage('Luna is typing...', 'bot', true);
+        setTimeout(() => {
+          const resp = getBotResponse(text.toLowerCase());
+          chatBox.removeChild(typingEl);
+          appendMessage(resp, 'bot');
+          playSound();
+          saveHistory();
+        }, 500 + Math.random() * 500);
+      }
+
+      function fitTitle() {
+        const ctrl = document.querySelector('.header-controls');
+        const controlsWidth = ctrl.offsetWidth;
+        const containerWidth = titleText.parentElement.clientWidth - controlsWidth - 16;
+        let fontSize = parseFloat(getComputedStyle(titleText).fontSize);
+        const minSize = parseFloat(getComputedStyle(document.documentElement).getPropertyValue('--title-min-size')) * 16;
+        while (titleText.scrollWidth > containerWidth && fontSize > minSize) {
+          fontSize -= 1;
+          titleText.style.fontSize = fontSize + 'px';
+        }
+      }
+      function resizeCanvas() {
+        canvas.width = window.innerWidth;
+        canvas.height = window.innerHeight;
+      }
+
+      class Particle {
+        constructor() { this.reset(); }
+        reset() {
+          this.x = Math.random() * canvas.width;
+          this.y = Math.random() * canvas.height;
+          this.radius = Math.random() * 2 + 1;
+          this.speedX = (Math.random() - 0.5) * 0.5;
+          this.speedY = (Math.random() - 0.5) * 0.5;
+          this.opacity = Math.random();
+        }
+        update() {
+          this.x += this.speedX;
+          this.y += this.speedY;
+          if (this.x < 0 || this.x > canvas.width || this.y < 0 || this.y > canvas.height) this.reset();
+        }
+        draw() {
+          ctx.beginPath();
+          ctx.arc(this.x, this.y, this.radius, 0, Math.PI * 2);
+          ctx.fillStyle = `rgba(255, 255, 255, ${this.opacity})`;
+          ctx.fill();
+        }
+      }
+
+      function initParticles(count = 150) {
+        particles = [];
+        for (let i = 0; i < count; i++) particles.push(new Particle());
+      }
+
+      function animateParticles() {
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        particles.forEach(p => { p.update(); p.draw(); });
+        requestAnimationFrame(animateParticles);
+      }
+
+      resizeCanvas();
+      window.addEventListener('resize', () => {
+        resizeCanvas();
+        fitTitle();
+      });
+
+      initParticles();
+      animateParticles();
+      loadHistory();
+      userInput.focus();
+      fitTitle();
+
+      userInput.addEventListener('input', () => {
+        sendBtn.disabled = userInput.value.trim() === '';
+        adjustTextarea();
+      });
+
+      userInput.addEventListener('keydown', e => {
+        if (e.key === 'Enter' && e.ctrlKey && !sendBtn.disabled) {
+          e.preventDefault();
+          sendMessage();
+        }
+      });
+
+      chatBox.addEventListener('scroll', () => {
+        autoScroll = chatBox.scrollTop + chatBox.clientHeight >= chatBox.scrollHeight - 10;
+        newMsg.style.display = autoScroll ? 'none' : 'block';
+      });
+
+      newMsg.addEventListener('click', () => {
+        chatBox.scrollTop = chatBox.scrollHeight;
+        newMsg.style.display = 'none';
+        autoScroll = true;
+      });
+
+      sendBtn.addEventListener('click', sendMessage);
+      clearBtn.addEventListener('click', clearChat);
+      themeBtn.addEventListener('click', () => toggleTheme(true));
+      downloadBtn.addEventListener('click', downloadChat);
+    });
+
+    document.addEventListener('DOMContentLoaded', () => {
+      const chatBox = document.getElementById('chatBox');
+      const userInput = document.getElementById('userInput');
+      const sendBtn = document.getElementById('sendBtn');
+
+      function isChatEmpty() {
+        return !chatBox || chatBox.children.length === 0;
+      }
+
+      function autoHelp() {
+        if (!isChatEmpty()) return;
+        userInput.value = 'Can I get some help Luna ?';
+        sendBtn.disabled = false;
+        sendBtn.click();
+      }
+
+      setTimeout(autoHelp, 500);
+    });
+</script>
+
+</body>
+</html>
+
+
