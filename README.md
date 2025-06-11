@@ -1,4 +1,4 @@
- # Moonala Web Browser
+ # Moonala Browser
 
 <table>
   <tr>
