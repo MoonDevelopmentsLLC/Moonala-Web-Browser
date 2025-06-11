@@ -26,11 +26,11 @@
 
 ## 🌙  Your attention, your choices. Moonala respects that.
 
-<details><summary>- 🧠 Productive Research, Daily Browsing, and more. Its Your Choice.   </summary> <br>
+<details><summary>- Productive Research, Daily Browsing, and more. Its Your Choice.   </summary> <br>
      &nbsp;  &nbsp;  &nbsp;Tab grouping, multi window workflows, AI convienience, eye protection, **guards for WebGl and Canvas use**, the list
       goes on, eimagining what browsers should do. While also bringing pc features to mobile as a side quest.</summary></details>
 
- <details><summary>- 🛡️ Feature Rich, Privacy-Driven Development.   </summary> <br>
+ <details><summary>- Feature Rich, Privacy-Driven Development.   </summary> <br>
          &nbsp;  &nbsp;  &nbsp; Zero telemetry. No profiling. All local. Every request scrutinized, every connection transparent. Feature rich? How about having the first ever native browser element remover? Does ____ webpage have an annoyance on-screen? No worries, Moonala can remove that for you.
     With a **native** element remover, you can get those time consuming annoyances off the screen with just a tap, and in the future, it will also store references to past removed annoyances and keep them removed globally on **any** page. </details>
 
@@ -102,7 +102,7 @@
 
 ---
 
-📦 Getting Started
+Getting Started
 
 <details><summary> Download the apk from releases, install it, and you're ready to launch!<br>
                    <br> Prefer Google Play? Head here -> https://moonala.com/google-play-alpha-sign-up
@@ -177,14 +177,5 @@ Don't care for the backstory and just want the legal jargon? I have no interest 
 <details><summary>- Extras </summary> <br>
 
 > _“The browser should serve the user — not exploit them. - MoonDev SzzS”_
-
-## 📸 Screenshots
-
-A glimpse, all links lead to the showcase for now.
-
-| Home | Research View | Tab Grouping | Night Mode | Settings |
-|------|----------------|--------------|-------------|----------|
-| ![Home](https://moonala.com/showcase) | ![Research](https://moonala.com/showcase) | ![Tabs](https://moonala.com/showcase) | ![Night](https://moonala.com/showcase) | ![Settings](https://moonala.com/showcase) |
-
 ---
 </details>
