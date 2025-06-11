@@ -136,8 +136,7 @@ If you like Moonala and believe in private, user-first software:
 ---
 
 Temporary License Details <br>
-For the open source portions refer to a basic open source copyleft license, where if you use the code of Moonala, you provide it in the same way. Basically, if you use Moonala code in your project, others, including Moonala's dev can use your project's code as well, only in the same manner. <br><br> **For code not published here on github the following applies** : 
-Contact agent@moonala.com for code review requests. If you use any code, please include a clear easy to find attribution leading to Moonala.com. Thats fair, right? You can purchase an optional supportive license, this helps fund Moonala's development. (•̀ᴗ-)✧
+For the open source portions refer to a basic open source copyleft license, where if you use the code of Moonala, you provide it in the same way. Basically, if you use Moonala code in your project, others, including Moonala's dev can use your project's code as well, only in the same manner. <br><br> **For code not published here on github the following applies** : Not open source, only source-available. Contact agent@moonala.com for code review requests. If you use any code, please include a clear easy to find attribution leading to Moonala.com. Thats fair, right? You can purchase an optional supportive license, this helps fund Moonala's development. (•̀ᴗ-)✧
 
 ---
 
