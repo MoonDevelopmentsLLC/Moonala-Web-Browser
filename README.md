@@ -98,7 +98,7 @@
           
   </details>
 
-[You sellin data?](#data-policy)
+[You sell data?](#data-policy)
 
 ---
 
