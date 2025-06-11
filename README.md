@@ -28,7 +28,7 @@
 
 <details><summary>- Productive Research, Daily Browsing, and more. Its Your Choice.   </summary> <br>
      &nbsp;  &nbsp;  &nbsp;Tab grouping, multi window workflows, AI convienience, eye protection, **guards for WebGl and Canvas use**, the list
-      goes on, eimagining what browsers should do. While also bringing pc features to mobile as a side quest.</summary></details>
+      goes on, innovating what browsers should do. Bringing pc features to mobile is just a natural part of Moonala's development. </summary></details>
 
  <details><summary>- Feature Rich, Privacy-Driven Development.   </summary> <br>
          &nbsp;  &nbsp;  &nbsp; Zero telemetry. No profiling. All local. Every request scrutinized, every connection transparent. Feature rich? How about having the first ever native browser element remover? Does ____ webpage have an annoyance on-screen? No worries, Moonala can remove that for you.
