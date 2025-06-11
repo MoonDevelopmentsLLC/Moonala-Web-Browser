@@ -119,7 +119,7 @@ Things may seem slow at times but in order of severity, issues **will** be taken
 
   <details><summary> Known Persistent Issues : </summary> <br> 1. Older Single Use Download Links fail, right now I only know of 1fichier 
            having this issue. <br> 2. Due to lack of identifying information cloudflare verification loops, this is overzealous behavior as there are easier ways to determine human vs bot. Easier, privacy respecting ways, the checkbox is a facade of ease and convienence. 
-           This does not include all known issues because some are already being worked on. <br><br> On some devices with very outdated webviews, websites sending in massive amounts of javascript chunks in a short period of time in rapid bursts can cause the browser to crash. Low priority due to a simple update taking care of the issue.  </details> <br><br>
+           This does not include all known issues because some are already being worked on. <br><br> On some devices with very outdated webviews, websites sending in massive amounts of javascript chunks in a short period of time in rapid bursts can cause the browser to crash. An update of the system webview will take care of the issue.  </details> <br><br>
 
 
 
