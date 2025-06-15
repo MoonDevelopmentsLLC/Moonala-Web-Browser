@@ -1,0 +1,9 @@
+Known issues: 
+
+1 time blob downloads fail - 1fichier
+
+some links targetting a new tab + a download at the same time won't be approved and automatically dropped even when user iniated 
+
+plugin drawer causing black screen on left inset when held down unless plugin drawer is activated via the button - fixed, next release 
+
+loading freeze when certain behaviors become out of sync
