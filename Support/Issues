@@ -1,4 +1,7 @@
 Known issues: 
+Due to lack of identifying information cloudflare verification loops, this is overzealous behavior 
+as there are easier ways to determine human vs bot. Easier, privacy respecting ways, the checkbox is a facade of ease and convienence. 
+         
 
 1 time blob downloads fail - 1fichier
 
@@ -7,3 +10,4 @@ some links targetting a new tab + a download at the same time won't be approved 
 plugin drawer causing black screen on left inset when held down unless plugin drawer is activated via the button - fixed, next release 
 
 loading freeze when certain behaviors become out of sync
+
