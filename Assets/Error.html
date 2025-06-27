@@ -1,0 +1,349 @@
+                                                                                                                                                                                                                                                                                                                                                                                       <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Error 404</title>
+    <style>
+
+        body {
+            margin: 0;
+            background: radial-gradient(circle at center, #0a0a1a 0%, #000000 100%);
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Orbitron', sans-serif;
+            color: #fff;
+            overflow: hidden;
+            perspective: 1000px;
+        }
+
+        .container {
+            text-align: center;
+            position: relative;
+            z-index: 2;
+            transform-style: preserve-3d;
+        }
+
+        .cyber-portal {
+            width: 400px;
+            height: 400px;
+            margin: 2rem auto;
+            position: relative;
+            transform-style: preserve-3d;
+        }
+
+        .portal-ring {
+            position: absolute;
+            border: 2px solid;
+            border-radius: 50%;
+            inset: 0;
+            filter: blur(10px);
+            animation: portalSpin 20s linear infinite;
+        }
+
+        .portal-ring:nth-child(1) {
+            border-color: #ff00ff;
+            box-shadow: 0 0 50px #ff00ff,
+                        inset 0 0 50px #ff00ff;
+            animation-duration: 25s;
+        }
+
+        .portal-ring:nth-child(2) {
+            border-color: #00ffff;
+            box-shadow: 0 0 50px #00ffff,
+                        inset 0 0 50px #00ffff;
+            animation-duration: 20s;
+            animation-direction: reverse;
+        }
+
+        .portal-core {
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            background: radial-gradient(circle, #00ffff 0%, #ff00ff 100%);
+            border-radius: 50%;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            filter: blur(40px);
+            opacity: 0.7;
+        }
+
+        h1 {
+            font-size: 4.5rem;
+            margin: 2rem 0;
+            text-transform: uppercase;
+            position: relative;
+            text-shadow: 0 0 30px rgba(0, 255, 255, 0.5);
+        }
+
+        h1::before {
+            content: attr(data-text);
+            position: absolute;
+            left: -2px;
+            text-shadow: 2px 0 #ff00ff;
+            clip-path: inset(0 92% 0 0);
+            animation: glitch-1 2s infinite linear alternate-reverse;
+        }
+
+        h1::after {
+            content: attr(data-text);
+            position: absolute;
+            left: 2px;
+            text-shadow: -2px 0 #00ffff;
+            clip-path: inset(0 90% 0 0);
+            animation: glitch-2 3s infinite linear alternate-reverse;
+        }
+
+        .neon-text {
+            font-size: 1.4rem;
+            letter-spacing: 2px;
+            text-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+            position: relative;
+        }
+
+        .error-message {
+            max-width: 600px;
+            margin: 2rem auto;
+            padding: 1.5rem;
+            background: rgba(10, 10, 30, 0.5);
+            border-radius: 15px;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(0, 255, 255, 0.1);
+            box-shadow: 0 0 30px rgba(0, 255, 255, 0.1);
+        }
+
+        .retry-button {
+            background: linear-gradient(45deg, #ff00ff, #00ffff);
+            border: none;
+            padding: 1.2rem 2.5rem;
+            color: white;
+            border-radius: 10px;
+            font-size: 1.2rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            margin-top: 2rem;
+            position: relative;
+            overflow: hidden;
+            font-family: 'Ubuntu Mono', monospace;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .retry-button::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(
+                90deg,
+                transparent,
+                rgba(255,255,255,0.2),
+                transparent
+            );
+            transition: 0.5s;
+        }
+
+        .retry-button:hover {
+            transform: translateY(-3px) scale(1.05);
+            box-shadow: 0 0 40px rgba(0, 255, 255, 0.3);
+        }
+
+        .retry-button:hover::before {
+            left: 100%;
+        }
+
+    .modal-overlay {
+      position: fixed;
+      top: 0; left: 0;
+      width: 100vw; height: 100vh;
+      background: rgba(0, 0, 0, 0.8);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 9999;
+    }
+
+    .modal {
+      background: white;
+      padding: 30px 40px;
+      border-radius: 15px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+      text-align: center;
+    }
+
+    .modal p {
+      margin-bottom: 20px;
+      font-size: 1.2rem;
+      color: #c0392b;
+      font-weight: bold;
+    }
+
+    .modal button {
+      padding: 10px 20px;
+      font-size: 1rem;
+      border: none;
+      background: #c0392b;
+      color: white;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+
+    .modal button:hover {
+      background: #a93226;
+    }
+        .matrix-code {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            opacity: 0.1;
+            z-index: 1;
+        }
+
+        @keyframes portalSpin {
+            from { transform: rotate(0deg) scale(1); }
+            50% { transform: rotate(180deg) scale(1.2); }
+            to { transform: rotate(360deg) scale(1); }
+        }
+
+        @keyframes glitch-1 {
+            0% { clip-path: inset(20% 0 30% 0); }
+            100% { clip-path: inset(10% 0 40% 0); }
+        }
+
+        @keyframes glitch-2 {
+            0% { clip-path: inset(40% 0 10% 0); }
+            100% { clip-path: inset(30% 0 20% 0); }
+        }
+
+        .quantum-particle {
+            position: absolute;
+            width: 4px;
+            height: 4px;
+            background: #fff;
+            border-radius: 50%;
+            animation: particleFloat 4s infinite;
+        }
+
+        @keyframes particleFloat {
+            0% { transform: translateY(0) scale(1); opacity: 0; }
+            50% { transform: translateY(-100px) scale(1.5); opacity: 1; }
+            100% { transform: translateY(-200px) scale(0); opacity: 0; }
+        }
+
+        .cyber-grid {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background-image:
+                linear-gradient(rgba(0, 255, 255, 0.05) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(0, 255, 255, 0.05) 1px, transparent 1px);
+            background-size: 30px 30px;
+        }
+    </style>
+</head>
+<body>
+<div class="cyber-grid"></div>
+<div class="matrix-code" id="matrix"></div>
+<div class="container">
+    <div class="cyber-portal">
+        <div class="portal-ring"></div>
+        <div class="portal-ring"></div>
+        <div class="portal-core"></div>
+    </div>
+    <h1 data-text="DIMENSION 404">DIMENSION 404</h1>
+    <p class="neon-text">🌀 Link Failure Detected 🌀</p>
+
+    <div class="error-message">
+        <p>The dimensional gateway you requested has encountered a fractal collapse in the quantum matrix. yup. <br> lol jk </p>
+        <p>Potential resolution vectors:</p>
+        <p>• Verify internet connection<br>
+            • The url you linked to no longer exists<br>
+            • The server may temporarily be down.<br> Check the link and try again. <br>
+            • Try visiting the links homepage<br> "example.com/books/mdsrocks/" would be "example.com". <br><br>
+            • Moonala REQUIRES a secured connection. Ask your site admin if their webpage supports secured browsing.<br> If you can not oblige the secured preference, you can disable it in the settings. (As of Vista 2 it is allowed by default to resolve the massive amounts of broken sites, you can disable it during setup or in the settings.)<br></p>
+    </div>
+
+    <button class="retry-button" onclick="triggerQuantumReboot()">
+        <span class="button-text">Attempt Retry Protocol</span>
+    </button>
+</div>
+<div class="modal-overlay" id="warningModal">
+    <div class="modal">
+        <p>warning : flashing lights incoming on small screens, and the webpage has an error.</p>
+        <button onclick="closeModal()">OK</button>
+    </div>
+</div>
+<script>
+    function closeModal() {
+      const modal = document.getElementById('warningModal');
+      modal.style.display = 'none';
+      document.body.style.overflow = 'auto';
+    }
+
+    document.body.style.overflow = 'hidden';
+</script>
+
+<script>
+    function createParticles() {
+        const container = document.body;
+        for (let i = 0; i < 50; i++) {
+            const particle = document.createElement('div');
+            particle.className = 'quantum-particle';
+            particle.style.left = `${Math.random() * 100}%`;
+            particle.style.animationDelay = `${Math.random() * 2}s`;
+            container.appendChild(particle);
+        }
+    }
+
+    function createMatrixEffect() {
+        const chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789@#$%^&*';
+        const matrix = document.getElementById('matrix');
+
+        function generateColumn() {
+            const col = document.createElement('div');
+            col.style.position = 'absolute';
+            col.style.top = '-100px';
+            col.style.left = `${Math.random() * 100}%`;
+            col.style.writingMode = 'vertical-rl';
+            col.style.textOrientation = 'upright';
+            col.style.color = '#0f0';
+            col.style.textShadow = '0 0 8px #0f0';
+            col.style.opacity = '0.1';
+
+            for (let i = 0; i < 20; i++) {
+                col.textContent += chars.charAt(Math.floor(Math.random() * chars.length));
+            }
+
+            matrix.appendChild(col);
+
+            const duration = 5000 + Math.random() * 5000;
+            col.animate([
+                { transform: 'translateY(-100px)', opacity: 0 },
+                { transform: 'translateY(100vh)', opacity: 0.2 }
+            ], { duration, iterations: Infinity });
+        }
+
+        setInterval(generateColumn, 100);
+    }
+
+    function triggerQuantumReboot() {
+        const btn = document.querySelector('.retry-button');
+        btn.style.animation = 'quantumPulse 0.5s';
+        setTimeout(() => {
+            window.history.back();
+        }, 1000);
+    }
+
+    createParticles();
+    createMatrixEffect();
+</script>
+</body>
+</html>
