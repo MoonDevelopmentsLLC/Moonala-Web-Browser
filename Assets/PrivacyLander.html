@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Moonala Ninja</title>
+    <style>
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+   
+        body {
+          background: #000;
+          background-image:
+            linear-gradient(rgba(255,255,255,0.02) 1px, transparent 1px),
+            linear-gradient(90deg, rgba(255,255,255,0.02) 1px, transparent 1px);
+          background-size: 40px 40px;
+          height: 100vh;
+          overflow: hidden;
+          font-family: 'Segoe UI', sans-serif;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+
+        .message-container {
+          max-width: 600px;
+          padding: 2rem;
+          background: rgba(0, 0, 0, 0.7);
+          border: 1px solid rgba(0,255,255,0.3);
+          border-radius: 8px;
+          box-shadow: 0 0 20px rgba(0,255,255,0.2);
+          text-align: center;
+        }
+
+        h1 {
+          font-size: 1.6rem;
+          color: #e0e0e0;
+          line-height: 1.5;
+          position: relative;
+        }
+        h1::before, h1::after {
+          content: '';
+          position: absolute;
+          width: 60px;
+          height: 1px;
+          background: rgba(0,255,255,0.5);
+          top: 50%;
+        }
+        h1::before { left: -70px; }
+        h1::after  { right: -70px; }
+
+        .robotic {
+          display: block;
+          font-family: 'Courier New', monospace;
+          font-size: 0.9rem;
+          color: #bbb;
+          letter-spacing: 0.05em;
+          margin-bottom: 1.5rem;
+        }
+
+        .neon-link {
+          display: inline-block;
+          padding: 0.5rem 1.2rem;
+          font-size: 1.1rem;
+          color: #0ff;
+          text-decoration: none;
+          border: 2px solid #0ff;
+          border-radius: 4px;
+          transition: transform 0.2s, box-shadow 0.2s;
+          box-shadow: 0 0 8px rgba(0,255,255,0.3);
+        }
+        .neon-link:hover {
+          transform: scale(1.05);
+          box-shadow: 0 0 16px rgba(0,255,255,0.6);
+        }
+    </style>
+</head>
+<body>
+<div class="message-container">
+    <h1>
+      <span class="robotic">
+        Begin navigation in private on the Moonala asteroid,<br>
+        or land in a private crater to explore the dark side.<br>
+        Regardless, it’s all gone when you exit.
+      </span>
+        <a href="file:///android_asset/MoonalaSimple.html" class="neon-link">MoonSearch</a>
+    </h1>
+</div>
+</body>
+</html>
