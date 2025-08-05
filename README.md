@@ -90,6 +90,7 @@
            hopefully all in javascript, meant to be easy to use and universally compatible. - testing is public 
 
    Q: What if google pulls the plug on webview?<br>
+          8/3/2025 - Multi engine testing is public now :) 
           A: The Codebase is designed to be modular, a replacement engine is possible in the future, at **any** time, the development build is multi-engine. Webview is used through compatibility layers that have been adapted to be usable on any engine with minimal modifications. For now, WebView is suitable for the projects current phase and if google stops supporting it, the project will respond accordingly. Although it is unlikely, as it is an integral part of the android system. This is actually a dual edged sword or whatever the phrase is, because google's security updates to webview benefit Moonala, despite the con of them potentially killing webview one day. it could be said that Moonala is constantly designed with the idea in mind that google may kill webview, or create some type of barrier on its use. 
 
    Q: What is the word Moonala ?<br>
