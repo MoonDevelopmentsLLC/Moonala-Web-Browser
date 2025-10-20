@@ -46,7 +46,7 @@
 
 <details><summary>- Basic Q&A
   </summary>
-             
+            Can I use it on windows? - Through WSA it runs very fast, faster than on mobile devices if your hardware is capable. 
   **If you don't login to personally identifying sites and you use a clean IP not linked to you,
            Moonala is paranoidly private and probably stable too. A lot of the current issues are linked to sites
            that don't like Moonala's paranoid by default anti-tracking, usually sites requiring a login
