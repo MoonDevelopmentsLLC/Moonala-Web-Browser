@@ -105,7 +105,7 @@
 Getting Started
 
 <details><summary> Download the apk from releases, install it, and you're ready to launch!<br>
-                   <br> Prefer Google Play? Head here ->[ https://moonala.com/google-play-alpha-sign-up](https://play.google.com/store/apps/details?id=com.moondev.moonala](https://play.google.com/store/apps/details?id=com.moondev.moonala)
+                   <br> Prefer Google Play? Head here ->[ (https://play.google.com/store/apps/details?id=com.moondev.moonala)
 
   </summary>
 
