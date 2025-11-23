@@ -26,27 +26,28 @@
 
 ## 🌙  Your attention, your choices. Moonala respects that.
 
-<details><summary>- Productive Research, Daily Browsing, and more. Its Your Choice.   </summary> <br>
+<details><summary>- Productive Research, Daily Browsing, and more.  </summary> <br>
      &nbsp;  &nbsp;  &nbsp;Tab grouping, multi window workflows, AI convienience, eye protection, **guards for WebGl and Canvas use**, the list
       goes on, innovating what browsers should do. Bringing pc features to mobile is just a natural part of Moonala's development. </summary></details>
 
- <details><summary>- Feature Rich, Privacy-Driven Development.   </summary> <br>
+ <details><summary>- Feature Rich, Privacy Baked Development.   </summary> <br>
          &nbsp;  &nbsp;  &nbsp; Zero telemetry. No profiling. All local. Every request scrutinized, every connection transparent. Feature rich? How about having the first ever native browser element remover? Does ____ webpage have an annoyance on-screen? No worries, Moonala can remove that for you and in the future, it will also store references to past removed annoyances and keep them removed globally on **any** page. Automatically pull available downloads from pages with many available. Active touch barriers, moonshade, surf da gecko, universal plugins, and more check it out!   </details>
 
 <details><summary>- Ethical Code. Permissions are optional.    </summary> <br>
-           &nbsp;  &nbsp;  &nbsp; Source-available, Code with a conscience. No nonsense. Privacy is the muse. No Data Abuse. Pull up on the data thieves with that network fuse ( ｡ •̀ ᴖ •́ ｡), Moonala leaves no cues! </details>
+           &nbsp;  &nbsp;  &nbsp; Source available code with a conscience. No nonsense. Privacy is the muse. No Data Abuse. Pull up on the data thieves with that network fuse ( ｡ •̀ ᴖ •́ ｡), Moonala leaves no cues! </details>
 
 <details><summary>- Intuitive UI, Advanced Focus.    </summary> <br>
-          &nbsp;  &nbsp;  &nbsp;User oriented UI with a built in immersive mode, different layouts and plenty of tools. Great to use anywhere, especially excellent on the go, maybe the best. On screen video controls because why break that immersion? </details>
+          &nbsp;  &nbsp;  &nbsp;User oriented UI with a built in immersive mode, different layouts and plenty of tools. Great to use anywhere, especially excellent on the go, maybe the best. On screen video controls because why break that immersion? So much more. Try it today? </details>
 
 
 <details><summary>- What about financials? </summary> <br>
-             &nbsp;  &nbsp;  &nbsp;  No matter the financial situation, fundamentals can't be changed or swayed and personal data is never shared or transmitted by or to Moon Developments LLC.</details>
+             &nbsp;  &nbsp;  &nbsp;  No matter the financial situation, fundamentals can't be changed or swayed and personal data is never shared or transmitted by or to Moon Developments.</details>
 
 
 <details><summary>- Basic Q&A
   </summary>
-            Can I use it on windows? - Through WSA it runs very fast, faster than on mobile devices if your hardware is capable. 
+            Can I use it on windows? - Through WSA it runs very fast, if your hardware is capable. 
+ 
   **If you don't login to personally identifying sites and you use a clean IP not linked to you,
            Moonala is paranoidly private and probably stable too. A lot of the current issues are linked to sites
            that don't like Moonala's paranoid by default anti-tracking, usually sites requiring a login
@@ -63,7 +64,7 @@
   A: It does not suffer from the problems other webview browsers have. WebView is only used to render pages. 
            For the effort of the compatibility layers, we do find it worth it. 
            In exchange Moonala works with a large number of devices (nearly all), gets security updates, 
-           installation convienence,etc, all this while also keeping the app size small.
+           installation convienence, etc. All this while also keeping the app size small.
            OAuth works (tested on feedly.com), Moonala has full functionality and aims to maintain it,
            despite websites and google not supporting certain functions through a 'webview'.
            99.9% of the time everything will work. When needed, the unchained
@@ -71,7 +72,7 @@
            for sites that get overzealous with their tracking requirements. -See Bold Text-<br><br> 
            The defaults are set to a relaxed private that is still very private if
            used right. If your version of webview is outdated the package may be shown 
-           but you can follow the security guide in settings or **use the lunar force field** to remove that.
+           but you can follow the security guide in settings or **use the lunar force field** to remove that data.
            When all nazar switches are toggled on (pressing strict privacy in setup)
            identifying data is removed to an extent not seen in most browsers without 
            heavy tinkering, addons installed, or not at all. WebView is very much a version of WebKit, one case 
@@ -82,12 +83,12 @@
            is meant to be usable as a default browser, it is logical to use a high compatibility
            web engine. Bundling a custom webkit is currently -MWIP-. The current testing releases 
            using webview will be maintained. As a bonus, the webview edition theorhetically should
-           be compatible with privacy centric webviews like bromite, allowing for a dual layer of protection. **Have not tested this, testing is on AOSP's WebView.**.
+           be compatible with privacy centric webviews like bromite, allowing for a dual layer of protection. **Have not tested this, all testing is on AOSP's WebView.**.
            
            
    Q: What do you have implemented for those of us who want to do more with the browser without having to work with the source?<br>
           A: There is a *Custom Extensions & Plugins engine in development*
-           hopefully all in javascript, meant to be easy to use and universally compatible. - testing is public 
+           hopefully all in javascript, meant to be easy to use and universally compatible. - testing is public - Functional in current releases.
 
    Q: What if google pulls the plug on webview?<br>
           8/3/2025 - Multi engine testing is public now :) 
@@ -105,18 +106,18 @@
 Getting Started
 
 <details><summary> Download the apk from releases, install it, and you're ready to launch!<br>
-                   <br> Prefer Google Play? Head here ->[ (https://play.google.com/store/apps/details?id=com.moondev.moonala)
+                   <br> Prefer Google Play? Head here -> (https://play.google.com/store/apps/details?id=com.moondev.moonala)
 
   </summary>
 
   <br><br> A popup will display on the very first run with optional setups, it can be recalled by holding Lunar Features in the menu.
-    Due to way the code is currently set up, If you are on android 5-8 the releases will probably be unstable. We currently do testing on an android 14 device and occasionally when the chance arises an android 9 device. Once we are able to test more android versions, we will address stability issues on them. For now, we can say android 9+ SHOULD be completely crash free, but we have not tested every website there is or anything, so there is still a chance. One more small quirk, the app is suppose to be fully optional on permissions, but on android 9 if you use downloads it will require storage permissions or it will crash without them.</details>
+    Due to way the code is currently set up, If you are on android 7-10 the releases will probably be untested. We currently do testing on an android 14 device and occasionally when the chance arises an android 13 device. Once we are able to test more android versions, we will address stability issues on them. For now, we can say android 11+ SHOULD be completely crash free, but we have not tested every website there is or anything, so there is still a chance. One more small quirk, the app is suppose to be fully optional on permissions, but on android 9 and below if you use downloads it will require storage permissions.</details>
 
 ---
 Contributing<br>
 Bug fixes, feature ideas, docs, updates, etc all welcome.
 In order of severity, issues **will** be taken care of. <br>
- "Suckin' At Something Is The First Step To Being Sorta Good At Something."
+ "Suckin' At Something Is The First Step To Being Sorta Good At Something." - a knowledgeable one once said this.
 
 
 
@@ -143,9 +144,9 @@ For the open source portions refer to a basic open source copyleft license, wher
 <details><summary>Open Answer</summary> 
   Valid question. No, we are not selling your data. Σ(ﾟ口ﾟ;)// Unbelievable in this day and age, we know. To clarify motives, yea, we absolutely want to make money doing this. We hope to provide the best privacy suite available, while putting a smile on our family's face every single day and taking care of them. This requires earning funds. We wholeheartedly believe this can be done with integrity and standing by the core values of the project. What we stand to gain is starting something that may become more, something that is giving value to the community, and in the process earning back a value that helps us take care of our loved ones. 
 
-Moon : I don't think my motives stray too far from the average dream. ( I start to trail off here...) In retrospect, I have always missed the days of buying tech and owning it fully. I remember discovering limewire on my sister's pc and it blew my mind. Not only that, I think homebrew is amazing. I loved modding my psp growing up, I loved jailbreaking an iPhone for the first time. Taking apart my pc expecting it to somehow get faster from a sketchy cleaning that ended up "bricking" it devastated me. Bringing it back to life years later, was a eureka moment of happiness. Learning the intricacies of tech has always excited me. Although I didn't have much money growing up to get the latest and experience it all, tech was still my best friend, most of the time my only friend and not even in a negative light. Free software helped me get every last drop of enjoyment out of what I did have, as a kid and even now. I love all of the free software I use that adds to my quality of life, software I would otherwise be unable to use if it costed $$$. All of the prebuilt custom firmwares, private servers for games, the whole OSS scene, down to the amazing virtual machines I used to farm my mmos in. Even now as an adult, vms are an invaluable tool for work. I just want to provide something good. I want to earn, not extract. I believe in owning something you pay for, this meaning you can do whatever you want with it. Despite Moonala being free, you are paying with your attention by using it, helping the userbase grow and in turn opening up pathways for partnerships that help us push further. <br><br>
+Moon : I don't think my motives stray too far from the average dream. ( I start to trail off here...) In retrospect, I have always missed the days of buying tech and owning it fully. I remember discovering limewire on my sister's pc and it blew my mind. Not only that, I think homebrew is amazing. I loved modding my psp growing up, I loved jailbreaking an ipod* for the first time. Taking apart my pc expecting it to somehow get faster from a sketchy cleaning that ended up "bricking" it devastated me. Bringing it back to life years later, was a eureka moment of happiness (shorted by a screw most likely as all i did was rebuilt it). Learning the intricacies of tech has always excited me. Although I didn't have much money growing up to get the latest and experience it all, tech was still my best friend, most of the time my only friend and not even in a negative light. Free software helped me get every last drop of enjoyment out of what I did have, as a kid and even now. I love all of the free software I use that adds to my quality of life, software I would otherwise be unable to use if it costed $$$. All of the prebuilt custom firmwares, private servers for games, the whole OSS scene, down to the amazing virtual machines I used to farm my mmos in. Even now as an adult, vms are an invaluable tool for work. I just want to provide something good. I want to earn, not extract. I believe in owning something you pay for, this meaning you can do whatever you want with it. Despite Moonala being free, you are paying with your attention by using it, helping the userbase grow and in turn opening up pathways for partnerships that help us push further. <br><br>
 
-  You can test for yourself by wiresharking Moonala, pi-holing, dns logging, etc. I haven't done a packet capture yet but its in the plans when I get more devices. If you get a chance too before me, I would like to hear the results! There is a guide here : https://stackoverflow.com/questions/9555403/capturing-mobile-phone-traffic-on-wireshark. I will move away from webkit/webview on the android version if it ever comes a day that telemetry cannot be disabled in it. I strongly disagree with undisclosed telemetry and tracking. I dislike it if left on by default, even when given the option to turn it off. If its on by default, what was the point?! sheeeeeeeshshshsshheyehsh. Like, is that where creativity comes from? sad biz? Bad biscuits make the baker broke, bro! Anyways... If its off by default and just a supportive option, I can be sane and understand the purpose. It can be impossible to understand the issue at times without some sort of log. The source is currently only being opened for certain parts of the browser, once funding and a foundation to keep development going for many years to come is established, the move to 100% open source will begin. </details>
+  You can test for yourself by wiresharking Moonala, pi-holing, dns logging, etc. I haven't done a packet capture yet but its in the plans when I get more devices. If you get a chance too before me, I would like to hear the results! There is a guide here : https://stackoverflow.com/questions/9555403/capturing-mobile-phone-traffic-on-wireshark. I will move away from webkit/webview on the android version if it ever comes a day that telemetry cannot be disabled in it. I strongly disagree with undisclosed telemetry and tracking. I dislike it if left on by default, even when given the option to turn it off. If its on by default, what was the point?! sheeeeeeeshshshsshheyehsh.  Bad biscuits make the baker broke, bro! Its supposedly all for the greater good but like, is that where creativity comes from? sad biz? Anyways... If its off by default and just a supportive option, I can be sane and understand the purpose. It can be impossible to understand the issue at times without some sort of log. The source is currently only being opened for certain parts of the browser, once funding and a foundation to keep development going for many years to come is established, the move to 100% open source will begin. </details>
 
 Don't care for the backstory and just want the legal jargon? We have no interest in your data and we make the legally liable claim that there is no data transmitted too us in the privacy policy on Moonala.com. We don't plan on switching up and making micro abuse edits to the policy over time neither. The policy on your data is simple. Moonala got none. 
 
