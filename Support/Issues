@@ -1,13 +1,16 @@
-Known issues: 
+Known issues reported by users : 
 Due to lack of identifying information cloudflare verification loops, this is overzealous behavior 
 as there are easier ways to determine human vs bot. Easier, privacy respecting ways, the checkbox is a facade of ease and convienence. 
-         
+FIXED IN LATEST RELEASE WHEN USING UNCHAINED TABS.
 
-1 time blob downloads fail - 1fichier
+some links targetting a new tab + a download at the same time won't be approved and automatically dropped even when user iniated - FIXED
 
-some links targetting a new tab + a download at the same time won't be approved and automatically dropped even when user iniated 
+plugin drawer causing black screen on left inset when held down unless plugin drawer is activated via the button - fixed
 
-plugin drawer causing black screen on left inset when held down unless plugin drawer is activated via the button - fixed, next release 
+loading freeze when certain behaviors become out of sync - FIXED
 
-loading freeze when certain behaviors become out of sync
 
+
+
+Still needs fix: 
+1 time blob downloads fail - 1fichier 
