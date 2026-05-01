@@ -24,7 +24,7 @@
 ![Contributions welcome](https://img.shields.io/badge/contributions-welcome-blue)
 ![Stars](https://img.shields.io/github/stars/MoonDevelopmentsLLC/Moonala-Web-Browser?style=social)
 
-## 🌙  Your attention, your choices. Moonala respects that.
+## Your attention, your choices. Moonala respects that.
 
 <details><summary>- Productive Research, Daily Browsing, and more.  </summary> <br>
      &nbsp;  &nbsp;  &nbsp;Tab grouping, multi window workflows, AI convienience, eye protection, **guards for WebGl and Canvas use**, the list
