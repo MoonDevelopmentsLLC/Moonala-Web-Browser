@@ -1,0 +1,853 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moonala | MooonLaunch Browser Start</title>
+    <style>
+        :root {
+            --bg-primary: #000000;
+            --bg-secondary: #0a0a0a;
+            --accent-neon: #33B5E5;
+            --text-primary: #ffffff;
+            --text-secondary: #888888;
+            --transition-speed: 0.3s;
+        }
+    .text-display {
+  white-space: nowrap;
+  width: 100%;
+  font-size: min(3vw, 13px);
+  text-align: center;
+  padding: 8px 0;
+  margin-bottom: 1rem;
+}
+
+.text-display::-webkit-scrollbar {
+  display: none;
+}
+    .text-display2 {
+  white-space: nowrap;
+  width: 100%;
+  font-size: min(4vw, 584px);
+  text-align: center;
+  padding: 0px 0;
+   margin-top: 3rem;
+}
+
+.text-display2::-webkit-scrollbar {
+  display: none;
+}
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'SF Pro Display', system-ui, sans-serif;
+        }
+
+        body {
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            height: 100vh;
+            position: relative;
+        }
+
+        .particle-canvas {
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 0;
+        }
+
+        .start-container {
+            position: relative;
+            z-index: 1;
+            height: 100vh;
+            padding: 2rem 4rem;
+        }
+
+        .time-display {
+            font-size: 5rem;
+            font-weight: 200;
+            text-align: center;
+            margin-bottom: 1rem;
+             margin-top: 4rem;
+            text-shadow: 0 0 15px rgba(0, 255, 157, 0.3);
+        }
+
+        .date-display {
+            text-align: center;
+            color: var(--text-secondary);
+            font-size: 1.2rem;
+            margin-bottom: 3rem;
+        }
+
+        .main-content {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            flex-grow: 1;
+            align-items: center;
+        }
+        .calculator-popup {
+    padding-top: 40px;
+}
+
+@keyframes buttonPop {
+    0% { transform: scale(0); opacity: 0; }
+    100% { transform: scale(1); opacity: 1; }
+}
+
+.calculator-popup div[role="button"] {
+    animation: buttonPop 0.3s ease-out;
+}
+
+    .calculator-popup {
+        display: none;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: var(--bg-secondary);
+        border: 1px solid var(--accent-neon);
+        border-radius: 16px;
+        padding: 1rem;
+        z-index: 1000;
+          max-width: 95vw; 
+        box-shadow: 0 0 25px rgba(51, 181, 229, 0.3);
+    box-sizing: border-box;
+}
+
+    .calculator-display input {
+        width: 100%;
+        padding: 1rem;
+        margin-bottom: 1rem;
+        background: var(--bg-primary);
+        border: 1px solid var(--text-secondary);
+        border-radius: 8px;
+        color: var(--text-primary);
+        font-size: 1.5rem;
+        text-align: right;
+    }
+
+    .calculator-buttons {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 0.5rem;
+    }
+
+    .calculator-buttons button {
+        padding: 1rem;
+        background: var(--bg-primary);
+        border: 1px solid var(--text-secondary);
+        border-radius: 8px;
+        color: var(--text-primary);
+        font-size: 1.2rem;
+        cursor: pointer;
+        transition: var(--transition-speed);
+    }
+
+    .calculator-buttons button:hover {
+        background: var(--accent-neon);
+        color: var(--bg-primary);
+        border-color: var(--accent-neon);
+    }
+
+    .calculator-buttons button:active {
+        transform: scale(0.95);
+    }
+.box-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    padding: 2rem;
+    background-color: rgba(17, 17, 17, 0.4); /* Mostly transparent grey */
+    width: 100%;
+    min-height: 100px;
+    border-radius: 16px;
+}
+
+
+
+        .box-item {
+            background: var(--bg-secondary);
+            border-radius: 6px;
+            padding: 1rem;
+            width: 31%;
+            max-width: 250px; /* Ensures no box grows too large */
+            aspect-ratio: 1;
+            cursor: pointer;
+            border: 1px solid transparent;
+            text-align: center;
+        }
+
+        .box-item:hover {
+            border-color: var(--accent-neon);
+            box-shadow: 0 0 25px rgba(173, 216, 230, 0.1);
+        }
+
+        .box-icon {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            color: var(--accent-neon);
+        }
+
+        .box-label {
+            font-size: 0.7rem;
+            color: var(--text-primary);
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 1;
+            -webkit-box-orient: vertical;
+        }
+
+        .search-container {
+            max-width: 800px;
+            margin: 2rem auto;
+            position: relative;
+        }
+
+        .search-bar {
+            width: 100%;
+            padding: 1.5rem 2rem;
+            font-size: 1.2rem;
+            background: var(--bg-secondary);
+            border: 2px solid var(--text-secondary);
+            border-radius: 50px;
+            color: var(--text-primary);
+            transition: var(--transition-speed);
+        }
+
+        .search-bar:focus {
+            outline: none;
+            border-color: var(--accent-neon);
+            box-shadow: 0 0 25px rgba(0, 255, 157, 0.2);
+        }
+
+        .search-spinner {
+            position: absolute;
+            right: 1.1rem;
+            top: 50%;
+            transform: translateY(-50%);
+            display: none;
+        }
+
+        .spinner {
+            width: 34px;
+            height: 34px;
+            border: 3px solid var(--text-secondary);
+            border-radius: 50%;
+            border-top-color: var(--accent-neon);
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .cyber-border::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+          }
+
+        .cyber-border:hover::before {
+            left: 100%;
+        }
+
+        @media (max-width: 1768px) {
+            .start-container {
+                padding: 1rem;
+            }
+
+            .time-display {
+                font-size: 3rem;
+            }
+
+            .box-container {
+                padding: 1rem;
+            }
+    .calculator-popup {
+        width: 90%;
+        transform: translate(-50%, -50%) scale(0.95);
+        transform-origin: center center;
+    }
+
+.calculator-buttons button {
+    -webkit-tap-highlight-color: transparent;
+    touch-action: manipulation;
+}
+            .box-item {
+                width: 27%; /* Stack to 1 column on smaller screens */
+            }
+        }
+
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: var(--bg-secondary);
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: var(--accent-neon);
+            border-radius: 4px;
+        }
+
+        .settings-gear {
+            position: fixed;
+            bottom: 2rem;
+            right: 2rem;
+            cursor: pointer;
+            opacity: 0.5;
+            transition: var(--transition-speed);
+        }
+
+        .settings-gear:hover {
+            opacity: 1;
+            transform: rotate(90deg);
+        }
+    </style>
+</head>
+<body>
+<canvas class="particle-canvas" id="particles"></canvas>
+
+<div class="start-container">
+    <header>
+        <div class="time-display" id="time">00:00</div>
+        <div class="date-display" id="date">January 1, 2024</div>
+    </header>
+
+    <div class="search-container">
+        <input type="text" class="search-bar" placeholder="Url or private search..." id="searchInput">
+        <div class="search-spinner" id="spinner">
+            <div class="spinner"></div>
+        </div>
+    </div>
+    <div class="text-display" id="hi">MoonBase</div>
+
+    <div class="main-content">
+        <div class="box-container">
+            <a class="box-item cyber-border" href="https://Moonala.com" target="_self">
+                <span class="box-icon">🌙</span>
+                <div class="box-label">Moonala</div>
+            </a>
+
+            <a class="box-item cyber-border" href="https://news.ycombinator.com" target="_self">
+                <span class="box-icon">📰</span>
+                <div class="box-label">News</div>
+            </a>
+            <a class="box-item cyber-border" href="https://eclipseemu.me/play/" target="_self">
+                <span class="box-icon">🕹️</span>
+                <div class="box-label">Eclipse</div>
+            </a>
+            <a class="box-item cyber-border" href="https://rss-tools.htmlsync.io" target="_self">
+                <span class="box-icon">📖</span>
+                <div class="box-label">RSS</div>
+            </a>
+            <a class="box-item cyber-border" href="javascript:void(0);" id="calculatorBox">
+                <span class="box-icon">🧮</span>
+                <div class="box-label">Calculator</div>
+            </a>
+            <a class="box-item cyber-border" href="https://moonala.com/email" target="_self">
+                <span class="box-icon">📧️</span>
+                <div class="box-label">Email</div>
+            </a>
+            <a class="box-item cyber-border" href="https://archive.org" target="_self">
+                <span class="box-icon">📚</span>
+                <div class="box-label">Archives</div>
+            </a>
+            <a class="box-item cyber-border" href="https://Moonala.com/for-future-partners" target="_self">
+                <span class="box-icon">🤝</span>
+                <div class="box-label">Sponsors</div>
+            </a>
+        </div>
+    </div>
+    <div class="text-display2" id="hiitsmemoon"> </div>
+
+
+    <i class="fas fa-cog settings-gear" onclick="toggleSettings()"></i>
+</div>
+<!-- Add calculator HTML -->
+<div id="calculatorPopup" class="calculator-popup">
+    <div class="calculator-display">
+        <input type="text" id="calcDisplay" readonly>
+    </div>
+    <div class="calculator-buttons">
+        <button data-value="7">7</button>
+        <button data-value="8">8</button>
+        <button data-value="9">9</button>
+        <button data-value="+">+</button>
+        <button data-value="4">4</button>
+        <button data-value="5">5</button>
+        <button data-value="6">6</button>
+        <button data-value="-">-</button>
+        <button data-value="1">1</button>
+        <button data-value="2">2</button>
+        <button data-value="3">3</button>
+        <button data-value="*">×</button>
+        <button data-value="0">0</button>
+        <button data-value=".">.</button>
+        <button data-value="=">=</button>
+        <button data-value="/">÷</button>
+        <button data-value="C">C</button>
+    </div>
+</div>
+<script>
+
+    function initParticles() {
+        const canvas = document.getElementById('particles');
+        const ctx = canvas.getContext('2d');
+        canvas.width = window.innerWidth;
+        canvas.height = window.innerHeight;
+
+        const particles = [];
+        class Particle {
+            constructor() {
+                this.reset();
+            }
+
+            reset() {
+                this.x = Math.random() * canvas.width;
+                this.y = Math.random() * canvas.height;
+                this.vx = (Math.random() - 0.5) * 0.5;
+                this.vy = (Math.random() - 0.5) * 0.5;
+                this.radius = Math.random() * 2;
+          this.alpha = Math.random() * 0.4 + 0.1; // Range: 0.1-0.5
+
+            }
+
+            update() {
+                this.x += this.vx;
+                this.y += this.vy;
+                if (this.x < 0 || this.x > canvas.width ||
+                    this.y < 0 || this.y > canvas.height) {
+                    this.reset();
+                }
+            }
+
+            draw() {
+                ctx.fillStyle = `rgba(173, 216, 230, ${this.alpha})`;
+                ctx.beginPath();
+                ctx.arc(this.x, this.y, this.radius, 0, Math.PI * 2);
+                ctx.fill();
+            }
+        }
+
+        for (let i = 0; i < 100; i++) {
+            particles.push(new Particle());
+        }
+
+        function animate() {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            particles.forEach(particle => {
+                particle.update();
+                particle.draw();
+            });
+            requestAnimationFrame(animate);
+        }
+        animate();
+    }
+
+    function updateDateTime() {
+        const now = new Date();
+        document.getElementById('time').textContent =
+            now.toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit' });
+        document.getElementById('date').textContent =
+            now.toLocaleDateString('en-US', {
+                weekday: 'long',
+                year: 'numeric',
+                month: 'long',
+                day: 'numeric'
+            });
+    }
+
+// Use this function to show a modal with a question and two choices.
+
+function showLunarConfirm(message, primaryText = 'Make secured (https)?', secondaryText = 'Continue Unsecured') {
+    return new Promise((resolve) => {
+        // Create overlay
+        const overlay = document.createElement('div');
+        overlay.setAttribute('role', 'dialog');
+        overlay.setAttribute('aria-modal', 'true');
+        overlay.style.position = 'fixed';
+        overlay.style.inset = '0';
+        overlay.style.display = 'flex';
+        overlay.style.alignItems = 'center';
+        overlay.style.justifyContent = 'center';
+        overlay.style.zIndex = '2147483647'; // max z-index to be above everything
+        overlay.style.backdropFilter = 'blur(6px)'; // subtle blur
+        overlay.style.webkitBackdropFilter = 'blur(6px)';
+
+        // Semi-opaque lunar background (black + faint glow)
+        overlay.style.background = 'linear-gradient(0deg, rgba(0,0,0,0.72), rgba(0,0,0,0.48))';
+
+        // Modal container
+        const modal = document.createElement('div');
+        modal.style.minWidth = '320px';
+        modal.style.maxWidth = '680px';
+        modal.style.borderRadius = '12px';
+        modal.style.padding = '20px';
+        modal.style.boxSizing = 'border-box';
+        modal.style.boxShadow = '0 8px 40px rgba(0,0,0,0.8), 0 0 18px rgba(0,188,255,0.06) inset';
+        modal.style.background = '#050608'; // near-black panel
+        modal.style.color = '#ffffff';
+        modal.style.fontFamily = 'system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial';
+        modal.style.display = 'flex';
+        modal.style.flexDirection = 'column';
+        modal.style.gap = '14px';
+        modal.style.border = '1px solid rgba(0,188,255,0.12)';
+
+        // Top row: icon + title
+        const topRow = document.createElement('div');
+        topRow.style.display = 'flex';
+        topRow.style.alignItems = 'center';
+        topRow.style.gap = '12px';
+
+        // Moon icon (SVG)
+        const moon = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+        moon.setAttribute('viewBox', '0 0 24 24');
+        moon.setAttribute('aria-hidden', 'true');
+        moon.style.width = '36px';
+        moon.style.height = '36px';
+        moon.innerHTML = `
+            <defs>
+                <radialGradient id="g" cx="30%" cy="20%">
+                    <stop offset="0%" stop-color="#00bcff" stop-opacity="0.9"/>
+                    <stop offset="70%" stop-color="#0a3040" stop-opacity="0.6"/>
+                    <stop offset="100%" stop-color="#000000" stop-opacity="0.2"/>
+                </radialGradient>
+            </defs>
+            <circle cx="12" cy="12" r="10" fill="url(#g)"></circle>
+            <path d="M17 8c-1.8 0-3.4.8-4.5 2.2C12.2 8.7 9.4 7.7 6.9 8.2 9.2 5.2 13.5 4 17 8z" fill="rgba(0,0,0,0.12)"></path>
+        `;
+
+        // Title + subtitle
+        const titleBox = document.createElement('div');
+        titleBox.style.display = 'flex';
+        titleBox.style.flexDirection = 'column';
+        titleBox.style.gap = '4px';
+
+        const title = document.createElement('div');
+        title.textContent = 'Unsecure link detected';
+        title.style.fontSize = '16px';
+        title.style.fontWeight = '700';
+        title.style.letterSpacing = '0.2px';
+        title.style.color = '#ffffff';
+
+        const subtitle = document.createElement('div');
+        subtitle.textContent = message;
+        subtitle.style.fontSize = '13px';
+        subtitle.style.opacity = '0.88';
+        subtitle.style.maxWidth = '520px';
+        subtitle.style.lineHeight = '1.35';
+        subtitle.style.color = '#e6f7ff';
+
+        topRow.appendChild(moon);
+        titleBox.appendChild(title);
+        titleBox.appendChild(subtitle);
+        topRow.appendChild(titleBox);
+
+        // Buttons row
+        const buttonsRow = document.createElement('div');
+        buttonsRow.style.display = 'flex';
+        buttonsRow.style.justifyContent = 'flex-end';
+        buttonsRow.style.gap = '10px';
+        buttonsRow.style.marginTop = '4px';
+
+        // Secondary (cancel-like) button
+        const secondary = document.createElement('button');
+        secondary.type = 'button';
+        secondary.textContent = secondaryText;
+        secondary.style.padding = '8px 12px';
+        secondary.style.borderRadius = '8px';
+        secondary.style.fontSize = '13px';
+        secondary.style.cursor = 'pointer';
+        secondary.style.border = '1px solid rgba(255,255,255,0.06)';
+        secondary.style.background = 'transparent';
+        secondary.style.color = '#dbeeff';
+        secondary.style.outline = 'none';
+        secondary.style.minWidth = '140px';
+        secondary.setAttribute('aria-label', secondaryText);
+        secondary.tabIndex = 0;
+
+        // Primary (yes) button - neon blue accent
+        const primary = document.createElement('button');
+        primary.type = 'button';
+        primary.textContent = primaryText;
+        primary.style.padding = '8px 14px';
+        primary.style.borderRadius = '10px';
+        primary.style.fontSize = '13px';
+        primary.style.cursor = 'pointer';
+        primary.style.border = 'none';
+        primary.style.minWidth = '160px';
+        primary.style.background = 'linear-gradient(90deg, rgba(0,188,255,0.14), rgba(0,188,255,0.06))';
+        primary.style.boxShadow = '0 6px 18px rgba(0,188,255,0.12), 0 0 8px rgba(0,188,255,0.06) inset';
+        primary.style.color = '#c5f6ff';
+        primary.style.fontWeight = '700';
+        primary.setAttribute('aria-label', primaryText);
+        primary.tabIndex = 0;
+
+        // Close icon (small X in corner)
+        const closeBtn = document.createElement('button');
+        closeBtn.type = 'button';
+        closeBtn.innerHTML = '&#x2715;';
+        closeBtn.setAttribute('aria-label', 'Close dialog');
+        closeBtn.style.position = 'absolute';
+        closeBtn.style.right = '12px';
+        closeBtn.style.top = '12px';
+        closeBtn.style.background = 'transparent';
+        closeBtn.style.border = 'none';
+        closeBtn.style.color = '#8fbfdc';
+        closeBtn.style.fontSize = '14px';
+        closeBtn.style.cursor = 'pointer';
+        closeBtn.style.padding = '4px';
+        closeBtn.tabIndex = 0;
+
+        // Append elements
+        modal.appendChild(closeBtn);
+        modal.appendChild(topRow);
+        buttonsRow.appendChild(secondary);
+        buttonsRow.appendChild(primary);
+        modal.appendChild(buttonsRow);
+        overlay.appendChild(modal);
+        document.body.appendChild(overlay);
+
+        // Focus management
+        primary.focus();
+
+        // Helper to cleanup DOM + listeners
+        function cleanup(result) {
+            // remove listeners and DOM nodes
+            document.body.removeChild(overlay);
+            document.removeEventListener('keydown', keyHandler);
+            resolve(result);
+        }
+
+        // Click handlers
+        primary.addEventListener('click', () => cleanup(true));
+        secondary.addEventListener('click', () => cleanup(false));
+        closeBtn.addEventListener('click', () => cleanup(false));
+        overlay.addEventListener('click', (ev) => {
+            // close if click outside modal box
+            if (ev.target === overlay) cleanup(false);
+        });
+
+        // Keyboard support: Enter accepts primary, Escape cancels
+        function keyHandler(e) {
+            if (e.key === 'Escape') {
+                e.preventDefault();
+                cleanup(false);
+            } else if (e.key === 'Enter') {
+                // if focus is in a button or anywhere, treat Enter as primary
+                e.preventDefault();
+                cleanup(true);
+            } else if (e.key === 'Tab') {
+                // Simple focus trap (cycle between primary and secondary and close)
+                const focusables = [primary, secondary, closeBtn];
+                const idx = focusables.indexOf(document.activeElement);
+                if (e.shiftKey) {
+                    // shift+tab
+                    const next = idx > 0 ? focusables[idx - 1] : focusables[focusables.length - 1];
+                    next.focus();
+                    e.preventDefault();
+                } else {
+                    const next = idx >= 0 && idx < focusables.length - 1 ? focusables[idx + 1] : focusables[0];
+                    next.focus();
+                    e.preventDefault();
+                }
+            }
+        }
+        document.addEventListener('keydown', keyHandler);
+    });
+}
+document.getElementById('searchInput').addEventListener('keypress', async (e) => {
+    if (e.key === 'Enter') {
+        const spinner = document.getElementById('spinner');
+        const rawValue = e.target.value.trim();
+        if (spinner) spinner.style.display = 'block';
+
+        // Regex to detect a ".TLD" at end of domain or before a slash
+        const urlPattern = /\.[a-z]{2,}(?:\/|$)/i;
+
+        if (urlPattern.test(rawValue)) {
+            // Input looks like a URL
+            if (/^https:\/\//i.test(rawValue)) {
+                // Already https, just open it
+                window.open(rawValue, '_self');
+            } else if (/^http:\/\//i.test(rawValue) || !/^https?:\/\//i.test(rawValue)) {
+                // Either http:// or no protocol at all, show in-page confirmation modal
+                const message = 'This link is not secure. Would you like to convert it to HTTPS before opening?';
+                try {
+                    const useHttps = await showLunarConfirm(message, 'Make secured (https)', 'Continue Unsecured');
+
+                    if (useHttps) {
+                        // User wants https, so replace or prepend https://
+                        let httpsUrl = rawValue;
+                        if (/^http:\/\//i.test(rawValue)) {
+                            httpsUrl = rawValue.replace(/^http:\/\//i, 'https://');
+                        } else {
+                            httpsUrl = 'https://' + rawValue;
+                        }
+                        window.open(httpsUrl, '_self');
+                    } else {
+                        // User declined (unsecured) — ensure http:// is prepended
+                        let httpUrl = rawValue;
+                        if (!/^http:\/\//i.test(httpUrl)) {
+                            httpUrl = 'http://' + httpUrl;
+                        }
+                        window.open(httpUrl, '_self');
+                    }
+                } catch (err) {
+                    // Fallback behaviour: open with http:// if no scheme
+                    let fallbackUrl = rawValue;
+                    if (!/^https?:\/\//i.test(fallbackUrl)) {
+                        fallbackUrl = 'http://' + fallbackUrl;
+                    }
+                    window.open(fallbackUrl, '_self');
+                }
+            } else {
+                // Some other case, just open rawValue
+                window.open(rawValue, '_self');
+            }
+        } else {
+            // Not a URL, "plant a tree" case - just search on Ecosia
+            const query = encodeURIComponent(rawValue);
+            const urlToOpen = `https://www.mojeek.com/?q=${query}`;
+            window.open(urlToOpen, '_self');
+        }
+
+        // Hide spinner later (kept original behavior)
+        setTimeout(() => {
+            if (spinner) spinner.style.display = 'none';
+        }, 19000);
+    }
+});
+
+
+window.addEventListener('resize', () => {
+  canvas.width = window.innerWidth;
+  canvas.height = window.innerHeight;
+});
+
+    window.addEventListener('load', () => {
+        initParticles();
+        updateDateTime();
+        setInterval(updateDateTime, 1000);
+    });
+
+      // Calculator functionality
+    let calculatorVisible = false;
+    const calculatorBox = document.getElementById('calculatorBox');
+    const calculatorPopup = document.getElementById('calculatorPopup');
+    const calcDisplay = document.getElementById('calcDisplay');
+
+    calculatorBox.addEventListener('click', () => {
+        calculatorVisible = !calculatorVisible;
+        calculatorPopup.style.display = calculatorVisible ? 'block' : 'none';
+    });
+
+    document.querySelectorAll('.calculator-buttons button').forEach(button => {
+        button.addEventListener('click', () => {
+            const value = button.dataset.value;
+
+            if (value === '=') {
+                try {
+                    calcDisplay.value = eval(calcDisplay.value.replace(/×/g, '*').replace(/÷/g, '/'));
+                } catch {
+                    calcDisplay.value = 'Error';
+                }
+            } else if (value === 'C') {
+                calcDisplay.value = '';
+            } else {
+                calcDisplay.value += value;
+            }
+        });
+    });
+// Add resize handler for mobile viewports
+window.addEventListener('resize', function() {
+    if (calculatorVisible) {
+        calculatorPopup.style.transform = `translate(-50%, -50%) scale(${window.innerWidth < 768 ? 0.95 : 1})`;
+    }
+});
+function createCloseButton() {
+    const closeBtn = document.createElement('div');
+    closeBtn.innerHTML = '×';
+    closeBtn.style.position = 'absolute';
+    closeBtn.style.top = '10px';
+    closeBtn.style.right = '15px';
+    closeBtn.style.color = 'var(--accent-neon)';
+    closeBtn.style.fontSize = '34px';
+    closeBtn.style.cursor = 'pointer';
+    closeBtn.style.transition = 'var(--transition-speed)';
+    closeBtn.title = 'Close calculator';
+    closeBtn.setAttribute('role', 'button');
+    closeBtn.setAttribute('aria-label', 'Close calculator');
+
+ 
+    closeBtn.addEventListener('mouseenter', () => {
+        closeBtn.style.transform = 'rotate(90deg) scale(1.2)';
+    });
+    closeBtn.addEventListener('mouseleave', () => {
+        closeBtn.style.transform = 'rotate(0deg) scale(1)';
+    });
+
+ 
+    closeBtn.addEventListener('click', () => {
+        calculatorVisible = false;
+        calculatorPopup.style.display = 'none';
+    });
+
+    closeBtn.addEventListener('touchstart', (e) => {
+        e.preventDefault();
+        closeBtn.style.transform = 'scale(0.9)';
+    });
+    closeBtn.addEventListener('touchend', (e) => {
+        e.preventDefault();
+        closeBtn.style.transform = 'scale(1)';
+        calculatorVisible = false;
+        calculatorPopup.style.display = 'none';
+    });
+
+    calculatorPopup.prepend(closeBtn);
+}
+
+createCloseButton();
+
+    // Inject the "+" button
+    (function() {
+        console.log('Injecting + button');
+        var btn = document.createElement('div');
+        btn.innerHTML = '+';
+        btn.style.position = 'fixed';
+        btn.style.top = '10px';
+        btn.style.left = '10px';
+        btn.style.zIndex = '9999';
+        btn.style.color = 'white';
+        btn.style.backgroundColor = 'rgba(0,0,0,0.5)';
+        btn.style.padding = '10px';
+        btn.style.fontSize = '24px';
+        btn.style.borderRadius = '5px';
+        btn.style.cursor = 'pointer';
+
+        btn.onclick = function() {
+            console.log('Calling Android edit()');
+            if (typeof DetectMalicious !== 'undefined' && typeof DetectMalicious.edit === 'function') {
+                DetectMalicious.edit();
+            } else {
+                console.warn('DetectMalicious.edit is not available');
+            }
+        };
+
+<!--        document.body.appendChild(btn);-->
+    })();
+
+</script>
+
+</body>
+</html>
